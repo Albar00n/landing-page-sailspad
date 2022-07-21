@@ -5803,7 +5803,7 @@ body {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 100px;
   }
 
   .menubarblack .icon-bar i {
@@ -6080,7 +6080,7 @@ body {
     padding: 0 30px;
   }
   .topnav .logo {
-    width: 70px;
+    width: 110px;
   }
   .btn-curve {
     padding: 8px 15px;
