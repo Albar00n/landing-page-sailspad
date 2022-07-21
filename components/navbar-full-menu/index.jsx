@@ -100,18 +100,19 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 							<div className="cont-info">
 								<div className="item">
 									<h6>Phone :</h6>
-									<p>+03 762-2367-723</p>
+									<p>+971 52 588 6620</p>
 								</div>
 								<div className="item">
 									<h6>Address :</h6>
 									<p>
-										541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+										FD - GF, Accelerator Building, Masdar City, Abu Dhabi -
+										United Arab Emirates
 									</p>
 								</div>
 								<div className="item">
 									<h6>Email :</h6>
 									<p>
-										<a href="#0">Avo_website@gmail.com</a>
+										<a href="support@beyin.me">Support@beyin.me</a>
 									</p>
 								</div>
 							</div>

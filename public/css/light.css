@@ -5788,7 +5788,7 @@ body {
       width: 100%;
       background: transparent;
       border-bottom: 2px solid transparent;
-      z-index: 999;
+      z-index: 99999;
       min-height: 80px;
   }
   .navbar .navbar-collapse {
