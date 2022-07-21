@@ -1,10 +1,12 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Navba";
+import Navbar from "../components/Navba/index";
+import NAvbarF from "../components/navbar-full-menu/index"
 import Slider from "../components/slider";
 import Slider1 from "../components/slider1/index";
 import About from "../components/About/index";
 import Services from "../components/Services1/index";
+import Services2 from "../components/Services2/index";
 import Number from "../components/Numbers/index";
 import WorksSlider from "../components/Works1-slider/index";
 import Video from "../components/Video-with-testimonials/index";
@@ -14,26 +16,58 @@ import Blog from "../components/Blogs-two-column-slider/index";
 import CallToAction from "../components/Call-to-action/index";
 import Footer from "../components/Footer/index";
 import Light from "../components/layout/Layout"
-import styles from "../styles/Home.module.css";
+import appData from "../components/data/app.json"
+// import styles from "../styles/Home.module.css";
 
 export default function Home() {
  const fixedSlider = React.useRef(null);
  const MainContent = React.useRef(null);
  const navbarRef = React.useRef(null);
+     const navbarFullMenuRef = React.useRef(null);
  const logoRef = React.useRef(null);
-
- React.useEffect(() => {
-		setInterval(() => {
-			if (fixedSlider.current) {
-				var slidHeight = fixedSlider.current.offsetHeight;
+  React.useEffect(() => {
+		var navbarFullMenu = navbarFullMenuRef.current;
+		if (window.pageYOffset > 300) {
+			navbarFullMenu.classList.add("nav-scroll");
+		} else {
+			navbarFullMenu.classList.remove("nav-scroll");
+		}
+		window.addEventListener("scroll", () => {
+			if (window.pageYOffset > 300) {
+				navbarFullMenu.classList.add("nav-scroll");
+			} else {
+				navbarFullMenu.classList.remove("nav-scroll");
 			}
-			if (MainContent.current) {
-				MainContent.current.style.marginTop = slidHeight + "px";
-			}
-		}, 1000);
+		});
+	}, [navbarFullMenuRef]);
 
+React.useEffect(() => {
+	setInterval(() => {
+		if (fixedSlider.current) {
+			var slidHeight = fixedSlider.current.offsetHeight;
+		}
+		if (MainContent.current) {
+			MainContent.current.style.marginTop = slidHeight + "px";
+		}
+	}, 1000);
+	var navbar = navbarRef.current,
+		logo = logoRef.current;
+	if (window.pageYOffset > 300) {
+		navbar.classList.add("nav-scroll");
+	} else {
+		navbar.classList.remove("nav-scroll");
+	}
+	window.addEventListener("scroll", () => {
+		if (window.pageYOffset > 300) {
+			navbar.classList.add("nav-scroll");
+			logo.setAttribute("src", appData.darkLogo);
+		} else {
+			navbar.classList.remove("nav-scroll");
+			logo.setAttribute("src", appData.lightLogo);
+		}
+	});
+}, [fixedSlider, MainContent, navbarRef]);
 
- }, [fixedSlider, MainContent, navbarRef]);
 	return (
 		<>
 			<Head>
@@ -43,19 +77,21 @@ export default function Home() {
 			</Head>
 
 			<Light>
-				<Navbar />
+				<NAvbarF nr={navbarFullMenuRef} />
+				<Navbar nr={navbarRef} lr={logoRef} />
 				{/* <Slider /> */}
 				<Slider1 sliderRef={fixedSlider} />
 				<div ref={MainContent} className="main-content">
 					<About />
 					<Services />
-					<Number />
-					<WorksSlider />
+					<Services2 />
+					{/* <Number /> */}
+					{/* <WorksSlider /> */}
 					<Video />
 					<SkillsCircle theme="light" subBG />
 					<Clients theme="light" />
 					<Blog />
-					<CallToAction theme="light" />
+					{/* <CallToAction theme="light" /> */}
 				</div>
 
 				<Footer />
