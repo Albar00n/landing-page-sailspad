@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "image": "/img/team/01.jpg",
+    "name": "Hasib sharif",
+    "title": "General Manager"
+  },
+  {
+    "id": 2,
+    "image": "/img/team/02.jpg",
+    "name": "Jonson Leo",
+    "title": "Founder"
+  }
+
+]

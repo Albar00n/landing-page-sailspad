@@ -1,0 +1,83 @@
+[
+	{
+		"id": 1,
+		"title": {
+			"first": "WE MAKE  ",
+			"second": "AUGMENTED REALITIES",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH3.png",
+		"link": "https:/beyin.me/"
+	},
+	{
+		"id": 2,
+		"title": {
+			"first": "ADVANCED  ",
+			"second": "TECH DEVELOPMENT",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH2.png",
+		"link": "https:/beyin.me/"
+	},
+	{
+		"id": 3,
+		"title": {
+			"first": "EXPECT",
+			"second": "EXCEPTIONAL DESIGN ",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH5.png",
+		"link": "https:/beyin.me/"
+	},
+	{
+		"id": 4,
+		"title": {
+			"first": "Your  ",
+			"second": "SOFTWARE AS A SERVICE ",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH7.png",
+		"link": "https:/beyin.me/"
+	},
+
+	{
+		"id": 5,
+		"title": {
+			"first": "Your  ",
+			"second": "SOFTWARE AS A SERVICE ",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH4.png",
+		"link": "https:/beyin.me/"
+	},
+	{
+		"id": 6,
+		"title": {
+			"first": "Your  ",
+			"second": "SOFTWARE AS A SERVICE ",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH6.png",
+		"link": "https:/beyin.me/"
+	},
+	{
+		"id": 7,
+		"title": {
+			"first": "Your  ",
+			"second": "SOFTWARE AS A SERVICE ",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH10.png",
+		"link": "https:/beyin.me/"
+	},
+	{
+		"id": 8,
+		"title": {
+			"first": "Your  ",
+			"second": "SOFTWARE AS A SERVICE ",
+			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
+		},
+		"image": "/img/slid/beyinH9.png",
+		"link": "https:/beyin.me/"
+	}
+]

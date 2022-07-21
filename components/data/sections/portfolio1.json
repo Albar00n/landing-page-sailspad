@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "image": "/img/mas/beyin1.png",
+    "title": "Creativity Demand",
+    "tags": ["Design", "WordPress"],
+    "filterCategory": ["graphic"]
+  },
+  {
+    "id": 2,
+    "image": "/img/mas/beyin2.png",
+    "title": "Through The Breaking",
+    "tags": ["Design", "WordPress"],
+    "filterCategory": ["web"]
+  },
+   {
+			"id": 3,
+			"image": "/img/mas/beyin3.png",
+			"title": "Through The Breaking",
+			"tags": ["Design", "WordPress"],
+			"filterCategory": ["web"]
+		}
+
+]
