@@ -61,34 +61,43 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 										<div className="o-hidden">
 											<Link href="/">
 												<a>
-													<span className="nm"></span>Home
+													<span className="nm">0.1</span>Home
 												</a>
 											</Link>
 										</div>
 									</li>
 									<li>
 										<div className="o-hidden">
-											<Link href="/about">
+											<Link href="#about">
 												<a>
-													<span className="nm"></span>About us
+													<span className="nm">02</span>About us
 												</a>
 											</Link>
 										</div>
 									</li>
 									<li>
 										<div className="o-hidden">
-											<Link href="/contact">
+											<Link href="#work">
 												<a>
-													<span className="nm"></span>Start Project
+													<span className="nm">03</span>How it work
 												</a>
 											</Link>
 										</div>
 									</li>
 									<li>
 										<div className="o-hidden">
-											<Link href="/projects/projects/">
+											<Link href="#features">
 												<a>
-													<span className="nm"></span> Our projects
+													<span className="nm">04</span>Features
+												</a>
+											</Link>
+										</div>
+									</li>
+									<li>
+										<div className="o-hidden">
+											<Link href="#price">
+												<a>
+													<span className="nm">05</span>Price
 												</a>
 											</Link>
 										</div>
@@ -112,7 +121,7 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 								<div className="item">
 									<h6>Email :</h6>
 									<p>
-										<a href="support@beyin.me">Support@beyin.me</a>
+										<a href="mailto:support@beyin.me">Support@beyin.me</a>
 									</p>
 								</div>
 							</div>

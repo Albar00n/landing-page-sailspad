@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/Cursor";
@@ -9,8 +10,8 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Beyin</title>
-				<link rel="icon" href="/img/favicon.ico" />
+				<title>Sailspad</title>
+				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Cursor />
 		<LoadingScreen />

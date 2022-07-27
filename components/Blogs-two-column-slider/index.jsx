@@ -3,49 +3,56 @@ import Link from "next/link";
 
 const BlogsThreeColumn1 = ({ subBG }) => {
 	return (
-		<section className={`blog-grid section-padding ${subBG ? "sub-bg" : ""}`}>
+		<section
+			className={`blog-grid section-padding ${subBG ? "sub-bg" : ""}`}
+			id="price"
+		>
 			<div className="container">
 				<div className="sec-head custom-font text-center">
 					<h6 className="wow fadeIn" data-wow-delay=".5s">
-						Latest News
+						Get started
 					</h6>
 					<h3 className="wow" data-splitting>
-						Our Blogs.
+						Subscriptions
 					</h3>
-					<span className="tbg">Blogs</span>
+					<span className="tbg">Subscriptions</span>
 				</div>
 				<div className="row">
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
 						<div
 							className="item bg-img"
-							style={{ backgroundImage: "url(/img/blog/1.jpg)" }}
+							style={{
+								backgroundImage: "url(/img/slid/beyinH10.png)",
+								backgroundPosition: "center",
+								backgroundSize: "cover",
+							}}
 						>
 							<div className="cont">
 								<Link href="/blog/blog-dark">
 									<a className="date custom-font">
 										<span>
-											<i>06</i> Aug 2022
+											<i>50</i> cards
 										</span>
 									</a>
 								</Link>
 								<div className="info custom-font">
-									<a href="#0" className="author">
-										<span>by / Admin</span>
+									<a href="#0" className="author" style={{ fontWeight: "600" }}>
+										SME
+										<br /> Subscription
 									</a>
-									<Link href="/blog/blog-dark">
-										<a className="tag">
-											<span>WordPress</span>
-										</a>
-									</Link>
+
+									<span className="tag">
+										<span>$1.2 per user monthly</span>
+									</span>
 								</div>
-								<h6>
-									<Link href="/blog-details/blog-details-dark">
-										The Start-Up Ultimate Guide to Make Your WordPress Journal.
-									</Link>
-								</h6>
+								<ul>
+									{/* <li>$1.2 per user monthly</li> */}
+									<li>Customizable card and logo</li>
+								</ul>
+								<p style={{ height: "2rem" }}></p>
 								<div className="btn-more custom-font">
-									<Link href="/blog-details/blog-details-dark">
-										<a className="simple-btn">Read More</a>
+									<Link href="https://app.sailspad.com/signup">
+										<a className="simple-btn">Get started</a>
 									</Link>
 								</div>
 							</div>
@@ -54,34 +61,34 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
 						<div
 							className="item active bg-img"
-							style={{ backgroundImage: "url(/img/blog/2.jpg)" }}
+							style={{ backgroundImage: "url(/img/slid/beyinH9.png)" }}
 						>
 							<div className="cont">
 								<Link href="/blog/blog-dark">
 									<a className="date custom-font">
 										<span>
-											<i>11</i> Aug 2022
+											<i>100</i> cards
 										</span>
 									</a>
 								</Link>
 								<div className="info custom-font">
-									<a href="#0" className="author">
-										<span>by / Admin</span>
+									<a href="#0" className="author" style={{ fontWeight: "600" }}>
+										{/* <span> */}
+										SME+
+										<br /> Subscription {/* </span> */}
 									</a>
-									<Link href="/blog/blog-dark">
-										<a className="tag">
-											<span>WordPress</span>
-										</a>
-									</Link>
+
+									<p className="tag">
+										<span> $1.2 per user monthly</span>
+									</p>
 								</div>
-								<h6>
-									<Link href="/blog-details/blog-details-dark">
-										The Start-Up Ultimate Guide to Make Your WordPress Journal.
-									</Link>
-								</h6>
+								<ul>
+									<li>Customizable card and logo</li>
+									<li>Fully customizable loading page</li>
+								</ul>
 								<div className="btn-more custom-font">
-									<Link href="/blog-details/blog-details-dark">
-										<a className="simple-btn">Read More</a>
+									<Link href="https://app.sailspad.com/signup">
+										<a className="simple-btn">Get started</a>
 									</Link>
 								</div>
 							</div>
@@ -90,34 +97,34 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
 						<div
 							className="item bg-img"
-							style={{ backgroundImage: "url(/img/blog/3.jpg)" }}
+							style={{ backgroundImage: "url(/img/slid/beyinH6.png)" }}
 						>
 							<div className="cont">
 								<Link href="/blog/blog-dark">
 									<a className="date custom-font">
 										<span>
-											<i>09</i> Aug 2022
+											<i>200+</i> cards
 										</span>
 									</a>
 								</Link>
 								<div className="info custom-font">
-									<a href="#0" className="author">
-										<span>by / Admin</span>
+									<a href="#0" className="author" style={{ fontWeight: "600" }}>
+										<span>
+											Agency
+											<br /> Subscription
+										</span>
 									</a>
 									<Link href="/blog/blog-dark">
-										<a className="tag">
-											<span>WordPress</span>
-										</a>
+										<p className="tag">$1 per user</p>
 									</Link>
 								</div>
-								<h6>
-									<Link href="/blog-details/blog-details-dark">
-										The Start-Up Ultimate Guide to Make Your WordPress Journal.
-									</Link>
-								</h6>
+								<ul>
+									<li>Customizable card and logo</li>
+									<li>Fully customizable loading page</li>
+								</ul>
 								<div className="btn-more custom-font">
-									<Link href="/blog-details/blog-details-dark">
-										<a className="simple-btn">Read More</a>
+									<Link href="https://app.sailspad.com/signup">
+										<a className="simple-btn">Get started</a>
 									</Link>
 								</div>
 							</div>

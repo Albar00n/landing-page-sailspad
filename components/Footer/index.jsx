@@ -23,13 +23,17 @@ const Footer = () => {
 						<div className="cont">
 							<div className="logo">
 								<a href="#0">
-									<img src={`${appData.lightLogo}`} alt="" />
+									<img src={`${appData.darkLogo}`} alt="Logo Beyin" />
 								</a>
 							</div>
 							<div className="con-info custom-font">
 								<ul>
 									<li>
-										<span>Email : </span> Support@beyin.me
+										<Link href="mailto:support@beyin.me">
+											<a>
+												<span>Email : </span> Support@beyin.me
+											</a>
+										</Link>
 									</li>
 									<li>
 										<span>Address : </span> FD - GF, Accelerator Building,

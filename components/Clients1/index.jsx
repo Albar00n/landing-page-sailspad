@@ -23,7 +23,7 @@ const Clients1 = ({ theme, subBG }) => {
 						<div>
 							<div className="row bord">
 								{first.map((item) => (
-									<div key={item.id} className="col-md-3 col-6 brands">
+									<div key={item.id} className="col-md-4 col-6 brands">
 										<div
 											className="item wow fadeIn"
 											data-wow-delay={`${
@@ -33,8 +33,6 @@ const Clients1 = ({ theme, subBG }) => {
 													? ".6"
 													: item.id == 3
 													? ".8"
-													: item.id == 4
-													? ".3"
 													: ""
 											}s`}
 										>
@@ -63,14 +61,15 @@ const Clients1 = ({ theme, subBG }) => {
 									<div
 										key={item.id}
 										className={`${
-											item.id == 5
-												? "col-md-3 col-6 brands sm-mb30"
+											item.id == 4
+												? "col-md-4 col-12 brands sm-mb30"
+												: item.id == 4
+												? "col-md-4 col-12 brands sm-mb30"
+												: item.id == 5
+												? "col-md-4 col-12 brands sm-mb30"
 												: item.id == 6
-												? "col-md-3 col-6 brands sm-mb30"
-												: item.id == 7
-												? "col-md-3 col-6 brands"
-												: item.id == 8
-												? "col-md-3 col-6 brands"
+												
+												? "col-md-4 col-12 brands"
 												: ""
 										}`}
 									>

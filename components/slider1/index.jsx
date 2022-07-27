@@ -57,29 +57,29 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 							swiper.params.navigation.nextEl = navigationNextRef.current;
 							swiper.params.pagination.el = paginationRef.current;
 						}}
-						// onSwiper={(swiper) => {
-						// 	setTimeout(() => {
-						// 		for (var i = 0; i < swiper.slides.length; i++) {
-						// 			swiper.slides[i].childNodes[0].setAttribute(
-						// 				"data-swiper-parallax",
-						// 				0.75 * swiper.width,
-						// 			);
-						// 		}
+						onSwiper={(swiper) => {
+							setTimeout(() => {
+								for (var i = 0; i < swiper.slides.length; i++) {
+									swiper.slides[i].childNodes[0].setAttribute(
+										"data-swiper-parallax",
+										0.75 * swiper.width,
+									);
+								}
 
-						// 		swiper.params.navigation.prevEl = navigationPrevRef.current;
-						// 		swiper.params.navigation.nextEl = navigationNextRef.current;
+								swiper.params.navigation.prevEl = navigationPrevRef.current;
+								swiper.params.navigation.nextEl = navigationNextRef.current;
 
-						// 		swiper.params.pagination.el = paginationRef.current;
+								swiper.params.pagination.el = paginationRef.current;
 
-						// 		swiper.navigation.destroy();
-						// 		swiper.navigation.init();
-						// 		swiper.navigation.update();
+								swiper.navigation.destroy();
+								swiper.navigation.init();
+								swiper.navigation.update();
 
-						// 		swiper.pagination.destroy();
-						// 		swiper.pagination.init();
-						// 		swiper.pagination.update();
-						// 	});
-						// }}
+								swiper.pagination.destroy();
+								swiper.pagination.init();
+								swiper.pagination.update();
+							});
+						}}
 						className="swiper-wrapper"
 						slidesPerView={1}
 					>
@@ -92,7 +92,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 								>
 									<div className="container">
 										<div className="row justify-content-center">
-											<div className="col-lg-7 col-md-9">
+											<div className="col-lg-12 col-md-9">
 												<div className="caption center">
 													<Split>
 														<h1 className="words chars splitting">

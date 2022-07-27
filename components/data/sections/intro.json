@@ -1,26 +1,29 @@
 [
-  {
-    "id": 1,
-    "title": {
-      "first": "Unique",
-      "second": "brand Stories"
-    },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/01.jpg"
-  },
-  {
-    "id": 2,
-    "title": {
-      "first": "Digital",
-      "second": "Design Awards"
-    },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/03.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Original Solutions",
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/02.jpg"
-  }
+	{
+		"id": 1,
+		"title": {
+			"first": "Be",
+			"second": "The Market Leader"
+		},
+		"content": "Stay ahead of the curve; upgrading to Sailspad will boost your business reputation and sales, especially with high-profile clients",
+		"image": "/img/slid/BeyinH10.png"
+	},
+	{
+		"id": 2,
+		"title": {
+			"first": "Make ",
+			"second": "Every Encounter Count"
+		},
+		"content": "With an innovative business card that Allows you the freedom of printed business cards but also the effectiveness of a digital business card.",
+		"image": "/img/slid/beyinH9.png"
+	},
+	{
+		"id": 3,
+		"title": {
+			"first": "Improve",
+			"second": "Business Networking"
+		},
+		"content": "Sailspad allows your business card to be updated without the need for replacement, Sailspad supports printed business cards and Nfc business cards",
+		"image": "/img/slid/beyinH6.png"
+	}
 ]

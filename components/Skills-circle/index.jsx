@@ -4,17 +4,17 @@ import "react-circular-progressbar/dist/styles.css";
 
 const SkillsCircle = ({ subBG, theme }) => {
   const cpStyle = {
-    path: {
-      stroke: "#75dab4",
-    },
-    trail: {
-      stroke: theme ? (theme == "dark" ? "#0f1218" : "#e5e5e5") : "",
-    },
-    text: {
-      fill: theme ? (theme == "dark" ? "#ffffff" : "#4e4e4e") : "",
-      fontSize: "16px",
-    },
-  };
+		path: {
+			stroke: "#0DA6F5",
+		},
+		trail: {
+			stroke: theme ? (theme == "dark" ? "#0f1218" : "#e5e5e5") : "",
+		},
+		text: {
+			fill: theme ? (theme == "dark" ? "#ffffff" : "#4e4e4e") : "",
+			fontSize: "16px",
+		},
+	};
   return (
     <section
       className={`skills-circle pt-50 pb-50 ${

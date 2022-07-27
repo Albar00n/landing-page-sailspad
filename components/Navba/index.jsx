@@ -47,35 +47,67 @@ const Navbar = ({ lr, nr, theme }) => {
 
 						<li className="nav-item">
 							<span className="nav-link ">
-								<Link href="/projects/projects/">
+								<Link href="#about">
 									<a>about</a>
 								</Link>
 							</span>
 						</li>
 						<li className="nav-item">
-							<Link href="/about">
+							<Link href="#work">
 								<a className="nav-link">How it works</a>
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link href="/contact">
+							<Link href="#features">
 								<a className="nav-link">Features</a>
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link href="/new/news">
+							<Link href="#price">
 								<a className="nav-link">Prices</a>
 							</Link>
 						</li>
 					</ul>
+					<div style={{margin:'auto'}}>
+						<ul
+							style={{
+								display: "flex",
+								alignItems: "center",
+								justifyContent: "center",
+							}}
+							className="navbar-nav"
+						>
+							<li >
+								<a
+									className="btn-curve btn-lit mt-20"
+									style={{ padding: "6px 9px",margin:'9px 2px' }}
+								>
+									<span style={{color:'#abaaaa'}}>Get Started</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<Link href="#price">
+									<a
+										className=" nav-link"
+										// style={{ padding: "1rem" }}
+									>
+										Login
+									</a>
+								</Link>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div>
-					<Link href="/">
+					{/* <Link href="/">
 						<a className="get">Get Started</a>
-					</Link>
-					<Link href="/">
+						<a className="btn-curve btn-lit mt-30">
+							<span>Get Started</span>
+						</a>
+					</Link> */}
+					{/* <Link href="/">
 						<a className="log">Login</a>
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 		</nav>

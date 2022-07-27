@@ -2,6 +2,7 @@
 /* ====================== [ Start Typography  ] ====================== */
 
 
+@import "node_modules/video-react/dist/video-react.css";
 
 
 @import "/css/bootstrap.min.css";
@@ -1702,7 +1703,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 .navbar .logo {
 
-  width: 100px;
+  /* width: 100px; */
 
 }
 
@@ -1776,7 +1777,7 @@ position:absolute;
 }
 
 .topnav .logo {
-  width: 90px;
+  /* width: 90px; */
 
 }
 .topnav .menu-icon {
@@ -5542,8 +5543,8 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   margin-bottom: 30px;
 }
 .footer-half .cont .logo {
-  /* width: 55px; */
-  margin-bottom: 30px;
+max-width: 150%;
+  /* margin-bottom: 30px; */
 }
 .footer-half .cont .con-info li {
   margin-top: 10px;
@@ -5721,8 +5722,8 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
     margin: 10px auto !important;
   }
   .navbar .logo {
-    margin: 15px;
-    width: 50px;
+    /* margin: 15px;
+    width: 50px; */
 
 
   }
@@ -5992,7 +5993,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
     bottom: 15px;
   }
   .navbar .logo {
-    width: 80px;
+    /* width: 80px; */
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -6004,7 +6005,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
     padding: 0 30px;
   }
   .topnav .logo {
-    width: 70px;
+    /* width: 70px; */
     /* flex-grow: 1; */
   }
   .works-header {

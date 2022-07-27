@@ -8,7 +8,7 @@ import "react-circular-progressbar/dist/styles.css";
 const AboutUs2 = ({ skillsTheme }) => {
 	const cpStyle = {
 		path: {
-			stroke: "#75dab4",
+			stroke: "#0DA6F5",
 		},
 		trail: {
 			stroke: skillsTheme
@@ -23,7 +23,7 @@ const AboutUs2 = ({ skillsTheme }) => {
 		},
 	};
 	return (
-		<section className="about section-padding">
+		<section className="about section-padding" id="about">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 valign">
@@ -39,27 +39,25 @@ const AboutUs2 = ({ skillsTheme }) => {
 									className="co-tit custom-font wow words chars splitting"
 									data-splitting
 								>
-									Our 20 years working experience make a different business
-									agency services.
+									Get the most effective business card ever for only 1$/month
 								</h3>
 							</Split>
 							<p className="wow fadeInUp" data-wow-delay=".4s">
-								We are AVO. We create award-winning websites, remarkable brands
-								and cutting-edge apps.Nullam imperdiet, sem at fringilla
-								lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
-								erat. Ut dictum nisi masvitp.
+								Extended Business Card Platform allows you to create extended
+								business cards for you, your company, or clients in no time and
+								without complex steps for as low as $1 per month!
 							</p>
-							<p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
+							{/* <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
 								Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
 								volutpat velit class aptent taciti sociosqu ad litora.
-							</p>
+							</p> */}
 							<Split>
-								<Link href="/about/about-dark">
+								<Link href="https://app.sailspad.com/signup">
 									<a
 										className="words chars splitting simple-btn custom-font mt-30 wow"
 										data-splitting
 									>
-										<span>Know More</span>
+										<span>Get started</span>
 									</a>
 								</Link>
 							</Split>
