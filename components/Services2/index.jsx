@@ -7,7 +7,7 @@ const Services3 = () => {
 			<div className="container">
 				<div className="sec-head custom-font tr-head">
 					<h6>Three Easy steps!</h6>
-					<h3>How it works</h3>
+					<h3 className="gray">How it works</h3>
 					<span className="tbg">Sailspad</span>
 				</div>
 				<div className="row">

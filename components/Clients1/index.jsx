@@ -13,7 +13,7 @@ const Clients1 = ({ theme, subBG }) => {
 					<div className="col-lg-4 valign">
 						<div className="sec-head custom-font mb-0">
 							<h6>Recognition</h6>
-							<h1>
+							<h1 className="gray">
 								Recognized
 								<br /> by
 							</h1>
@@ -68,7 +68,7 @@ const Clients1 = ({ theme, subBG }) => {
 												: item.id == 5
 												? "col-md-4 col-12 brands sm-mb30"
 												: item.id == 6
-												
+
 												? "col-md-4 col-12 brands"
 												: ""
 										}`}

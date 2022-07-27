@@ -12,7 +12,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<h6 className="wow fadeIn" data-wow-delay=".5s">
 						Get started
 					</h6>
-					<h3 className="wow" data-splitting>
+					<h3 className="wow gray" data-splitting>
 						Subscriptions
 					</h3>
 					<span className="tbg">Subscriptions</span>
@@ -47,7 +47,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 								</div>
 								<ul>
 									{/* <li>$1.2 per user monthly</li> */}
-									<li>Customizable card and logo</li>
+									<li className="liNum">Customizable card and logo</li>
 								</ul>
 								<p style={{ height: "2rem" }}></p>
 								<div className="btn-more custom-font">
@@ -83,8 +83,8 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									</p>
 								</div>
 								<ul>
-									<li>Customizable card and logo</li>
-									<li>Fully customizable loading page</li>
+									<li className="liNum">Customizable card and logo</li>
+									<li className="liNum">Fully customizable loading page</li>
 								</ul>
 								<div className="btn-more custom-font">
 									<Link href="https://app.sailspad.com/signup">
@@ -119,8 +119,8 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									</Link>
 								</div>
 								<ul>
-									<li>Customizable card and logo</li>
-									<li>Fully customizable loading page</li>
+									<li className="liNum">Customizable card and logo</li>
+									<li className="liNum">Fully customizable loading page</li>
 								</ul>
 								<div className="btn-more custom-font">
 									<Link href="https://app.sailspad.com/signup">

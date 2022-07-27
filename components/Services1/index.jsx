@@ -11,7 +11,7 @@ const Services1 = () => {
 						Best Features
 					</h6>
 					<Split>
-						<h3 className="wow words chars splitting" data-splitting>
+						<h3 className="wow words chars splitting gray" data-splitting>
 							Features
 						</h3>
 					</Split>
