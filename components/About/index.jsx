@@ -66,7 +66,7 @@ const AboutUs2 = ({ skillsTheme }) => {
 					<div className="col-lg-6">
 						<div className="blc-img">
 							<div className="bimg wow imago">
-								<img src="/img/mas/beyin1.png" alt="" style={{height:'500px',width:'100%'}} />
+								<img src="/img/slid/beyinH6.png" alt="تطبيق جوال" style={{height:'430px',width:'100%'}} />
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">
 								<div className="item">
