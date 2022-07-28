@@ -2,13 +2,10 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "../components/Navba/index";
 import NAvbarF from "../components/navbar-full-menu/index"
-import Slider from "../components/slider";
 import Slider1 from "../components/slider1/index";
 import About from "../components/About/index";
 import Services from "../components/Services1/index";
 import Services2 from "../components/Services2/index";
-import Number from "../components/Numbers/index";
-import WorksSlider from "../components/Works1-slider/index";
 import Video from "../components/Video-with-testimonials/index";
 import SkillsCircle from "../components/Skills-circle/index";
 import Clients from "../components/Clients1";
@@ -17,7 +14,7 @@ import CallToAction from "../components/Call-to-action/index";
 import Footer from "../components/Footer/index";
 import Light from "../components/layout/Layout"
 import appData from "../components/data/app.json"
-// import styles from "../styles/Home.module.css";
+
 
 export default function Home() {
  const fixedSlider = React.useRef(null);

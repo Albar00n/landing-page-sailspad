@@ -5,8 +5,7 @@ import Link from "next/link";
 const CallToAction = ({ img, theme, subBG }) => {
   return (
 		<section
-			className={`call-action section-padding ${subBG ? "sub-bg" : ""} bg-img`}
-			style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}
+			className={`call-action section-padding  ${subBG ? "sub-bg" : ""} bg-img`}
 		>
 			<div className="container">
 				<div className="row">
@@ -14,31 +13,26 @@ const CallToAction = ({ img, theme, subBG }) => {
 						<div className="content sm-mb30">
 							<Split>
 								<h6 className="wow words chars splitting" data-splitting>
-									Let&apos;s Talk
+									START USING SAILSPAD
 								</h6>
-								<div
-
-								>
-									<h2 className="wow words custom-font chars splitting" style={{fontSize:'50px'}}>
+								<div>
+									<h2
+										className="wow words custom-font chars splitting"
+										style={{ fontSize: "50px", margin: "-6px 0px" }}
+									>
 										Be on the leading edge
 									</h2>
-									<h1 className="gray">
-										OF INNOVATION
-									</h1>
+									<h1 className="gray">OF INNOVATION</h1>
 								</div>
-								{/* <h2
-									className="wow words custom-font chars splitting"
-									data-splitting
-								>
-									Be on the leading edge
-									<b style={{ color: "#455154" }}>of communication innovation</b>
-								</h2> */}
 							</Split>
 						</div>
 					</div>
 
 					<div className="col-md-4 col-lg-3 valign">
-						<Link href="https://app.sailspad.com/signup">
+						<Link
+							href="https://app.sailspad.com/signup"
+							title="sign up sailspad"
+						>
 							<a
 								className={`btn-curve ${
 									theme == "light" ? "btn-blc" : "btn-lit"

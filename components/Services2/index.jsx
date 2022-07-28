@@ -43,7 +43,9 @@ const Services3 = () => {
 					</div>
 				</div>
 				<div className="smore custom-font">
-					<Link href="/about/about-dark">Get started</Link>
+					<Link href="/about/about-dark">
+						<a>Get started</a>
+					</Link>
 					<i className="fas fa-long-arrow-alt-right"></i>
 				</div>
 			</div>

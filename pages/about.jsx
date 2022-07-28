@@ -5,7 +5,7 @@ import AboutIntro from "../components/About-intro";
 import Section from "../components/About-intro/Section"
 import CallToAction from "../components/Call-to-action";
 
-import AllNavbar from "../components/NavbarPage/allNavbar/AllNav";
+import AllNavbar from "../components/allNavbar/AllNav";
 import Footer from "../components/Footer";
 
 
@@ -59,7 +59,7 @@ const AboutDark = () => {
 			<>
 				<AllNavbar />
 				<AboutHeader />
-				<Section  />
+				<Section />
 				<AboutIntro />
 				{/* <Services4 withPadding withOutTitle /> */}
 				{/* <VideoWithTestimonials /> */}
@@ -67,7 +67,7 @@ const AboutDark = () => {
 				{/* <Team1 /> */}
 				{/* <MinimalArea /> */}
 				{/* <Clients1 theme="light" /> */}
-				<CallToAction subBG />
+				<CallToAction subBG theme="light" />
 				<Footer />
 			</>
 		</>

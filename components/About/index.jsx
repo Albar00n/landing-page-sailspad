@@ -29,7 +29,7 @@ const AboutUs2 = ({ skillsTheme }) => {
 					<div className="col-lg-6 valign">
 						<div className="content">
 							<div className="sub-title">
-								<h6>About Us</h6>
+								<h6>About</h6>
 								<span></span>
 								<span></span>
 								<span></span>
@@ -39,20 +39,24 @@ const AboutUs2 = ({ skillsTheme }) => {
 									className="co-tit custom-font wow words chars splitting"
 									data-splitting
 								>
-									Get the most effective business card ever for only 1$/month
+									Get the most effective business card ever.
 								</h3>
 							</Split>
 							<p className="wow fadeInUp" data-wow-delay=".4s">
-								Extended Business Card Platform allows you to create extended
-								business cards for you, your company, or clients in no time and
-								without complex steps for as low as $1 per month!
+								Get ahead of the curve with Sailspad. create Augmented Reality
+								business cards for you and your team with our platform and take
+								your networking success to the next level. The Sailspad platform
+								is easy, fast, and reliable.
 							</p>
 							{/* <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
 								Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
 								volutpat velit class aptent taciti sociosqu ad litora.
 							</p> */}
 							<Split>
-								<Link href="https://app.sailspad.com/signup">
+								<Link
+									href="https://app.sailspad.com/signup"
+									title="sign up sailspad"
+								>
 									<a
 										className="words chars splitting simple-btn custom-font mt-30 wow"
 										data-splitting
@@ -66,7 +70,12 @@ const AboutUs2 = ({ skillsTheme }) => {
 					<div className="col-lg-6">
 						<div className="blc-img">
 							<div className="bimg wow imago">
-								<img src="/img/slid/beyinH6.png" alt="تطبيق جوال" style={{height:'430px',width:'100%'}} />
+								<img
+									src="/img/slid/beyinH6.png"
+									alt="تطبيق جوال"
+									style={{ height: "430px", width: "100%" }}
+									title="تطبيق جوال"
+								/>
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">
 								<div className="item">

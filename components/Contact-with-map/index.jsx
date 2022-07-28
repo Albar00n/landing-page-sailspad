@@ -107,7 +107,7 @@ const ContactWithMap = () => {
 																	htmlFor="#branding"
 																	style={{
 																		color: "#545454",
-																		width: "120px",
+																		width: "140px",
 																	}}
 																>
 																	Sign-up support

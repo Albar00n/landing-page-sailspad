@@ -53,18 +53,16 @@ const Footer = () => {
 									{/* <a href="#0" className="icon">
 										<i className="fab fa-twitter"></i>
 									</a> */}
-									<a
-										href="https://www.instagram.com/beyin.me/"
-										className="icon"
-									>
-										<i className="fab fa-instagram"></i>
-									</a>
-									<a
-										href="https://www.linkedin.com/company/beyin-tech/"
-										className="icon"
-									>
-										<i className="fab fa-linkedin-in"></i>
-									</a>
+									<Link href="https://www.instagram.com/beyin.me/">
+										<a className="icon">
+											<i className="fab fa-instagram"></i>
+										</a>
+									</Link>
+									<Link href="https://www.linkedin.com/company/beyin-tech/">
+										<a className="icon">
+											<i className="fab fa-linkedin-in"></i>
+										</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -96,52 +94,7 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						{/* <div className="subscribe mb-50">
-							<h6 className="custom-font stit simple-btn">Newslatter</h6>
-							<p>Sign up for subscribe out newsletter!</p>
-							<Formik
-								initialValues={{
-									subscribe: "",
-								}}
-								onSubmit={async (values) => {
-									await sendEmail(500);
-									alert(JSON.stringify(values, null, 2));
-									// Reset the values
-									values.subscribe = "";
-								}}
-							>
-								{({ errors, touched }) => (
-									<Form>
-										<div className="form-group custom-font">
-											<Field
-												validate={validateEmail}
-												type="email"
-												name="subscribe"
-												placeholder="Your Email"
-											/>
-											{errors.email && touched.email && (
-												<div>{errors.email}</div>
-											)}
-											<button className="cursor-pointer">Subscribe</button>
-										</div>
-									</Form>
-								)}
-							</Formik>
-						</div> */}
-						{/* <div className="insta">
-							<h6 className="custom-font stit simple-btn">Instagram Post</h6>
-							<div className="insta-gallary">
-								<a href="#0">
-									<img src="/img/insta/1.jpg" alt="" />
-								</a>
-								<a href="#0">
-									<img src="/img/insta/2.jpg" alt="" />
-								</a>
-								<a href="#0">
-									<img src="/img/insta/3.jpg" alt="" />
-								</a>
-							</div>
-						</div> */}
+
 					</div>
 				</div>
 				<div className="copyrights text-center">
@@ -151,7 +104,7 @@ const Footer = () => {
 						owned by Beyin Digital Technology Limited, and/or its licensors, and
 						are protected. Any unauthorized use or reproduction or distribution,
 						shall attract suitable action under applicable law.
-						{/* <a href="#0">ThemesCamp</a>. */}
+						
 					</p>
 				</div>
 			</div>

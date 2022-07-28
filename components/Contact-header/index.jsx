@@ -1,5 +1,6 @@
 
 import React from "react";
+import Link from "next/link"
 
 const AboutHeader = () => {
 	return (
@@ -14,18 +15,20 @@ const AboutHeader = () => {
 						<div className="cont text-center">
 							{/* <h1>About Us</h1> */}
 							<h2 className="custom-font">
-								<span>Let&apos;s</span>Talk About Your project.
+								<span>Let&apos;s</span>Contact Us
 							</h2>
 							<p>
-								 Feel free to ask me any question or let&apos;s do to talk //
-								about our future collaboration.
+								Feel free to reach out to us if you have any concerns or
+								questions!
 							</p>
 							<div className="path">
-								<a href="#0">Home</a>
+								<Link href="#0">
+									<a>Home</a>
+								</Link>
 								<span>/</span>
-								<a href="#0" className="active">
-									Contact Us
-								</a>
+								<Link href="#0">
+									<a className="active">Contact</a>
+								</Link>
 							</div>
 						</div>
 					</div>

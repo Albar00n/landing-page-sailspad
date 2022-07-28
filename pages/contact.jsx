@@ -2,9 +2,9 @@ import React from "react";
 import Head from "next/head";
 import ContactHeader from "../components/Contact-header";
 import ContactWithMap from "../components/Contact-with-map";
-import AllNavbar from "../components/NavbarPage/allNavbar/AllNav";
+import AllNavbar from "../components/allNavbar/AllNav";
 import Footer from "../components/Footer/index"
-// import DarkTheme from "../components/layouts/Dark";
+
 
 const Contact = () => {
 	const fixedHeader = React.useRef(null);

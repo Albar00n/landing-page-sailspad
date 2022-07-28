@@ -51,7 +51,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 								</ul>
 								<p style={{ height: "2rem" }}></p>
 								<div className="btn-more custom-font">
-									<Link href="https://app.sailspad.com/signup">
+									<Link
+										href="https://app.sailspad.com/signup"
+										title="sign up sailspad"
+									>
 										<a className="simple-btn">Get started</a>
 									</Link>
 								</div>
@@ -87,7 +90,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									<li className="liNum">Fully customizable loading page</li>
 								</ul>
 								<div className="btn-more custom-font">
-									<Link href="https://app.sailspad.com/signup">
+									<Link
+										href="https://app.sailspad.com/signup"
+										title="sign up sailspad"
+									>
 										<a className="simple-btn">Get started</a>
 									</Link>
 								</div>
@@ -123,7 +129,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									<li className="liNum">Fully customizable loading page</li>
 								</ul>
 								<div className="btn-more custom-font">
-									<Link href="https://app.sailspad.com/signup">
+									<Link
+										href="https://app.sailspad.com/signup"
+										title="sign up sailspad"
+									>
 										<a className="simple-btn">Get started</a>
 									</Link>
 								</div>

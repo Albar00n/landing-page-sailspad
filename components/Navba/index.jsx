@@ -3,16 +3,11 @@ import React from "react";
 import { Formik, Form, Field } from "formik";
 import Link from "next/link";
 import appData from "../data/app.json";
-import {
-  handleDropdown,
-  handleMobileDropdown,
-
-} from "../../common/navbar";
+import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
-  React.useEffect(() => {
-  }, []);
-  return (
+	React.useEffect(() => {}, []);
+	return (
 		<nav
 			id="desktop"
 			ref={nr}
@@ -47,13 +42,13 @@ const Navbar = ({ lr, nr, theme }) => {
 
 						<li className="nav-item">
 							<span className="nav-link ">
-								<Link href="#about">
+								<Link href="/#about">
 									<a>about</a>
 								</Link>
 							</span>
 						</li>
 						<li className="nav-item">
-							<Link href="#work">
+							<Link href="/#work">
 								<a className="nav-link">How it works</a>
 							</Link>
 						</li>
@@ -63,32 +58,22 @@ const Navbar = ({ lr, nr, theme }) => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link href="#price">
+							<Link href="/#price">
 								<a className="nav-link">Prices</a>
 							</Link>
 						</li>
 					</ul>
 					<div style={{ margin: "auto" }}>
-						<ul
-							style={{
-								display: "flex",
-								alignItems: "center",
-								justifyContent: "center",
-							}}
-							className="navbar-nav"
-						>
+						<ul className="navbar-nav ulFlex">
 							<li className="nav-item">
-								<a
-									href="https://app.sailspad.com/signup"
-									className="btn-curve btn-lit mt-20"
-									style={{
-										padding: "5px 9px",
-										margin: "13px 2px",
-										fontSize: "19px",
-									}}
-								>
-									<span style={{ color: "#abaaaa" }}>Get Started</span>
-								</a>
+								<Link href="">
+									<a
+										href="https://app.sailspad.com/signup"
+										className="btn-curve btn-lit mt-20 lilink"
+									>
+										<span style={{ color: "#abaaaa" }}>Get Started</span>
+									</a>
+								</Link>
 							</li>
 							<li className="nav-item">
 								<Link href="https://app.sailspad.com/login">
@@ -98,17 +83,7 @@ const Navbar = ({ lr, nr, theme }) => {
 						</ul>
 					</div>
 				</div>
-				<div>
-					{/* <Link href="/">
-						<a className="get">Get Started</a>
-						<a className="btn-curve btn-lit mt-30">
-							<span>Get Started</span>
-						</a>
-					</Link> */}
-					{/* <Link href="/">
-						<a className="log">Login</a>
-					</Link> */}
-				</div>
+				<div></div>
 			</div>
 		</nav>
 	);

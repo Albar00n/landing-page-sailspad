@@ -59,7 +59,7 @@ const Services1 = () => {
 						<h4 className="custom-font">
 							Best Of <br /> Features
 						</h4>
-						<Link href="https://app.sailspad.com/signup">
+						<Link href="https://app.sailspad.com/signup" title="sign up sailspad">
 							<a className="btn-curve btn-bord btn-lit mt-40">
 								<span>Get started</span>
 							</a>

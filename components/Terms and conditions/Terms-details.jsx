@@ -886,7 +886,7 @@ const PrivacyDetails = () => {
 												<p className="underline">Last updated on 7/17/2022.</p>
 											</div>
 
-											<div className="row">
+											{/* <div className="row">
 												<div className="col-md-6">
 													<div className="mb-10">
 														<img src="/img/blog/single.jpg" alt="" />
@@ -897,7 +897,7 @@ const PrivacyDetails = () => {
 														<img src="/img/blog/single.jpg" alt="" />
 													</div>
 												</div>
-											</div>
+											</div> */}
 										</div>
 									</div>
 								</div>

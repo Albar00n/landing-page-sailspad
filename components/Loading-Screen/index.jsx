@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace.js";

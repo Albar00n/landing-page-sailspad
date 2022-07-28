@@ -140,15 +140,16 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 				></div>
 
 				<div className="social-icon">
-					<a href="https://www.instagram.com/beyin.me/" className="icon">
-						<i className="fab fa-instagram"></i>
-					</a>
-					<a
-						href="https://www.linkedin.com/company/beyin-tech/"
-						className="icon"
-					>
-						<i className="fab fa-linkedin-in"></i>
-					</a>
+					<Link href="https://www.instagram.com/beyin.me/">
+						<a className="icon">
+							<i className="fab fa-instagram"></i>
+						</a>
+					</Link>
+					<Link href="https://www.linkedin.com/company/beyin-tech/">
+						<a className="icon">
+							<i className="fab fa-linkedin-in"></i>
+						</a>
+					</Link>
 				</div>
 			</div>
 		</header>
