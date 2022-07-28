@@ -2,15 +2,12 @@ import React from "react";
 import Head from "next/head";
 import AboutHeader from "../components/About-header";
 import AboutIntro from "../components/About-intro";
+import Section from "../components/About-intro/Section"
 import CallToAction from "../components/Call-to-action";
-import Clients1 from "../components/Clients1";
-import AllNavbar from "../components/allNavbar/AllNav";
+
+import AllNavbar from "../components/NavbarPage/allNavbar/AllNav";
 import Footer from "../components/Footer";
-import MinimalArea from "../components/Minimal-area";
-import Services4 from "../components/Services4";
-import Team1 from "../components/Team1";
-import VideoWithTestimonials from "../components/Video-with-testimonials";
-// import DarkTheme from "../components/layouts/Dark";
+
 
 const AboutDark = () => {
 
@@ -62,13 +59,14 @@ const AboutDark = () => {
 			<>
 				<AllNavbar />
 				<AboutHeader />
+				<Section  />
 				<AboutIntro />
-				<Services4 withPadding withOutTitle />
-				<VideoWithTestimonials />
+				{/* <Services4 withPadding withOutTitle /> */}
+				{/* <VideoWithTestimonials /> */}
 				{/* <SkillsCircle subBG theme="dark" /> */}
-				<Team1 />
-				<MinimalArea />
-				<Clients1 theme="light" />
+				{/* <Team1 /> */}
+				{/* <MinimalArea /> */}
+				{/* <Clients1 theme="light" /> */}
 				<CallToAction subBG />
 				<Footer />
 			</>

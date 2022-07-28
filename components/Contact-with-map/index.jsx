@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
 import Link from 'next/link'
-
+import Image from 'next/image'
+import Logo from '../../public/img/Sailspad.svg'
 const ContactWithMap = () => {
 	const messageRef = React.useRef(null);
 	function validateEmail(value) {
@@ -106,10 +107,10 @@ const ContactWithMap = () => {
 																	htmlFor="#branding"
 																	style={{
 																		color: "#545454",
-																		width: "110px",
+																		width: "120px",
 																	}}
 																>
-																	Branding
+																	Sign-up support
 																</label>
 															</div>
 
@@ -124,10 +125,10 @@ const ContactWithMap = () => {
 																	htmlFor="#web_design"
 																	style={{
 																		color: "#545454",
-																		width: "110px",
+																		width: "190px",
 																	}}
 																>
-																	Web Design
+																	Platform usage support
 																</label>
 															</div>
 
@@ -145,7 +146,7 @@ const ContactWithMap = () => {
 																		width: "150px",
 																	}}
 																>
-																	Web Development
+																	White-labelling
 																</label>
 															</div>
 															<div className="form-check m-1">
@@ -162,7 +163,7 @@ const ContactWithMap = () => {
 																		width: "110px",
 																	}}
 																>
-																	E-Commerce
+																	Other
 																</label>
 															</div>
 														</div>
@@ -170,7 +171,7 @@ const ContactWithMap = () => {
 
 													{/*  */}
 												</div>
-												<div className="form-group">
+												{/* <div className="form-group">
 													<label htmlFor="#from_price">YOUR BUDCET: </label>
 													<Field
 														id="form_price"
@@ -179,7 +180,7 @@ const ContactWithMap = () => {
 														placeholder="ex: +$1000"
 														required="required"
 													/>
-												</div>
+												</div> */}
 
 												<div className="form-group">
 													<labe htmlFor="#form_message">BRIEF:</labe>
@@ -187,13 +188,13 @@ const ContactWithMap = () => {
 														as="textarea"
 														id="form_message"
 														name="message"
-														placeholder="Place go into as much detail as possible"
+														placeholder="Please go into as much detail as possible"
 														rows="4"
 														required="required"
 													/>
 												</div>
 
-												<button type="submit" className="btn-curve btn-lit">
+												<button type="submit" className="btn-curve btn-li">
 													<span>Send Message</span>
 												</button>
 											</div>
@@ -204,7 +205,20 @@ const ContactWithMap = () => {
 						</div>
 						<div className="col-lg-5 offset-lg-1">
 							<div className="cont-info">
-								<h4 className="extra-title mb-50">Contact Info.</h4>
+								<h4 className="extra-title">Contact Info.</h4>
+
+								<div className="item mb-60">
+									{/* <h5> */}
+									<Link href="/">
+										<a>
+											<Image src={Logo} alt="" width={200} height={100} />
+										</a>
+									</Link>
+									{/* </h5> */}
+									<h5 style={{ margin: "-1rem 0px" }}>
+										by © Beyin Digital Technology Limited.
+									</h5>
+								</div>
 								<h3 className="custom-font wow" data-splitting>
 									Let&apos;s Talk.
 								</h3>
