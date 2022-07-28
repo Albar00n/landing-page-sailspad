@@ -17,25 +17,21 @@ const CallToAction = ({ img, theme, subBG }) => {
 									Let&apos;s Talk
 								</h6>
 								<div
-									style={{
-										display: "flex",
-										
 
-									}}
 								>
-									<h2 className="wow words custom-font chars splitting">
-										about your
+									<h2 className="wow words custom-font chars splitting" style={{fontSize:'50px'}}>
+										Be on the leading edge
 									</h2>
-									<h1 className="gray" style={{ margin: "-15px 5px" }}>
-										next project
+									<h1 className="gray">
+										OF INNOVATION
 									</h1>
 								</div>
 								{/* <h2
 									className="wow words custom-font chars splitting"
 									data-splitting
 								>
-									about your
-									<b style={{ color: "#455154" }}>next project</b>
+									Be on the leading edge
+									<b style={{ color: "#455154" }}>of communication innovation</b>
 								</h2> */}
 							</Split>
 						</div>

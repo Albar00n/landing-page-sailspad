@@ -21,11 +21,11 @@ const Clients1 = ({ theme, subBG }) => {
 					</div>
 					<div className="col-lg-8">
 						<div>
-							<div className="row bord">
+							<div className="row bord ">
 								{first.map((item) => (
-									<div key={item.id} className="col-md-4 col-6 brands">
+									<div key={item.id} className="col-sm-12 col-md-4 col-4 brands">
 										<div
-											className="item wow fadeIn"
+											className="item wow fadeIn "
 											data-wow-delay={`${
 												item.id == 1
 													? ".3"
@@ -62,13 +62,13 @@ const Clients1 = ({ theme, subBG }) => {
 										key={item.id}
 										className={`${
 											item.id == 4
+
 												? "col-md-4 col-12 brands sm-mb30"
 												: item.id == 4
 												? "col-md-4 col-12 brands sm-mb30"
 												: item.id == 5
 												? "col-md-4 col-12 brands sm-mb30"
 												: item.id == 6
-
 												? "col-md-4 col-12 brands"
 												: ""
 										}`}
@@ -99,7 +99,7 @@ const Clients1 = ({ theme, subBG }) => {
 														className="link words chars splitting"
 														data-splitting
 													>
-														{item.url}
+														{/* {item.url} */}
 													</a>
 												</Split>
 											</div>

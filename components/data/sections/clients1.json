@@ -2,43 +2,36 @@
 	{
 		"id": 1,
 		"lightImage": "/img/clients/brands/light/group.png",
-		"darkImage": "/img/clients/brands/dark/group.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 2,
 		"lightImage": "/img/clients/brands/light/monday.png",
-		"darkImage": "/img/clients/brands/dark/monday.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 3,
 		"lightImage": "/img/clients/brands/light/morpheus.png",
-		"darkImage": "/img/clients/brands/dark/morpheus.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 4,
 		"lightImage": "/img/clients/brands/light/samsung.png",
-		"darkImage": "/img/clients/brands/dark/samsung.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 5,
 		"lightImage": "/img/clients/brands/light/segment.png",
-		"darkImage": "/img/clients/brands/dark/segment.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 6,
 		"lightImage": "/img/clients/brands/light/vector.png",
-		"darkImage": "/img/clients/brands/dark/vector.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 4,
 		"lightImage": "/img/clients/brands/light/samsung.png",
-		"darkImage": "/img/clients/brands/dark/samsung.png",
 		"url": "www.avo.com"
 	}
 ]
