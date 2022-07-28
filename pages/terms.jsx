@@ -49,7 +49,7 @@ const Privacy = () => {
 				/>
 				<meta
 					property="og:site_name"
-					content="Mobile App Development, Web Design, Digital Marketing company in Kuwait"
+					content="Mobile App Development, Web Design, Digital Marketing company in Abu Dhabi"
 				/>
 			</Head>
 			<>
