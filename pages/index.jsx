@@ -71,7 +71,7 @@ React.useEffect(() => {
 	return (
 		<>
 			<Head>
-				<title> Sailspad </title>
+				<title> Sailspad Technologies  </title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta
@@ -92,7 +92,7 @@ React.useEffect(() => {
 					content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
 				/>
 				<meta name="title" content="Sailspad Technologies" />
-				<meta property="og:title" content="" />
+				<meta property="og:title" content="Sailspad Technologies" />
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="ar_AR" />

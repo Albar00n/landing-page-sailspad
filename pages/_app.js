@@ -10,14 +10,14 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Sailspad</title>
+				<title>Sailspad Technologies</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Cursor />
-		<LoadingScreen />
-		{/* <ScrollToTop /> */}
+			<LoadingScreen />
+			{/* <ScrollToTop /> */}
 			{/* <Layout> */}
-				<Component {...pageProps} />
+			<Component {...pageProps} />
 			{/* </Layout> */}
 
 			<Script id="wow" src="/js/wow.min.js"></Script>

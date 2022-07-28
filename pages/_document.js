@@ -41,7 +41,7 @@ class MyDocument extends Document {
 					<meta name="Linkedin:site" content="@beyin-tech" />
 					<meta name="instagram:site" content="@beyin.me" />
 
-					<meta name="author" content="" />
+					<meta name="author" content="Ghassan Awad" />
 					<link rel="shortcut icon" href="/favicon.ico" />
 					<meta data-rh="true" name="google" content="translate" />
 
