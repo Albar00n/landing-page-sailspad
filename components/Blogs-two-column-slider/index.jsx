@@ -115,7 +115,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 										</span>
 									</a>
 									<Link href="/blog/blog-dark">
-										<p className="tag">$1 per user</p>
+										<p className="tag">$1 per user monthly</p>
 									</Link>
 								</div>
 								<ul>

@@ -48,7 +48,7 @@ const Clients1 = ({ theme, subBG }) => {
 														className="link words chars splitting"
 														data-splitting
 													>
-														{item.url}
+														{/* {item.url} */}
 													</a>
 												</Split>
 											</div>
