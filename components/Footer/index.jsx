@@ -73,7 +73,7 @@ const Footer = () => {
 						<div>
 							<ul style={{ listStyle: "none" }}>
 								<li style={{ fontSize: "20px" }}>
-									<Link href="/">
+									<Link href="/contact">
 										<a>Contact us</a>
 									</Link>
 								</li>
@@ -90,7 +90,7 @@ const Footer = () => {
 									</Link>
 								</li>
 								<li style={{ fontSize: "20px" }}>
-									<Link href="/">
+									<Link href="/about">
 										<a> About us</a>
 									</Link>
 								</li>
