@@ -1,5 +1,4 @@
 [
-
 	{
 		"id": 1,
 		"title": {
@@ -7,7 +6,7 @@
 			"second": "The Market Leader"
 		},
 		"content": "Stay ahead of the curve; upgrading to Sailspad will boost your business reputation and sales, especially with high-profile clients",
-		"image": "/img/slid/BeyinH6.png"
+		"image": "/img/slid/BeyinH10.png"
 	},
 	{
 		"id": 2,
@@ -25,6 +24,6 @@
 			"second": "Business Networking"
 		},
 		"content": "Sailspad allows your business card to be updated without the need for replacement, Sailspad supports printed business cards and Nfc business cards",
-		"image": "/img/slid/beyinH10.png"
+		"image": "/img/slid/beyinH6.png"
 	}
 ]
