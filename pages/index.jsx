@@ -129,7 +129,7 @@ React.useEffect(() => {
 					<SkillsCircle theme="light" subBG />
 					<Clients theme="light" />
 					<Blog />
-					{/* <CallToAction theme="light" /> */}
+					<CallToAction theme="light" />
 				</div>
 
 				<Footer />
