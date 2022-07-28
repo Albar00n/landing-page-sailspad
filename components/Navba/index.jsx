@@ -68,7 +68,7 @@ const Navbar = ({ lr, nr, theme }) => {
 							</Link>
 						</li>
 					</ul>
-					<div style={{margin:'auto'}}>
+					<div style={{ margin: "auto" }}>
 						<ul
 							style={{
 								display: "flex",
@@ -77,22 +77,22 @@ const Navbar = ({ lr, nr, theme }) => {
 							}}
 							className="navbar-nav"
 						>
-							<li >
+							<li className="nav-item">
 								<a
+									href="https://app.sailspad.com/signup"
 									className="btn-curve btn-lit mt-20"
-									style={{ padding: "6px 9px",margin:'9px 2px' }}
+									style={{
+										padding: "5px 9px",
+										margin: "13px 2px",
+										fontSize: "19px",
+									}}
 								>
-									<span style={{color:'#abaaaa'}}>Get Started</span>
+									<span style={{ color: "#abaaaa" }}>Get Started</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<Link href="#price">
-									<a
-										className=" nav-link"
-										// style={{ padding: "1rem" }}
-									>
-										Login
-									</a>
+								<Link href="https://app.sailspad.com/login">
+									<a className="nav-link">Login</a>
 								</Link>
 							</li>
 						</ul>

@@ -47,17 +47,23 @@ const Footer = () => {
 							<div className="social-icon">
 								<h6 className="custom-font stit simple-btn">Follow Us</h6>
 								<div className="social">
-									<a href="#0" className="icon">
+									{/* <a href="#0" className="icon">
 										<i className="fab fa-facebook-f"></i>
-									</a>
-									<a href="#0" className="icon">
+									</a> */}
+									{/* <a href="#0" className="icon">
 										<i className="fab fa-twitter"></i>
+									</a> */}
+									<a
+										href="https://www.instagram.com/beyin.me/"
+										className="icon"
+									>
+										<i className="fab fa-instagram"></i>
 									</a>
-									<a href="#0" className="icon">
-										<i className="fab fa-pinterest"></i>
-									</a>
-									<a href="#0" className="icon">
-										<i className="fab fa-behance"></i>
+									<a
+										href="https://www.linkedin.com/company/beyin-tech/"
+										className="icon"
+									>
+										<i className="fab fa-linkedin-in"></i>
 									</a>
 								</div>
 							</div>
@@ -67,7 +73,7 @@ const Footer = () => {
 						<div>
 							<ul style={{ listStyle: "none" }}>
 								<li style={{ fontSize: "20px" }}>
-									<Link href="/contact">
+									<Link href="/">
 										<a>Contact us</a>
 									</Link>
 								</li>
@@ -84,7 +90,7 @@ const Footer = () => {
 									</Link>
 								</li>
 								<li style={{ fontSize: "20px" }}>
-									<Link href="/about">
+									<Link href="/">
 										<a> About us</a>
 									</Link>
 								</li>

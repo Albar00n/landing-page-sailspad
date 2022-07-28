@@ -37,7 +37,6 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 					<Swiper
 						speed={3000}
 						loop={true}
-
 						autoplay={{
 							delay: 1000,
 							disableOnInteraction: true,
@@ -141,17 +140,14 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 				></div>
 
 				<div className="social-icon">
-					<a href="#0">
-						<i className="fab fa-facebook-f"></i>
+					<a href="https://www.instagram.com/beyin.me/" className="icon">
+						<i className="fab fa-instagram"></i>
 					</a>
-					<a href="#0">
-						<i className="fab fa-twitter"></i>
-					</a>
-					<a href="#0">
-						<i className="fab fa-behance"></i>
-					</a>
-					<a href="#0">
-						<i className="fab fa-pinterest-p"></i>
+					<a
+						href="https://www.linkedin.com/company/beyin-tech/"
+						className="icon"
+					>
+						<i className="fab fa-linkedin-in"></i>
 					</a>
 				</div>
 			</div>
