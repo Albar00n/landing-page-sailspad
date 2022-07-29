@@ -28,14 +28,13 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 							}}
 						>
 							<div className="cont">
-								<Link href="/blog/blog-dark">
-									<a className="date custom-font">
-										<span>
-											<i>50</i> cards
-										</span>
-									</a>
-								</Link>
-								<div className="info custom-font">
+								<h6 className="date custom-font">
+									<span >
+										<i>50</i> cards
+									</span>
+								</h6>
+
+								<div className="info custom-font ">
 									<a href="#0" className="author" style={{ fontWeight: "600" }}>
 										SME
 										<br /> Subscription
@@ -67,13 +66,13 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 							style={{ backgroundImage: "url(/img/slid/beyinH9.png)" }}
 						>
 							<div className="cont">
-								<Link href="/blog/blog-dark">
-									<a className="date custom-font">
+								{/* <Link href="/blog/blog-dark"> */}
+									<h6 className="date custom-font">
 										<span>
 											<i>100</i> cards
 										</span>
-									</a>
-								</Link>
+									</h6>
+								{/* </Link> */}
 								<div className="info custom-font">
 									<a href="#0" className="author" style={{ fontWeight: "600" }}>
 										{/* <span> */}
@@ -106,13 +105,13 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 							style={{ backgroundImage: "url(/img/slid/beyinH6.png)" }}
 						>
 							<div className="cont">
-								<Link href="/blog/blog-dark">
-									<a className="date custom-font">
+								{/* <Link href="/blog/blog-dark"> */}
+									<h6 className="date custom-font">
 										<span>
 											<i>200+</i> cards
 										</span>
-									</a>
-								</Link>
+									</h6>
+								{/* </Link> */}
 								<div className="info custom-font">
 									<a href="#0" className="author" style={{ fontWeight: "600" }}>
 										<span>

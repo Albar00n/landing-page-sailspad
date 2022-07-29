@@ -106,7 +106,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 														</h1>
 													</Split>
 													{slide?.content && <p>{slide.content}</p>}
-													<Link href="/about/about-dark">
+													<Link href="https://app.sailspad.com/signup">
 														<a className="btn-curve btn-lit mt-30">
 															<span>Get Started</span>
 														</a>
