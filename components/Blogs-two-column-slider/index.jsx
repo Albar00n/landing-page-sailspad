@@ -35,10 +35,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 								</h6>
 
 								<div className="info custom-font ">
-									<a href="#0" className="author" style={{ fontWeight: "600" }}>
+									<h6 className="author" style={{ fontWeight: "600" }}>
 										SME
 										<br /> Subscription
-									</a>
+									</h6>
 
 									<span className="tag">
 										<span>$1.2 per user monthly</span>
@@ -74,11 +74,11 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									</h6>
 								{/* </Link> */}
 								<div className="info custom-font">
-									<a href="#0" className="author" style={{ fontWeight: "600" }}>
+									<h6  className="author" style={{ fontWeight: "600" }}>
 										{/* <span> */}
 										SME+
 										<br /> Subscription {/* </span> */}
-									</a>
+									</h6>
 
 									<p className="tag">
 										<span> $1.2 per user monthly</span>
@@ -113,12 +113,12 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									</h6>
 								{/* </Link> */}
 								<div className="info custom-font">
-									<a href="#0" className="author" style={{ fontWeight: "600" }}>
+									<h6 className="author" style={{ fontWeight: "600" }}>
 										<span>
 											Agency
 											<br /> Subscription
 										</span>
-									</a>
+									</h6>
 									<Link href="/blog/blog-dark">
 										<p className="tag">$1 per user monthly</p>
 									</Link>
