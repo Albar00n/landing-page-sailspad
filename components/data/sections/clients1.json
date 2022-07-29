@@ -1,36 +1,43 @@
 [
 	{
 		"id": 1,
+		"name":"clients",
 		"lightImage": "/img/clients/brands/light/group.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 2,
+		"name": "clients",
 		"lightImage": "/img/clients/brands/light/monday.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 3,
+		"name": "clients",
 		"lightImage": "/img/clients/brands/light/morpheus.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 4,
+		"name": "clients",
 		"lightImage": "/img/clients/brands/light/samsung.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 5,
+		"name": "clients",
 		"lightImage": "/img/clients/brands/light/segment.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 6,
+		"name": "clients",
 		"lightImage": "/img/clients/brands/light/vector.png",
 		"url": "www.avo.com"
 	},
 	{
 		"id": 4,
+		"name": "clients",
 		"lightImage": "/img/clients/brands/light/samsung.png",
 		"url": "www.avo.com"
 	}

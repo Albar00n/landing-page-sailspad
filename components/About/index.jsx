@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
+import Image from "next/image"
 import Split from "../Split";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -70,11 +71,14 @@ const AboutUs2 = ({ skillsTheme }) => {
 					<div className="col-lg-6">
 						<div className="blc-img">
 							<div className="bimg wow imago">
-								<img
+								<Image
 									src="/img/slid/beyinH6.png"
 									alt="تطبيق جوال"
-									style={{ height: "430px", width: "100%" }}
+									width={750}
+									height={560}
+									// style={{ height: "430px", width: "100%" }}
 									title="تطبيق جوال"
+									priority
 								/>
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">

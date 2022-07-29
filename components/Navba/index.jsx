@@ -53,7 +53,7 @@ const Navbar = ({ lr, nr, theme }) => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link href="#features">
+							<Link href="/#features">
 								<a className="nav-link">Features</a>
 							</Link>
 						</li>
@@ -66,11 +66,8 @@ const Navbar = ({ lr, nr, theme }) => {
 					<div style={{ margin: "auto" }}>
 						<ul className="navbar-nav ulFlex">
 							<li className="nav-item">
-								<Link href="">
-									<a
-										href="https://app.sailspad.com/signup"
-										className="btn-curve btn-lit mt-20 lilink"
-									>
+								<Link href="https://app.sailspad.com/signup">
+									<a className="btn-curve btn-lit mt-20 lilink">
 										<span style={{ color: "#abaaaa" }}>Get Started</span>
 									</a>
 								</Link>

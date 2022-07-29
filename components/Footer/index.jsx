@@ -22,9 +22,11 @@ const Footer = () => {
 					<div className="col-lg-5">
 						<div className="cont">
 							<div className="logo">
-								<a href="#0">
-									<img src={`${appData.darkLogo}`} alt="Logo Beyin" />
-								</a>
+								<Link href="/">
+									<a>
+										<img src={`${appData.darkLogo}`} alt="Logo Sailspad" />
+									</a>
+								</Link>
 							</div>
 							<div className="con-info custom-font">
 								<ul>
@@ -94,7 +96,6 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-
 					</div>
 				</div>
 				<div className="copyrights text-center">
@@ -104,7 +105,6 @@ const Footer = () => {
 						owned by Beyin Digital Technology Limited, and/or its licensors, and
 						are protected. Any unauthorized use or reproduction or distribution,
 						shall attract suitable action under applicable law.
-						
 					</p>
 				</div>
 			</div>

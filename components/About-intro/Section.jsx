@@ -13,11 +13,17 @@ const AboutIntro = () => {
 						<div className="">
 							<Link href="/">
 								<a>
-									<Image src={Logo} alt="" width={200} height={100} />
+									<Image
+										src={Logo}
+										alt="Sailspad"
+										width={200}
+										height={100}
+										priority
+									/>
 								</a>
 							</Link>
 							{/* </h5> */}
-							<p style={{ fontSize:'15px',margin:'-12px 0px'}}>
+							<p style={{ fontSize: "15px", margin: "-12px 0px" }}>
 								by © Beyin Digital Technology Limited.
 							</p>
 						</div>
@@ -25,9 +31,7 @@ const AboutIntro = () => {
 					<div className="col-lg-8 offset-lg-1 col-md-8">
 						<div className="text">
 							<Split>
-								<p>
-
-								</p>
+								<p></p>
 							</Split>
 						</div>
 					</div>

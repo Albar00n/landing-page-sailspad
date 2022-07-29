@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image"
 import Clients1Data from "../data/sections/clients1.json";
 import Split from "../Split";
+import Link from "next/link";
 
 const Clients1 = ({ theme, subBG }) => {
   var first = Clients1Data.slice(0, Clients1Data.length / 2);
@@ -23,7 +25,10 @@ const Clients1 = ({ theme, subBG }) => {
 						<div>
 							<div className="row bord ">
 								{first.map((item) => (
-									<div key={item.id} className="col-sm-12 col-md-4 col-4 brands">
+									<div
+										key={item.id}
+										className="col-sm-12 col-md-4 col-4 brands"
+									>
 										<div
 											className="item wow fadeIn "
 											data-wow-delay={`${
@@ -38,9 +43,21 @@ const Clients1 = ({ theme, subBG }) => {
 										>
 											<div className="img">
 												{theme === "light" ? (
-													<img src={item.lightImage} alt="" />
+													<Image
+														src={item.lightImage}
+														alt={item.name}
+														height={40}
+														width={110}
+														priority
+													/>
 												) : (
-													<img src={item.darkImage} alt="" />
+													<Image
+														src={item.darkImage}
+														alt={item.name}
+														height={100}
+														width={100}
+														priority
+													/>
 												)}
 												<Split>
 													<a
@@ -62,7 +79,6 @@ const Clients1 = ({ theme, subBG }) => {
 										key={item.id}
 										className={`${
 											item.id == 4
-
 												? "col-md-4 col-12 brands sm-mb30"
 												: item.id == 4
 												? "col-md-4 col-12 brands sm-mb30"
@@ -89,18 +105,31 @@ const Clients1 = ({ theme, subBG }) => {
 										>
 											<div className="img">
 												{theme === "light" ? (
-													<img src={item.lightImage} alt="" />
+													<Image
+														src={item.lightImage}
+														alt={item.name}
+														height={40}
+														width={110}
+														priority
+													/>
 												) : (
-													<img src={item.darkImage} alt="" />
+													<Image
+														src={item.darkImage}
+														alt={item.name}
+														height={40}
+														width={110}
+														priority
+													/>
 												)}
 												<Split>
-													<a
-														href="#0"
-														className="link words chars splitting"
-														data-splitting
-													>
-														{/* {item.url} */}
-													</a>
+													<Link href="#0">
+														<a
+															className="link words chars splitting"
+															data-splitting
+														>
+															{/* {item.url} */}
+														</a>
+													</Link>
 												</Split>
 											</div>
 										</div>
