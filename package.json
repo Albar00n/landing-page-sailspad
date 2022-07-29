@@ -4,12 +4,14 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build && next export",
+		"build": "next build",
 		"sitemap": "next-sitemap next-sitemap.config.js",
+		"analyze": "ANALYZE=true next build",
 		"start": "next start",
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@next/bundle-analyzer": "^12.2.3",
 		"formik": "^2.2.9",
 		"next": "12.2.2",
 		"next-sitemap": "^3.1.15",

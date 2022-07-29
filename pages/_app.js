@@ -33,6 +33,10 @@ function MyApp({ Component, pageProps }) {
 				src="/js/isotope.pkgd.min.js"
 			></Script>
 			<Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script>
+			<Script
+				src="https://polyfill.io/v3/polyfill.min.js؟features=Array.prototype.map"
+				Strategy="beforeInteractive" // lazyOnload، afterInteractive
+			/>
 		</>
 	);
 }
