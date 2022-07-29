@@ -11,7 +11,7 @@ const Privacy = () => {
 	return (
 		<>
 			<Head>
-				<title> Beyin Technologies - Privacy Policy</title>
+				<title> Sailspad - Privacy Policy</title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta
@@ -36,7 +36,6 @@ const Privacy = () => {
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="ar_AR" />
-			
 			</Head>
 			<>
 				<AllNavbar />

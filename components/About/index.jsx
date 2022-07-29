@@ -56,9 +56,9 @@ const AboutUs2 = ({ skillsTheme }) => {
 							<Split>
 								<Link
 									href="https://app.sailspad.com/signup"
-									title="sign up sailspad"
+
 								>
-									<a
+									<a title="sign up sailspad"
 										className="words chars splitting simple-btn custom-font mt-30 wow"
 										data-splitting
 									>

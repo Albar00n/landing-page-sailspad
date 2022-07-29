@@ -25,7 +25,7 @@ const Contact = () => {
 	return (
 		<>
 			<Head>
-				<title> Beyin Technologies - Contact</title>
+				<title> Sailspad - Contact</title>
 
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
@@ -43,7 +43,6 @@ const Contact = () => {
 
 				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />
-				
 			</Head>
 			<>
 				<AllNavbar />
@@ -51,7 +50,7 @@ const Contact = () => {
 				<div className="main-content" ref={MainContent}>
 					<ContactWithMap />
 				</div>
-				<Footer  />
+				<Footer />
 			</>
 		</>
 	);

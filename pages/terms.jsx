@@ -9,7 +9,7 @@ const Privacy = () => {
 	return (
 		<>
 			<Head>
-				<title> Beyin Technologies - Terms & Condition </title>
+				<title> Sailspad - Terms & Condition </title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta
@@ -29,12 +29,11 @@ const Privacy = () => {
 					property="og:description"
 					content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
 				/>
-				
+
 				<meta property="og:title" content="Terms & Condition" />
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="ar_AR" />
-
 			</Head>
 			<>
 				<AllNavbar />

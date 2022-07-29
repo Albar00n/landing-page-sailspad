@@ -16,18 +16,19 @@ const Clients1 = ({ theme, subBG }) => {
 						<div className="sec-head custom-font mb-0">
 							<h6>Recognition</h6>
 							<h1 className="gray">
-								Recognized
+								Trusted
 								<br /> by
 							</h1>
 						</div>
 					</div>
 					<div className="col-lg-8">
 						<div>
-							<div className="row bord ">
+							<div className="row bord">
 								{first.map((item) => (
 									<div
 										key={item.id}
-										className="col-sm-12 col-md-4 col-4 brands"
+										className="col-md-3 col-6 brands"
+										//
 									>
 										<div
 											className="item wow fadeIn "
@@ -38,25 +39,29 @@ const Clients1 = ({ theme, subBG }) => {
 													? ".6"
 													: item.id == 3
 													? ".8"
+													: item.id == 4
+													? ".3"
 													: ""
 											}s`}
 										>
 											<div className="img">
 												{theme === "light" ? (
-													<Image
+													<img
 														src={item.lightImage}
 														alt={item.name}
-														height={40}
-														width={110}
+														title={item.name}
 														priority
+														quality={100}
 													/>
 												) : (
 													<Image
 														src={item.darkImage}
 														alt={item.name}
-														height={100}
-														width={100}
+														title={item.name}
+														height={60}
+														width={115}
 														priority
+														quality={100}
 													/>
 												)}
 												<Split>
@@ -65,7 +70,7 @@ const Clients1 = ({ theme, subBG }) => {
 														className="link words chars splitting"
 														data-splitting
 													>
-														{/* {item.url} */}
+														{item.url}
 													</a>
 												</Split>
 											</div>
@@ -73,19 +78,22 @@ const Clients1 = ({ theme, subBG }) => {
 									</div>
 								))}
 							</div>
-							<div className="row">
+							<div
+								className="row"
+								style={{ display: "flex", alginItems: "center" }}
+							>
 								{second.map((item) => (
 									<div
 										key={item.id}
 										className={`${
-											item.id == 4
-												? "col-md-4 col-12 brands sm-mb30"
-												: item.id == 4
-												? "col-md-4 col-12 brands sm-mb30"
-												: item.id == 5
-												? "col-md-4 col-12 brands sm-mb30"
+											item.id == 5
+												? "col-md-3 col-6 brands sm-mb30"
 												: item.id == 6
-												? "col-md-4 col-12 brands"
+												? "col-md-3 col-6 brands sm-mb30"
+												: item.id == 7
+												? "col-md-3 col-6 brands"
+												: item.id == 8
+												? "col-md-3 col-6 brands"
 												: ""
 										}`}
 									>
@@ -105,20 +113,22 @@ const Clients1 = ({ theme, subBG }) => {
 										>
 											<div className="img">
 												{theme === "light" ? (
-													<Image
+													<img
 														src={item.lightImage}
 														alt={item.name}
-														height={40}
-														width={110}
+														title={item.name}
 														priority
+														quality={100}
 													/>
 												) : (
 													<Image
 														src={item.darkImage}
 														alt={item.name}
-														height={40}
-														width={110}
+														title={item.name}
+														height={60}
+														width={115}
 														priority
+														quality={100}
 													/>
 												)}
 												<Split>
@@ -127,7 +137,7 @@ const Clients1 = ({ theme, subBG }) => {
 															className="link words chars splitting"
 															data-splitting
 														>
-															{/* {item.url} */}
+															{item.url}
 														</a>
 													</Link>
 												</Split>

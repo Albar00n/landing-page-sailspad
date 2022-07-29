@@ -15,7 +15,8 @@ const AboutIntro = () => {
 								<a>
 									<Image
 										src={Logo}
-										alt="Sailspad"
+										alt="logo Sailspad"
+										title="logo Sailspad"
 										width={200}
 										height={100}
 										priority

@@ -18,7 +18,7 @@ const PrivacyHeader = () => {
 								</Link>
 								<span>/</span>
 								<Link href="/privacy">
-									<a href="#0" className="active">
+									<a className="active">
 										Privacy
 									</a>
 								</Link>

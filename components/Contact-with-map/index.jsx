@@ -210,8 +210,14 @@ const ContactWithMap = () => {
 								<div className="item mb-60">
 									{/* <h5> */}
 									<Link href="/">
-										<a>
-											<Image src={Logo} alt="" width={200} height={100} />
+										<a title="Sailspad logo">
+											<Image
+												src={Logo}
+												alt="logo Sailspad"
+												title="Sailspad logo"
+												width={200}
+												height={100}
+											/>
 										</a>
 									</Link>
 									{/* </h5> */}
@@ -226,6 +232,7 @@ const ContactWithMap = () => {
 									<h5>
 										<Link href="mailto:support@beyin.me">
 											<a
+											title="Sailspad Email"
 												style={{
 													margin: "0px 5px",
 												}}
@@ -247,18 +254,22 @@ const ContactWithMap = () => {
 									</h6>
 								</div>
 								<div className="social mt-50">
-									<a href="#0" className="icon">
-										<i className="fab fa-facebook-f"></i>
-									</a>
-									<a href="#0" className="icon">
-										<i className="fab fa-twitter"></i>
-									</a>
-									<a href="#0" className="icon">
-										<i className="fab fa-pinterest"></i>
-									</a>
-									<a href="#0" className="icon">
-										<i className="fab fa-behance"></i>
-									</a>
+									<Link
+										href="https://www.instagram.com/beyin.me"
+										title="instagram beyin"
+									>
+										<a className="icon">
+											<i className="fab fa-instagram"></i>
+										</a>
+									</Link>
+									<Link
+										href="https://www.linkedin.com/company/beyin-tech"
+										title="linkedin beyin"
+									>
+										<a className="icon">
+											<i className="fab fa-linkedin-in"></i>
+										</a>
+									</Link>
 								</div>
 							</div>
 						</div>

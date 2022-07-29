@@ -22,11 +22,11 @@ const AboutHeader = () => {
 								questions!
 							</p>
 							<div className="path">
-								<Link href="#0">
+								<Link href="/">
 									<a>Home</a>
 								</Link>
 								<span>/</span>
-								<Link href="#0">
+								<Link href="/contact">
 									<a className="active">Contact</a>
 								</Link>
 							</div>

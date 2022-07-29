@@ -18,7 +18,7 @@ const TermsHeader = () => {
 								</Link>
 								<span>/</span>
 								<Link href="/terms">
-									<a href="#0" className="active">
+									<a className="active">
 										Terms & Conditions
 									</a>
 								</Link>

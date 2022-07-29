@@ -1,44 +1,49 @@
 [
 	{
 		"id": 1,
-		"name":"clients",
-		"lightImage": "/img/clients/brands/light/group.png",
-		"url": "www.avo.com"
+		"name":"Expo2022",
+		"lightImage": "/img/client/expo2022.png",
+		"url": "expo2020dubai.com"
 	},
 	{
 		"id": 2,
-		"name": "clients",
-		"lightImage": "/img/clients/brands/light/monday.png",
-		"url": "www.avo.com"
+		"name": "Almashreq Bank",
+		"lightImage": "/img/client/almashreq.png",
+		"url": "mashreqbank.com"
 	},
 	{
 		"id": 3,
-		"name": "clients",
-		"lightImage": "/img/clients/brands/light/morpheus.png",
-		"url": "www.avo.com"
+		"name": "Masdar Clean Energy",
+		"lightImage": "/img/client/masdar.png",
+		"url": "masdar.ae"
 	},
 	{
 		"id": 4,
-		"name": "clients",
-		"lightImage": "/img/clients/brands/light/samsung.png",
-		"url": "www.avo.com"
+		"name": "Mubadala Investment Company",
+		"lightImage": "/img/client/mubadala.png",
+		"url": "mubadala.com"
 	},
 	{
 		"id": 5,
-		"name": "clients",
-		"lightImage": "/img/clients/brands/light/segment.png",
-		"url": "www.avo.com"
+		"name": "Stripe payments platform",
+		"lightImage": "/img/client/stripe.png",
+		"url": "stripe.com"
 	},
 	{
 		"id": 6,
-		"name": "clients",
-		"lightImage": "/img/clients/brands/light/vector.png",
-		"url": "www.avo.com"
+		"name": "Sudan Expo 2022",
+		"lightImage": "/img/client/sudanExpo.png",
+		"url": "expo2020dubai.com"
 	},
 	{
-		"id": 4,
-		"name": "clients",
-		"lightImage": "/img/clients/brands/light/samsung.png",
-		"url": "www.avo.com"
+		"id": 7,
+		"name": "Department of Economic Development",
+		"lightImage": "/img/client/DepartmentofEconomicDevelopment.png",
+		"url": "adbc.gov.ae"
+	},{
+		"id": 8,
+		"name": "AI and Blockchain conference",
+		"lightImage": "/img/client/aibc.png",
+		"url": "aibc.world"
 	}
 ]

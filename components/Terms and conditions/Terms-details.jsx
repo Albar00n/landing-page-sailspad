@@ -40,7 +40,7 @@ const PrivacyDetails = () => {
 													to “you” or “your” or “user(s)” or “customer(s)” or
 													“client(s)”) and shall also govern your use of
 													<span>
-														<Link href="www.beyin.me">
+														<Link href="https://beyin.me">
 															<a className="underline">www.beyin.me/</a>
 														</Link>{" "}
 													</span>

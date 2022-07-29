@@ -68,7 +68,7 @@ React.useEffect(() => {
 	return (
 		<>
 			<Head>
-				<title> Sailspad Technologies </title>
+				<title> Sailspad Metaverse AR business card platform </title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta
@@ -86,10 +86,16 @@ React.useEffect(() => {
 				/>
 				<meta
 					property="og:description"
-					content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
+					content="Sailspad is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
 				/>
-				<meta name="title" content="Sailspad Technologies" />
-				<meta property="og:title" content="Sailspad Technologies" />
+				<meta
+					name="title"
+					content="Sailspad Metaverse AR business card platform"
+				/>
+				<meta
+					property="og:title"
+					content="Sailspad Metaverse AR business card platform"
+				/>
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="ar_AR" />

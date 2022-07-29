@@ -24,7 +24,7 @@ const Footer = () => {
 							<div className="logo">
 								<Link href="/">
 									<a>
-										<img src={`${appData.darkLogo}`} alt="Logo Sailspad" />
+										<img src={`${appData.darkLogo}`} alt="Logo Sailspad" title="Logo Sailspad"/>
 									</a>
 								</Link>
 							</div>
@@ -32,7 +32,7 @@ const Footer = () => {
 								<ul>
 									<li>
 										<Link href="mailto:support@beyin.me">
-											<a>
+											<a title="Beyin Email">
 												<span>Email : </span> Support@beyin.me
 											</a>
 										</Link>
@@ -55,13 +55,13 @@ const Footer = () => {
 									{/* <a href="#0" className="icon">
 										<i className="fab fa-twitter"></i>
 									</a> */}
-									<Link href="https://www.instagram.com/beyin.me/">
-										<a className="icon">
+									<Link href="https://www.instagram.com/beyin.me">
+										<a className="icon" title="instagram beyin">
 											<i className="fab fa-instagram"></i>
 										</a>
 									</Link>
-									<Link href="https://www.linkedin.com/company/beyin-tech/">
-										<a className="icon">
+									<Link href="https://www.linkedin.com/company/beyin-tech">
+										<a className="icon" title="linkedin beyin">
 											<i className="fab fa-linkedin-in"></i>
 										</a>
 									</Link>
@@ -74,24 +74,26 @@ const Footer = () => {
 							<ul style={{ listStyle: "none" }}>
 								<li style={{ fontSize: "20px" }}>
 									<Link href="/contact">
-										<a>Contact us</a>
+										<a title="Sailspad Contact">Contact us</a>
 									</Link>
 								</li>
 
 								<li style={{ fontSize: "20px" }}>
 									<Link href="/privacy">
-										<a>Privacy policy</a>
+										<a title="Privacy policy of Sailspad">Privacy policy</a>
 									</Link>
 								</li>
 
 								<li style={{ fontSize: "20px" }}>
 									<Link href="/terms">
-										<a>Terms and conditions</a>
+										<a title="Terms and conditions of Sailspad">
+											Terms and conditions
+										</a>
 									</Link>
 								</li>
 								<li style={{ fontSize: "20px" }}>
 									<Link href="/about">
-										<a> About us</a>
+										<a title="About Sailspad"> About us</a>
 									</Link>
 								</li>
 							</ul>

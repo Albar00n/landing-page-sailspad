@@ -106,7 +106,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 														</h1>
 													</Split>
 													{slide?.content && <p>{slide.content}</p>}
-													<Link href="https://app.sailspad.com/signup">
+													<Link href="https://app.sailspad.com/signup" title="Get Started">
 														<a className="btn-curve btn-lit mt-30">
 															<span>Get Started</span>
 														</a>
@@ -140,12 +140,12 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 				></div>
 
 				<div className="social-icon">
-					<Link href="https://www.instagram.com/beyin.me/">
+					<Link href="https://www.instagram.com/beyin.me/" title="Beyin instagram">
 						<a className="icon">
 							<i className="fab fa-instagram"></i>
 						</a>
 					</Link>
-					<Link href="https://www.linkedin.com/company/beyin-tech/">
+					<Link href="https://www.linkedin.com/company/beyin-tech/" title="Beyin Linkedin">
 						<a className="icon">
 							<i className="fab fa-linkedin-in"></i>
 						</a>

@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Sailspad Technologies</title>
+				<title>Sailspad Metaverse AR business card platform</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta

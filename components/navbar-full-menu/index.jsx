@@ -22,15 +22,30 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 				<div className="container-fluid">
 					<div className="logo">
 						<Link href="/">
-							<a className="logo">
+							<a className="logo" title="Sailspad">
 								{theme ? (
 									theme === "themeL" ? (
-										<img ref={lr} src={`${appData.darkLogo}`} alt="logo" />
+										<img
+											ref={lr}
+											src={`${appData.darkLogo}`}
+											alt="logo Sailspad"
+											title="logo Sailspad"
+										/>
 									) : (
-										<img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
+										<img
+											ref={lr}
+											src={`${appData.lightLogo}`}
+											alt="logo Sailspad"
+											title="logo Sailspad"
+										/>
 									)
 								) : (
-									<img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
+									<img
+										ref={lr}
+										src={`${appData.lightLogo}`}
+										alt="logo Sailspad"
+										title="logo Sailspad"
+									/>
 								)}
 							</a>
 						</Link>
@@ -60,8 +75,9 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 									<li>
 										<div className="o-hidden">
 											<Link href="/">
-												<a>
-													<span className="nm">0.1</span>Home
+												<a title="Sailspad Home">
+													<span className="nm">0.1</span>
+													Home
 												</a>
 											</Link>
 										</div>
@@ -69,8 +85,9 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 									<li>
 										<div className="o-hidden">
 											<Link href="/#about">
-												<a>
-													<span className="nm">02</span>About us
+												<a title="Sailspad About">
+													<span className="nm">02</span>
+													About us
 												</a>
 											</Link>
 										</div>
@@ -78,8 +95,9 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 									<li>
 										<div className="o-hidden">
 											<Link href="/#work">
-												<a>
-													<span className="nm">03</span>How it work
+												<a title="Sailspad How it work">
+													<span className="nm">03</span>
+													How it work
 												</a>
 											</Link>
 										</div>
@@ -87,8 +105,9 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 									<li>
 										<div className="o-hidden">
 											<Link href="/#features">
-												<a>
-													<span className="nm">04</span>Features
+												<a title="Sailspad Features">
+													<span className="nm">04</span>
+													Features
 												</a>
 											</Link>
 										</div>
@@ -96,17 +115,19 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 									<li>
 										<div className="o-hidden">
 											<Link href="/#price">
-												<a>
-													<span className="nm">05</span>Price
+												<a title="Sailspad Price">
+													<span className="nm">05</span>
+													Price
 												</a>
 											</Link>
 										</div>
 									</li>
 									<li>
 										<div className="o-hidden">
-											<Link href="/#contacte">
-												<a>
-													<span className="nm">06</span>Contact
+											<Link href="/contact">
+												<a title="Sailspad Contact">
+													<span className="nm">06</span>
+													Contact
 												</a>
 											</Link>
 										</div>
@@ -130,7 +151,9 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 								<div className="item">
 									<h6>Email :</h6>
 									<p>
-										<a href="mailto:support@beyin.me">Support@beyin.me</a>
+										<a href="mailto:support@beyin.me" title="Beyin Email">
+											Support@beyin.me
+										</a>
 									</p>
 								</div>
 							</div>

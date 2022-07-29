@@ -14,7 +14,7 @@ const AboutDark = () => {
 	return (
 		<>
 			<Head>
-				<title> Beyin Technologies - About </title>
+				<title> Sailspad - About </title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta

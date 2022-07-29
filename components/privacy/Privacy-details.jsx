@@ -417,15 +417,15 @@ const PrivacyDetails = () => {
 																We share your personal as well as non-personal
 																information with our third-party hosting service
 																providers namely, Heroku
-																<Link href="www.heroku.com">
+																<Link href="https://www.heroku.com/">
 																	<a className="linkPrivacy">
-																		(www.heroku.com/)
+																		(www.heroku.com)
 																	</a>
 																</Link>
 																and Vercel
-																<Link href="www.vercel.com">
+																<Link href="https://vercel.com/">
 																	<a className="linkPrivacy">
-																		(www.vercel.com/)
+																		(www.vercel.com)
 																	</a>
 																</Link>
 															</li>
@@ -436,15 +436,15 @@ const PrivacyDetails = () => {
 																providers and will also share the some of your
 																information with the third-party payment gateway
 																service providers, namely, Stripe
-																<Link href="www.stripe.com">
+																<Link href="https://stripe.com/ae">
 																	<a className="linkPrivacy">
-																		(www.stripe.com/)
+																		(www.stripe.com)
 																	</a>
 																</Link>
 																and Mamo Pay
-																<Link href="www.mamopay.com">
+																<Link href="https://www.mamopay.com/">
 																	<a className="linkPrivacy">
-																		(www.mamopay.com/).
+																		(www.mamopay.com).
 																	</a>
 																</Link>
 															</li>
@@ -473,13 +473,13 @@ const PrivacyDetails = () => {
 																<b className="black"> Storage:</b>
 																Your data is stored through data storage,
 																databases and servers of Heroku
-																<Link href="www.heroku.com">
+																<Link href="https://www.heroku.com/">
 																	<a className="linkPrivacy">
 																		(www.heroku.com/)
 																	</a>
 																</Link>
 																and Vercel
-																<Link href="www.vercel.com">
+																<Link href="https://vercel.com/">
 																	<a className="linkPrivacy">
 																		(www.vercel.com/)
 																	</a>
