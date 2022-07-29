@@ -193,7 +193,11 @@ body .slick-dots li button {
 								align-items: center;
 								justify-content: center;
 }
+.line:first-child{
+  letter-spacing: 3px;
 
+
+}
 @media screen and (max-width: 991px) {
   .conno {
     display: none;

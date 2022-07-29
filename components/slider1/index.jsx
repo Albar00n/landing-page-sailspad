@@ -96,18 +96,23 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 													<Split>
 														<h1 className="words chars splitting">
 															{typeof slide.title === "object" ? (
-																<>
-																	{slide.title.first} <br />
-																	{slide.title.second}
-																</>
+																<div className="line">
+																	<h1>{slide.title.first}</h1>
+																	<i></i>
+																	<h1>{slide.title.second}</h1>
+
+																</div>
 															) : (
 																slide.title
 															)}
 														</h1>
 													</Split>
 													{slide?.content && <p>{slide.content}</p>}
-													<Link href="https://app.sailspad.com/signup" title="Get Started">
-														<a className="btn-curve btn-lit mt-30">
+													<Link href="https://app.sailspad.com/signup">
+														<a
+															className="btn-curve btn-lit mt-30"
+															title="Get Started"
+														>
 															<span>Get Started</span>
 														</a>
 													</Link>
@@ -140,12 +145,18 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 				></div>
 
 				<div className="social-icon">
-					<Link href="https://www.instagram.com/beyin.me/" title="Beyin instagram">
+					<Link
+						href="https://www.instagram.com/beyin.me/"
+						title="Beyin instagram"
+					>
 						<a className="icon">
 							<i className="fab fa-instagram"></i>
 						</a>
 					</Link>
-					<Link href="https://www.linkedin.com/company/beyin-tech/" title="Beyin Linkedin">
+					<Link
+						href="https://www.linkedin.com/company/beyin-tech/"
+						title="Beyin Linkedin"
+					>
 						<a className="icon">
 							<i className="fab fa-linkedin-in"></i>
 						</a>
