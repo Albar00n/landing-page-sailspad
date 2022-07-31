@@ -14,13 +14,16 @@ const Privacy = () => {
 				<title> Sailspad - Privacy Policy</title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="robots"
 					content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
 				/>
-
+				<meta
+					name="description"
+					content="Sailspad is an AR business networking and communication platform developed by Beyin Digital Technology Limited, please read our privacy policy for more details."
+				/>
 				<meta name="title" content="Sailspad - Privacy Policy" />
 				<meta property="og:title" content="Privacy Policy" />
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}

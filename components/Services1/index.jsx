@@ -56,7 +56,7 @@ const Services1 = () => {
 						data-wow-delay=".3s"
 						style={{ backgroundImage: "url(/img/slid/beyin.png)" }}
 					>
-						<h4 className="custom-font">Replacement for best of fretures</h4>
+						<h4 className="custom-font">Grow with Sailspad</h4>
 						<Link
 							href="https://app.sailspad.com/signup"
 							title="sign up sailspad"
