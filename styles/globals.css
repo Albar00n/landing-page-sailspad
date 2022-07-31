@@ -163,7 +163,7 @@ body .slick-dots li button {
 .liNum {
   /* color: aliceblue; */
   /* list-style-type: inherit; */
-  list-style-type: circle;
+  list-style-type: square;
 
 }
 

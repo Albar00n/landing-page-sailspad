@@ -54,11 +54,9 @@ const AboutUs2 = ({ skillsTheme }) => {
 								volutpat velit class aptent taciti sociosqu ad litora.
 							</p> */}
 							<Split>
-								<Link
-									href="https://app.sailspad.com/signup"
-
-								>
-									<a title="sign up sailspad"
+								<Link href="https://app.sailspad.com/signup">
+									<a
+										title="sign up sailspad"
 										className="words chars splitting simple-btn custom-font mt-30 wow"
 										data-splitting
 									>
@@ -72,18 +70,18 @@ const AboutUs2 = ({ skillsTheme }) => {
 						<div className="blc-img">
 							<div className="bimg wow imago">
 								<Image
-									src="/img/slid/beyinH6.png"
+									src="/img/slid/beyinCard.png"
 									alt="تطبيق جوال"
 									width={750}
-									height={560}
+									height={500}
 									// style={{ height: "430px", width: "100%" }}
 									title="تطبيق جوال"
 									priority
 								/>
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">
-								<div className="item">
-									<div className="skill">
+								<div className="it m-1">
+									{/* <div className="skill">
 										<CircularProgressbar
 											value={90}
 											className="custom-font"
@@ -91,14 +89,17 @@ const AboutUs2 = ({ skillsTheme }) => {
 											text={`${90}%`}
 											styles={cpStyle}
 										/>
-									</div>
-									<div className="cont">
-										<span>Project</span>
-										<h6>Consulting</h6>
-									</div>
+									</div> */}
+									{/* <div className="cont"> */}
+									<h1 style={{fontSize:'17px'}}>
+										With one Qr code link, you can turn your printed business
+										card into an Augmented Reality business card.
+									</h1>
+									{/* <h6>Consulting</h6> */}
+									{/* </div> */}
 								</div>
-								<div className="item">
-									<div className="skill">
+								{/* <div className="item"> */}
+								{/* <div className="skill">
 										<CircularProgressbar
 											value={75}
 											strokeWidth={2}
@@ -106,12 +107,12 @@ const AboutUs2 = ({ skillsTheme }) => {
 											text={`${75}%`}
 											styles={cpStyle}
 										/>
-									</div>
-									<div className="cont">
-										<span>App</span>
-										<h6>Development</h6>
-									</div>
-								</div>
+									</div> */}
+								{/* <div className="cont"> */}
+								{/* <span>App</span> */}
+								{/* <h6>Development</h6> */}
+								{/* </div> */}
+								{/* </div> */}
 							</div>
 						</div>
 					</div>

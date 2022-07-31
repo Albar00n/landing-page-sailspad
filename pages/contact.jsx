@@ -25,21 +25,22 @@ const Contact = () => {
 	return (
 		<>
 			<Head>
-				<title> Sailspad - Contact</title>
+				<title> Contact us | Sailspad</title>
 
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1, user-scalable=0"
-				/>
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="robots"
 					content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
 				/>
-				<meta name="description" content="" />
-				<meta property="og:description" content="" />
-				<meta name="title" content="Contact Beyin Technologies" />
+				<meta
+					name="description"
+					content="Sailspad support team is ready to help you with all of your concerns, please provide your information and send us a message and we will get back to you soon."
+				/>
+
+				<meta name="title" content="Contact Sailspad Technologies" />
 
 				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />

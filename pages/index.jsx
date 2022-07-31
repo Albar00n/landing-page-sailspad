@@ -68,25 +68,22 @@ React.useEffect(() => {
 	return (
 		<>
 			<Head>
-				<title> Sailspad Metaverse AR business card platform </title>
+				<title>Sailspad | Metaverse AR Business card platform </title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1, user-scalable=0"
-				/>
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="robots"
 					content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
 				/>
 				<meta
 					name="description"
-					content="Augmented reality service providers
-نبتكر ونطور المشاريع الرقمية | Digital innovators"
+					content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
 				/>
 				<meta
-					property="og:description"
-					content="Sailspad is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
+					name="og:description"
+					content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
 				/>
 				<meta
 					name="title"

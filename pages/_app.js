@@ -13,15 +13,13 @@ function MyApp({ Component, pageProps }) {
 				<title>Sailspad Metaverse AR business card platform</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="description"
-					content="Augmented reality service providers
-نبتكر ونطور المشاريع الرقمية | Digital innovators"
+					content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
 				/>
-				<meta
-					name="og:description"
-					content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
-				/>
+
 				<meta
 					name="title"
 					content="Https://landing-page-sailspad.vercel.app/"

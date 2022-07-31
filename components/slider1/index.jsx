@@ -100,7 +100,6 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 																	<h1>{slide.title.first}</h1>
 																	<i></i>
 																	<h1>{slide.title.second}</h1>
-
 																</div>
 															) : (
 																slide.title
@@ -145,19 +144,13 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 				></div>
 
 				<div className="social-icon">
-					<Link
-						href="https://www.instagram.com/beyin.me/"
-						title="Beyin instagram"
-					>
-						<a className="icon">
+					<Link href="https://www.instagram.com/beyin.me/">
+						<a className="icon" title="Beyin instagram">
 							<i className="fab fa-instagram"></i>
 						</a>
 					</Link>
-					<Link
-						href="https://www.linkedin.com/company/beyin-tech/"
-						title="Beyin Linkedin"
-					>
-						<a className="icon">
+					<Link href="https://www.linkedin.com/company/beyin-tech/">
+						<a className="icon" title="Beyin Linkedin">
 							<i className="fab fa-linkedin-in"></i>
 						</a>
 					</Link>

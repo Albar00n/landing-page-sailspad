@@ -91,7 +91,11 @@ const VideoWithTestimonials = () => {
 										<div className="info">
 											<div className="img">
 												<div className="img-box">
-													<img src="/img/slid/beyinH1.png" alt="" />
+													<img
+														src="/img/slid/beyinH1.png"
+														alt="Beyin"
+														title="beyin"
+													/>
 												</div>
 											</div>
 											<div className="cont">
@@ -115,7 +119,11 @@ const VideoWithTestimonials = () => {
 										<div className="info">
 											<div className="img">
 												<div className="img-box">
-													<img src="/img/slid/beyinH1.png" alt="" />
+													<img
+														src="/img/slid/beyinH1.png"
+														alt="Beyin"
+														title="beyin"
+													/>
 												</div>
 											</div>
 											<div className="cont">
@@ -139,7 +147,11 @@ const VideoWithTestimonials = () => {
 										<div className="info">
 											<div className="img">
 												<div className="img-box">
-													<img src="/img/slid/beyinH1.png" alt="" />
+													<img
+														src="/img/slid/beyinH1.png"
+														alt="Beyin"
+														title="beyin"
+													/>
 												</div>
 											</div>
 											<div className="cont">

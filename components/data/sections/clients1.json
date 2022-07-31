@@ -3,47 +3,55 @@
 		"id": 1,
 		"name":"Expo2022",
 		"lightImage": "/img/client/expo2022.png",
-		"url": "expo2020dubai.com"
+		"Com": "expo2020dubai.com",
+		"url": "https://www.expo2020dubai.com/"
 	},
 	{
 		"id": 2,
 		"name": "Almashreq Bank",
 		"lightImage": "/img/client/almashreq.png",
-		"url": "mashreqbank.com"
+		"Com": "mashreqbank.com",
+		"url": "https://www.mashreqbank.com/en/uae/personal"
 	},
 	{
 		"id": 3,
 		"name": "Masdar Clean Energy",
 		"lightImage": "/img/client/masdar.png",
-		"url": "masdar.ae"
+		"Com": "masdar.ae",
+		"url": "https://masdar.ae/"
 	},
 	{
 		"id": 4,
 		"name": "Mubadala Investment Company",
 		"lightImage": "/img/client/mubadala.png",
-		"url": "mubadala.com"
+		"Com": "mubadala.com",
+		"url": "https://www.mubadala.com/"
 	},
 	{
 		"id": 5,
 		"name": "Stripe payments platform",
 		"lightImage": "/img/client/stripe.png",
-		"url": "stripe.com"
+		"Com": "stripe.com",
+		"url": "https://stripe.com/ae"
 	},
 	{
 		"id": 6,
 		"name": "Sudan Expo 2022",
 		"lightImage": "/img/client/sudanExpo.png",
-		"url": "expo2020dubai.com"
+		"Com": "expo2020dubai.com",
+		"url": "https://www.expo2020dubai.com/ar/understanding-expo/participants/country-pavilions/sudan.html"
 	},
 	{
 		"id": 7,
 		"name": "Department of Economic Development",
 		"lightImage": "/img/client/DepartmentofEconomicDevelopment.png",
-		"url": "adbc.gov.ae"
+		"Com": "added.gov.ae",
+		"url": "https://added.gov.ae/"
 	},{
 		"id": 8,
 		"name": "AI and Blockchain conference",
 		"lightImage": "/img/client/aibc.png",
-		"url": "aibc.world"
+		"Com": "aibc.world",
+		"url": "https://aibc.world/"
 	}
 ]

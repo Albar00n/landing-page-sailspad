@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React from "react";
 import Head from "next/head";
 import AboutHeader from "../components/About-header";
@@ -14,18 +15,19 @@ const AboutDark = () => {
 	return (
 		<>
 			<Head>
-				<title> Sailspad - About </title>
+				<title> About Sailspad </title>
 				<meta property="og:locale" content="ar_AR" />
 				<link rel="shortcut icon" href="/favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1, user-scalable=0"
-				/>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="robots"
 					content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
 				/>
-				<meta name="description" content="" />
+				<meta
+					name="description"
+					content="Sailspad is a business networking and communication platform that utilizes metaverse AR technologies to create a better business networking and communication experience."
+				/>
 				<link
 					rel="alternate"
 					type="application/atom+xml"

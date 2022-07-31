@@ -51,9 +51,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 						</Link>
 					</div>
 					<div className="menu-icon">
-						<span className="icon">
-							<i></i>
-							<i></i>
+						<span className="menu-text">
+							<i className="fa fa-bars" aria-hidden="true"></i>
 						</span>
 						<Split>
 							<span className="text" data-splitting>
@@ -87,7 +86,7 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											<Link href="/#about">
 												<a title="Sailspad About">
 													<span className="nm">02</span>
-													About us
+													About
 												</a>
 											</Link>
 										</div>
@@ -97,7 +96,7 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											<Link href="/#work">
 												<a title="Sailspad How it work">
 													<span className="nm">03</span>
-													How it work
+													How it works
 												</a>
 											</Link>
 										</div>
@@ -117,12 +116,12 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											<Link href="/#price">
 												<a title="Sailspad Price">
 													<span className="nm">05</span>
-													Price
+													Pricing
 												</a>
 											</Link>
 										</div>
 									</li>
-									<li>
+									{/* <li>
 										<div className="o-hidden">
 											<Link href="/contact">
 												<a title="Sailspad Contact">
@@ -131,7 +130,7 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 												</a>
 											</Link>
 										</div>
-									</li>
+									</li> */}
 								</ul>
 							</div>
 						</div>
@@ -155,6 +154,41 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											Support@beyin.me
 										</a>
 									</p>
+								</div>
+								<div className="item">
+									<h6>
+										<Link href="/about">
+											<a title="About Sailspad">About us</a>
+										</Link>
+									</h6>
+								</div>
+								{/* <span></span> */}
+								<div className="item">
+									<h6>
+										<Link href="/contact">
+											<a title="Contact Sailspad">Contact us</a>
+										</Link>
+									</h6>
+								</div>
+								{/* <span></span> */}
+
+								<div className="item">
+									<h6>
+										<Link href="/privacy">
+											<a title="Privacy Policy Sailspad">Privacy Policy</a>
+										</Link>
+									</h6>
+								</div>
+								{/* <span></span> */}
+
+								<div className="item">
+									<h6>
+										<Link href="/terms">
+											<a title="Terms & Condition Sailspad">
+												Terms & Condition
+											</a>
+										</Link>
+									</h6>
 								</div>
 							</div>
 						</div>

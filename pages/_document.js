@@ -14,17 +14,20 @@ class MyDocument extends Document {
 			<Html lang="en">
 				<Head>
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+
+					
 					<meta
 						name="description"
-						content="Augmented reality service providers
-نبتكر ونطور المشاريع الرقمية | Digital innovators"
+						content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
 					/>
 					<meta
 						name="og:description"
-						content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
+						content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
 					/>
-					<meta name="title" content="Https://landing-page-sailspad.vercel.app/" />
-
+					<meta
+						name="title"
+						content="Https://landing-page-sailspad.vercel.app/"
+					/>
 
 					<meta
 						name="keywords"
@@ -81,3 +84,5 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
+

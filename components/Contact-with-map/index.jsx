@@ -160,6 +160,23 @@ const ContactWithMap = () => {
 																	htmlFor="#e_commerce"
 																	style={{
 																		color: "#545454",
+																		width: "230px",
+																	}}
+																>
+																	Collaboration or partnership
+																</label>
+															</div>
+															<div className="form-check m-1">
+																<input
+																	className="form-check-input"
+																	type="checkbox"
+																	id="e_commerce"
+																/>
+																<label
+																	className="form-check-label ml-2"
+																	htmlFor="#e_commerce"
+																	style={{
+																		color: "#545454",
 																		width: "110px",
 																	}}
 																>
@@ -232,7 +249,7 @@ const ContactWithMap = () => {
 									<h5>
 										<Link href="mailto:support@beyin.me">
 											<a
-											title="Sailspad Email"
+												title="Sailspad Email"
 												style={{
 													margin: "0px 5px",
 												}}
