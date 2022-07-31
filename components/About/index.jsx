@@ -71,11 +71,12 @@ const AboutUs2 = ({ skillsTheme }) => {
 							<div className="bimg wow imago">
 								<Image
 									src="/img/slid/beyinCard.png"
-									alt="تطبيق جوال"
+									alt="With one Qr code link, you can turn your printed business
+										card into an Augmented Reality business card."
 									width={750}
 									height={500}
 									// style={{ height: "430px", width: "100%" }}
-									title="تطبيق جوال"
+									title="AR Business Card"
 									priority
 								/>
 							</div>
@@ -91,7 +92,7 @@ const AboutUs2 = ({ skillsTheme }) => {
 										/>
 									</div> */}
 									{/* <div className="cont"> */}
-									<h1 style={{fontSize:'17px'}}>
+									<h1 style={{ fontSize: "17px" }}>
 										With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card.
 									</h1>
