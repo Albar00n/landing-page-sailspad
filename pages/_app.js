@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
-					name="description"
+					property="description"
 					content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
 				/>
 

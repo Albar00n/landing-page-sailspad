@@ -16,7 +16,7 @@ const AboutDark = () => {
 		<>
 			<Head>
 				<title> About Sailspad </title>
-				<meta property="og:locale" content="ar_AR" />
+				
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,15 +25,14 @@ const AboutDark = () => {
 					content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
 				/>
 				<meta
-					name="description"
+					property="description"
 					content="Sailspad is a business networking and communication platform that utilizes metaverse AR technologies to create a better business networking and communication experience."
 				/>
-				<link
-					rel="alternate"
-					type="application/atom+xml"
-					href="https://feeds.feedburner.com/blogspot/amDG"
-				/>
+				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />
+				<meta property="og:locale" content="" />
+				<meta property="og:url" content="" />
+				<meta property="og:image" content="" />
 
 				<meta
 					property="og:site_name"

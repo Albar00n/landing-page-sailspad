@@ -15,13 +15,13 @@ class MyDocument extends Document {
 				<Head>
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-					
+
 					<meta
-						name="description"
+						property="description"
 						content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
 					/>
 					<meta
-						name="og:description"
+						property="og:description"
 						content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
 					/>
 					<meta

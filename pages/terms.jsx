@@ -10,7 +10,7 @@ const Privacy = () => {
 		<>
 			<Head>
 				<title> Sailspad - Terms & Condition </title>
-				<meta property="og:locale" content="ar_AR" />
+				
 				<link rel="shortcut icon" href="/favicon.ico" />
 
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,10 +22,16 @@ const Privacy = () => {
 					name="description"
 					content="Sailspad is an AR business networking and communication platform developed by Beyin Digital Technology Limited, please read our Terms and Condition for more details."
 				/>
+				<meta
+					property="description"
+					content="Sailspad is an AR business networking and communication platform developed by Beyin Digital Technology Limited, please read our Terms and Condition for more details."
+				/>
 				<meta property="og:title" content="Terms & Condition" />
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="ar_AR" />
+				<meta property="og:locale" content="" />
+				<meta property="og:url" content="" />
+				<meta property="og:image" content="" />
 			</Head>
 			<>
 				<AllNavbar />

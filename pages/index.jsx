@@ -69,7 +69,7 @@ React.useEffect(() => {
 		<>
 			<Head>
 				<title>Sailspad | Metaverse AR Business card platform </title>
-				<meta property="og:locale" content="ar_AR" />
+				
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -94,8 +94,11 @@ React.useEffect(() => {
 					content="Sailspad Metaverse AR business card platform"
 				/>
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
+
 				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="ar_AR" />
+				<meta property="og:locale" content="" />
+				<meta property="og:url" content="" />
+				<meta property="og:image" content="" />
 				<meta
 					name="keywords"
 					content="creative business cards,cool business cards,e business card,personal business cards,design your own business cards,blank business cards"

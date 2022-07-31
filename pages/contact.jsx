@@ -44,6 +44,9 @@ const Contact = () => {
 
 				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />
+				<meta property="og:locale" content="" />
+				<meta property="og:url" content="" />
+				<meta property="og:image" content="" />
 			</Head>
 			<>
 				<AllNavbar />
