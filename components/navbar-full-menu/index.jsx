@@ -52,12 +52,12 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 					</div>
 					<div className="menu-icon">
 						<span className="menu-text">
-							<i className="fa fa-bars" aria-hidden="true"></i>
+							<h6 className="">Menu</h6>
 						</span>
 						<Split>
 							<span className="text" data-splitting>
 								<span className="menu-text" style={{ margin: "0px 5px" }}>
-									Menu
+
 								</span>
 							</span>
 						</Split>
