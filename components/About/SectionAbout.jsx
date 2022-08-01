@@ -69,26 +69,24 @@ const SectionAbout = ({ skillsTheme }) => {
 						<div className="blc-img">
 							<div className="bimg wow imago">
 								<Image
-									src="/img/slid/beyinCard.png"
+									src="/img/slid/beyinH11.png"
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
-									width={750}
-									height={500}
-
+									width={800}
+									height={650}
 									title="AR Business Card"
 									priority
 								/>
 							</div>
-							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">
-								<div className="it m-1">
-
+							<div
+								className="skills-circle wow fadeInUp sectionAbout"
+								data-wow-delay=".8"
+							>
+								<div className=" m-1 ">
 									<h1 style={{ fontSize: "17px" }}>
-										With one Qr code link, you can turn your printed business
-										card into an Augmented Reality business card.
+										With one Qr code link, you can turn your 
 									</h1>
-
 								</div>
-
 							</div>
 						</div>
 					</div>
