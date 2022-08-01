@@ -15,7 +15,6 @@ class MyDocument extends Document {
 				<Head>
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-
 					<meta
 						property="description"
 						content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
@@ -84,5 +83,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-
-

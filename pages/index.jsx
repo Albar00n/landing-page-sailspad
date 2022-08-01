@@ -69,7 +69,7 @@ React.useEffect(() => {
 		<>
 			<Head>
 				<title>Sailspad | Metaverse AR Business card platform </title>
-				
+
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -97,7 +97,10 @@ React.useEffect(() => {
 
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="" />
-				<meta property="og:url" content="" />
+				<meta
+					property="og:url"
+					content="https://landing-page-sailspad.vercel.app/"
+				/>
 				<meta property="og:image" content="" />
 				<meta
 					name="keywords"

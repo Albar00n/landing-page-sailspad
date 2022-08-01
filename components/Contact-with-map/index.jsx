@@ -29,7 +29,7 @@ const ContactWithMap = () => {
 										name: "",
 										email: "",
 										message: "",
-										price: "",
+										checked: "",
 										phone: "",
 									}}
 									onSubmit={async (values) => {
@@ -43,7 +43,7 @@ const ContactWithMap = () => {
 										values.name = "";
 										values.email = "";
 										values.message = "";
-										values.price = "";
+										values.checked = "";
 										values.phone = "";
 										// clear message
 										setTimeout(() => {
@@ -93,114 +93,89 @@ const ContactWithMap = () => {
 												</div>
 												<div className="form-group">
 													{/*  */}
-													<label>LOOKING FOR:</label>
-													<div className="row-sm-12 mb-9">
-														<div className="col-1 ">
-															<div className="form-check m-1 ">
-																<input
-																	className="form-check-input"
-																	type="checkbox"
-																	id="branding"
-																/>
-																<label
-																	className="form-check-label ml-2 "
-																	htmlFor="#branding"
-																	style={{
-																		color: "#545454",
-																		width: "140px",
-																	}}
-																>
-																	Sign-up support
-																</label>
-															</div>
+													<div id="checkboxGroup">LOOKING FOR:</div>
+													<div role="group" id="checkboxGroup">
+														<label
+															htmlFor="#checked"
+															style={{
+																display: "inline-flex",
+															}}
+														>
+															<Field
+																type="checkbox"
+																name="checked"
+																value="Sign-up"
+																className="filed"
+															/>
+															Sign-up support
+														</label>
+														<br />
 
-															<div className="form-check m-1">
-																<input
-																	className="form-check-input"
-																	type="checkbox"
-																	id="web_design"
-																/>
-																<label
-																	className="form-check-label ml-2"
-																	htmlFor="#web_design"
-																	style={{
-																		color: "#545454",
-																		width: "190px",
-																	}}
-																>
-																	Platform usage support
-																</label>
-															</div>
+														<label
+															htmlFor="#checked"
+															style={{
+																display: "inline-flex",
+															}}
+														>
+															<Field
+																type="checkbox"
+																name="checked"
+																value="Platform"
+																className="filed"
+															/>
+															Platform usage support
+														</label>
+														<br />
+														<label
+															htmlFor="#checked"
+															style={{
+																display: "inline-flex",
+															}}
+														>
+															<Field
+																type="checkbox"
+																name="checked"
+																value="WhiteLabelling"
+																className="filed"
+															/>
+															White-labelling
+														</label>
+														<br />
+														<label
+															htmlFor="#checked"
+															style={{
+																display: "inline-flex",
+															}}
+														>
+															<Field
+																type="checkbox"
+																name="checked"
+																value="Collaboration"
+																className="filed"
+															/>
+															Collaboration or partnership
+														</label>
+														<br />
+														<label
+															htmlFor="#checked"
+															style={{
 
-															<div className="form-check m-1">
-																<input
-																	className="form-check-input"
-																	type="checkbox"
-																	id="web_development"
-																/>
-																<label
-																	className="form-check-label ml-2"
-																	htmlFor="#web_development"
-																	style={{
-																		color: "#545454",
-																		width: "150px",
-																	}}
-																>
-																	White-labelling
-																</label>
-															</div>
-															<div className="form-check m-1">
-																<input
-																	className="form-check-input"
-																	type="checkbox"
-																	id="e_commerce"
-																/>
-																<label
-																	className="form-check-label ml-2"
-																	htmlFor="#e_commerce"
-																	style={{
-																		color: "#545454",
-																		width: "230px",
-																	}}
-																>
-																	Collaboration or partnership
-																</label>
-															</div>
-															<div className="form-check m-1">
-																<input
-																	className="form-check-input"
-																	type="checkbox"
-																	id="e_commerce"
-																/>
-																<label
-																	className="form-check-label ml-2"
-																	htmlFor="#e_commerce"
-																	style={{
-																		color: "#545454",
-																		width: "110px",
-																	}}
-																>
-																	Other
-																</label>
-															</div>
-														</div>
+																display: "inline-flex",
+															}}
+														>
+															<Field
+																type="checkbox"
+																name="checked"
+																value="Other"
+																className="filed"
+															/>
+															Other
+														</label>
 													</div>
-
 													{/*  */}
 												</div>
-												{/* <div className="form-group">
-													<label htmlFor="#from_price">YOUR BUDCET: </label>
-													<Field
-														id="form_price"
-														type="text"
-														name="price"
-														placeholder="ex: +$1000"
-														required="required"
-													/>
-												</div> */}
-
 												<div className="form-group">
-													<labe htmlFor="#form_message">BRIEF:</labe>
+													<label htmlFor="#form_message">BRIEF:</label>
 													<Field
 														as="textarea"
 														id="form_message"

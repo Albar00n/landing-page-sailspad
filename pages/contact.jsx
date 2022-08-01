@@ -45,8 +45,23 @@ const Contact = () => {
 				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="" />
-				<meta property="og:url" content="" />
+				<meta
+					property="og:url"
+					content="https://landing-page-sailspad.vercel.app/contact"
+				/>
 				<meta property="og:image" content="" />
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							name: "Contact us | Sailspad",
+							url: "https://landing-page-sailspad.vercel.app/contact",
+							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+						}),
+					}}
+				></script>
 			</Head>
 			<>
 				<AllNavbar />

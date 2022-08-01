@@ -10,7 +10,7 @@ const Privacy = () => {
 		<>
 			<Head>
 				<title> Sailspad - Terms & Condition </title>
-				
+
 				<link rel="shortcut icon" href="/favicon.ico" />
 
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,8 +30,23 @@ const Privacy = () => {
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="" />
-				<meta property="og:url" content="" />
+				<meta
+					property="og:url"
+					content="https://landing-page-sailspad.vercel.app/terms"
+				/>
 				<meta property="og:image" content="" />
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							name: "Sailspad - Terms & Condition",
+							url: "https://landing-page-sailspad.vercel.app/terms",
+							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+						}),
+					}}
+				></script>
 			</Head>
 			<>
 				<AllNavbar />

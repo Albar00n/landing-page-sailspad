@@ -16,7 +16,7 @@ const AboutDark = () => {
 		<>
 			<Head>
 				<title> About Sailspad </title>
-				
+
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,13 +31,28 @@ const AboutDark = () => {
 				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="" />
-				<meta property="og:url" content="" />
+				<meta
+					property="og:url"
+					content="https://landing-page-sailspad.vercel.app/about"
+				/>
 				<meta property="og:image" content="" />
 
 				<meta
 					property="og:site_name"
 					content="Mobile App Development, Web Design, Digital Marketing company in Abu Dhabi"
 				/>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							name: "About Sailspad ",
+							url: "https://landing-page-sailspad.vercel.app/about",
+							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+						}),
+					}}
+				></script>
 			</Head>
 			<>
 				<AllNavbar />

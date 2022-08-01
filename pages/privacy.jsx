@@ -28,9 +28,24 @@ const Privacy = () => {
 				<meta property="og:title" content="Privacy Policy" />
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
-				
-				<meta property="og:url" content="" />
+
+				<meta
+					property="og:url"
+					content="https://landing-page-sailspad.vercel.app/privacy"
+				/>
 				<meta property="og:image" content="" />
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							name: "Sailspad - Privacy Policy",
+							url: "https://landing-page-sailspad.vercel.app/privact",
+							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+						}),
+					}}
+				></script>
 			</Head>
 			<>
 				<AllNavbar />
