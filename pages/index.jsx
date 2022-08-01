@@ -4,10 +4,11 @@ import Navbar from "../components/Navba/index";
 import NAvbarF from "../components/navbar-full-menu/index"
 import Slider1 from "../components/slider1/index";
 import About from "../components/About/index";
+import SectionAbout from "../components/About/SectionAbout"
 import Services from "../components/Services1/index";
 import Services2 from "../components/Services2/index";
-import Video from "../components/Video-with-testimonials/index";
-import SkillsCircle from "../components/Skills-circle/index";
+// import Video from "../components/Video-with-testimonials/index";
+// import SkillsCircle from "../components/Skills-circle/index";
 import Clients from "../components/Clients1";
 import Blog from "../components/Blogs-two-column-slider/index";
 import CallToAction from "../components/Call-to-action/index";
@@ -93,17 +94,27 @@ React.useEffect(() => {
 					property="og:title"
 					content="Sailspad Metaverse AR business card platform"
 				/>
-				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
-
-				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="" />
+				<meta name="og:type" content="Organization" />
 				<meta
-					property="og:url"
+					name="og:url"
 					content="https://landing-page-sailspad.vercel.app/"
 				/>
 				<meta
-					property="og:image"
+					name="og:image"
 					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+				/>
+				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
+
+				<meta property="twitter:card" content="beyin Tech" />
+				<meta property="twitter:url" content="https://twitter.com/beyintech" />
+				<meta property="twitter:title" content="Beyin Digital Technology" />
+				{/* <meta
+					property="description"
+					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
+				/> */}
+				<meta
+					property="twitter:image"
+					content="https://twitter.com/beyintech/photo"
 				/>
 				<meta
 					name="keywords"
@@ -140,10 +151,11 @@ React.useEffect(() => {
 					<About />
 					<Services />
 					<Services2 />
+					<SectionAbout />
 					{/* <Number /> */}
 					{/* <WorksSlider /> */}
-					<Video />
-					<SkillsCircle theme="light" subBG />
+					{/* <Video /> */}
+					{/* <SkillsCircle theme="light" subBG /> */}
 					<Clients theme="light" />
 					<Blog />
 					<CallToAction theme="light" />
