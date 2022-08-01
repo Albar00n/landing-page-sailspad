@@ -3,7 +3,7 @@ import Head from "next/head";
 import TermsDetails from "../components/Terms and conditions/Terms-details";
 import Footer from "../components/Footer";
 import AllNavbar from "../components/allNavbar/AllNav";
-import Overlay from '../components/Terms and conditions/Overlay'
+import Overlay from "../components/Terms and conditions/Overlay";
 import Header from "../components/Terms and conditions/Terms-header";
 const Privacy = () => {
 	return (
@@ -27,9 +27,7 @@ const Privacy = () => {
 					content="Sailspad is an AR business networking and communication platform developed by Beyin Digital Technology Limited, please read our Terms and Condition for more details."
 				/>
 				<meta property="og:title" content="Terms & Condition" />
-				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
-				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="" />
+
 				<meta
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/terms"

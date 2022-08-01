@@ -42,9 +42,7 @@ const Contact = () => {
 
 				<meta name="title" content="Contact Sailspad Technologies" />
 
-				<link rel="alternate" type="application/atom+xml" href="" />
-				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="" />
+				
 				<meta
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/contact"

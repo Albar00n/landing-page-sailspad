@@ -28,9 +28,7 @@ const AboutDark = () => {
 					property="description"
 					content="Sailspad is a business networking and communication platform that utilizes metaverse AR technologies to create a better business networking and communication experience."
 				/>
-				<link rel="alternate" type="application/atom+xml" href="" />
-				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="" />
+
 				<meta
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/about"
