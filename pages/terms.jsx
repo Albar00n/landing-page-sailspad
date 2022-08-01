@@ -34,7 +34,10 @@ const Privacy = () => {
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/terms"
 				/>
-				<meta property="og:image" content="" />
+				<meta
+					property="og:image"
+					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+				/>
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{

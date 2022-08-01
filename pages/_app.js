@@ -54,6 +54,10 @@ function MyApp({ Component, pageProps }) {
 					property="twitter:image"
 					content="https://twitter.com/beyintech/photo"
 				/>
+				<meta
+					property="og:image"
+					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+				/>
 				<meta name="author" content="Ghassan Awad" />
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta data-rh="true" name="google" content="translate" />

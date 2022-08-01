@@ -101,7 +101,10 @@ React.useEffect(() => {
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/"
 				/>
-				<meta property="og:image" content="" />
+				<meta
+					property="og:image"
+					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+				/>
 				<meta
 					name="keywords"
 					content="creative business cards,cool business cards,e business card,personal business cards,design your own business cards,blank business cards"

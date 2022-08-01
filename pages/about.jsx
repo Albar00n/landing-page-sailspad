@@ -35,7 +35,10 @@ const AboutDark = () => {
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/about"
 				/>
-				<meta property="og:image" content="" />
+				<meta
+					property="og:image"
+					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+				/>
 
 				<meta
 					property="og:site_name"
