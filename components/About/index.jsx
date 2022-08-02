@@ -1,15 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/future/image";
 import BeyinCard from "../../public/img/slid/beyinCard.png";
 import Split from "../Split";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const AboutUs2 = ({ skillsTheme }) => {
-	const lazyRoot = React.useRef(null);
-	
 	const cpStyle = {
 		path: {
 			stroke: "#0DA6F5",
@@ -67,20 +65,15 @@ const AboutUs2 = ({ skillsTheme }) => {
 					</div>
 					<div className="col-lg-6">
 						<div className="blc-img">
-							<div
-								className="bimg wow imago"
-								ref={lazyRoot}
-								style={{ overflowX: "scroll", width: "500px" }}
-							>
+							<div className="bimg wow imago">
 								<Image
-									lazyRoot={lazyRoot}
 									src={BeyinCard}
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
-									width={750}
+									width={550}
 									height={500}
 									title="AR Business Card"
-									priority
+									
 								/>
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">

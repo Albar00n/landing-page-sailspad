@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/future/image";
 import BeyinH11 from "../../public/img/slid/beyinH11.png";
 import Split from "../Split";
 import "react-circular-progressbar/dist/styles.css";
@@ -10,8 +10,6 @@ import "react-circular-progressbar/dist/styles.css";
 
 
 const SectionAbout = ({ skillsTheme }) => {
-	const lazyRoot = React.useRef(null);
-
 	const cpStyle = {
 		path: {
 			stroke: "#0DA6F5",
@@ -69,26 +67,25 @@ const SectionAbout = ({ skillsTheme }) => {
 					</div>
 					<div className="col-lg-6 col-md-12">
 						<div className="blc-img">
-							<div
-								className="bimg wow imago"
-								ref={lazyRoot}
-								style={{ overflowX: "scroll", width: "500px" }}
-							>
+							<div className="bimg wow imago" >
 								<Image
-									lazyRoot={lazyRoot}
 									src={BeyinH11}
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
-									width="800"
-									height="600"
+									width={500}
+									height={600}
 									title="AR Business Card"
-									priority
+
 								/>
 							</div>
-							<div className="ca wow fadeInUp" data-wow-delay=".8">
+							<div
+								className="ca wow fadeInUp"
+								data-wow-delay=".8"
+							>
 								<div className="item">
 									<h1 className="h11">
 										With one Qr code link, you can turn your With one Qr code
+
 									</h1>
 								</div>
 							</div>
