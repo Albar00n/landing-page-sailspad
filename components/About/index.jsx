@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image"
+import BeyinCard from "../../public/img/slid/beyinCard.png";
 import Split from "../Split";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -66,7 +67,7 @@ const AboutUs2 = ({ skillsTheme }) => {
 						<div className="blc-img">
 							<div className="bimg wow imago">
 								<Image
-									src="/img/slid/beyinCard.png"
+									src={BeyinCard}
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
 									width={750}

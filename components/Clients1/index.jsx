@@ -44,19 +44,21 @@ const Clients1 = ({ theme, subBG }) => {
 											>
 												<div className="img">
 													{theme === "light" ? (
-														<img
+														<Image
 															src={item.lightImage}
 															alt={item.name}
 															title={item.name}
-															// priority
+															height={65}
+															width={78}
+															priority
 														/>
 													) : (
 														<Image
 															src={item.darkImage}
 															alt={item.name}
 															title={item.name}
-															height={60}
-															width={115}
+															height={75}
+															width={78}
 															// priority
 														/>
 													)}
@@ -110,11 +112,13 @@ const Clients1 = ({ theme, subBG }) => {
 											>
 												<div className="img">
 													{theme === "light" ? (
-														<img
+														<Image
 															src={item.lightImage}
 															alt={item.name}
 															title={item.name}
-															// priority
+															height={65}
+															width={78}
+															priority
 														/>
 													) : (
 														<Image
