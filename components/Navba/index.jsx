@@ -26,6 +26,8 @@ const Navbar = ({ lr, nr, theme }) => {
 									src={`${appData.darkLogo}`}
 									alt="logo Sailspad"
 									title="logo Sailspad"
+									height="453px"
+									width="1113px"
 								/>
 							) : (
 								<img
@@ -33,6 +35,8 @@ const Navbar = ({ lr, nr, theme }) => {
 									src={`${appData.lightLogo}`}
 									alt="logo Sailspad"
 									title="logo Sailspad"
+									height="453px"
+									width="1113px"
 								/>
 							)
 						) : (

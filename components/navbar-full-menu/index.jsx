@@ -30,6 +30,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											src={`${appData.darkLogo}`}
 											alt="logo Sailspad"
 											title="logo Sailspad"
+											height="453px"
+											width="1113px"
 										/>
 									) : (
 										<img
@@ -37,6 +39,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											src={`${appData.lightLogo}`}
 											alt="logo Sailspad"
 											title="logo Sailspad"
+											height="453px"
+											width="1113px"
 										/>
 									)
 								) : (
@@ -45,6 +49,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 										src={`${appData.lightLogo}`}
 										alt="logo Sailspad"
 										title="logo Sailspad"
+										height="453px"
+										width="1113px"
 									/>
 								)}
 							</a>
@@ -56,9 +62,10 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 						</span>
 						<Split>
 							<span className="text" data-splitting>
-								<span className="menu-text" style={{ margin: "0px 5px" }}>
-
-								</span>
+								<span
+									className="menu-text"
+									style={{ margin: "0px 5px" }}
+								></span>
 							</span>
 						</Split>
 					</div>
