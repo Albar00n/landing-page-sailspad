@@ -54,7 +54,7 @@ const Services1 = () => {
 					<div
 						className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
 						data-wow-delay=".3s"
-						style={{ backgroundImage: "url(/img/slid/beyinH1.png)" }}
+						style={{ backgroundImage: "url(/img/slid/beyinH3.wepb)" }}
 					>
 						<h4 className="custom-font">Grow with Sailspad</h4>
 						<Link
