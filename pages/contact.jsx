@@ -47,8 +47,8 @@ const Contact = () => {
 					content="https://landing-page-sailspad.vercel.app/contact"
 				/>
 				<meta
-					property="og:image"
-					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+					name="og:image"
+					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
 				/>
 				<script
 					type="application/ld+json"
@@ -58,7 +58,7 @@ const Contact = () => {
 							"@type": "Organization",
 							name: "Contact us | Sailspad",
 							url: "https://landing-page-sailspad.vercel.app/contact",
-							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+							logo: "https://landing-page-sailspad.vercel.app/Sailspad.png",
 						}),
 					}}
 				></script>

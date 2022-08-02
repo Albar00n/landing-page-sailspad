@@ -34,8 +34,8 @@ const AboutDark = () => {
 					content="https://landing-page-sailspad.vercel.app/about"
 				/>
 				<meta
-					property="og:image"
-					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+					name="og:image"
+					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
 				/>
 
 				<meta
@@ -50,7 +50,7 @@ const AboutDark = () => {
 							"@type": "Organization",
 							name: "About Sailspad ",
 							url: "https://landing-page-sailspad.vercel.app/about",
-							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+							logo: "https://landing-page-sailspad.vercel.app/Sailspad.png",
 						}),
 					}}
 				></script>
