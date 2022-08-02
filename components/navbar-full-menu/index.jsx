@@ -28,8 +28,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 										<img
 											ref={lr}
 											src={`${appData.darkLogo}`}
-											alt="logo Sailspad"
-											title="logo Sailspad"
+											alt={`${appData.alt}`}
+											title={`${appData.title}`}
 											height="453px"
 											width="1113px"
 										/>
@@ -37,8 +37,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 										<img
 											ref={lr}
 											src={`${appData.lightLogo}`}
-											alt="logo Sailspad"
-											title="logo Sailspad"
+											alt={`${appData.alt}`}
+											title={`${appData.title}`}
 											height="453px"
 											width="1113px"
 										/>
@@ -47,8 +47,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 									<img
 										ref={lr}
 										src={`${appData.lightLogo}`}
-										alt="logo Sailspad"
-										title="logo Sailspad"
+										alt={`${appData.alt}`}
+										title={`${appData.title}`}
 										height="453px"
 										width="1113px"
 									/>

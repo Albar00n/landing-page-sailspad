@@ -3,6 +3,7 @@ import React from "react";
 import Link from 'next/link'
 import { Formik, Form, Field } from "formik";
 import appData from "../data/app.json";
+import Image from "next/image";
 
 const Footer = () => {
   function validateEmail(value) {
@@ -24,7 +25,13 @@ const Footer = () => {
 							<div className="logo">
 								<Link href="/">
 									<a>
-										<img src={`${appData.darkLogo}`} alt="Logo Sailspad" title="Logo Sailspad"/>
+										<Image
+											src={`${appData.darkLogo}`}
+											alt={`${appData.alt}`}
+											title={`${appData.title}`}
+											height={453}
+											width={1113}
+										/>
 									</a>
 								</Link>
 							</div>
