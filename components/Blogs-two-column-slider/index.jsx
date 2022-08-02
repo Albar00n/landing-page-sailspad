@@ -4,6 +4,7 @@ import Link from "next/link";
 import Bg from "../../public/img/slid/beyinS.webp";
 import BgS from "../../public/img/slid/beyinS1.webp";
 import BgS2 from "../../public/img/slid/beyinS2.webp";
+import Image from "next/image";
 const BlogsThreeColumn1 = ({ subBG }) => {
 	return (
 		<section
@@ -22,15 +23,14 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 				</div>
 				<div className="row">
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-
-						<div
-							className="item bg-img"
-							style={{
-								backgroundImage: `url(${Bg.src})`,
-								width: "100%",
-								height: "100%",
-							}}
-						>
+						<div className="item bg-img">
+							<Image
+								alt="Card Sailspad"
+								src={BgS2}
+								layout="fill"
+								objectFit="cover"
+								quality={100}
+							/>
 							<div className="cont">
 								<h6 className="date custom-font">
 									<span>
@@ -50,7 +50,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 								</div>
 								<ul>
 									{/* <li>$1.2 per user monthly</li> */}
-									<li className="liNum">Customizable card and logo</li>
+									<li className="ulDisc">Customizable card and logo</li>
 								</ul>
 								<p className="pBlog"></p>
 								<div className="btn-more custom-font">
@@ -65,14 +65,14 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						</div>
 					</div>
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
-						<div
-							className="item active bg-img"
-							style={{
-								backgroundImage: `url(${BgS.src})`,
-								width: "100%",
-								height: "100%",
-							}}
-						>
+						<div className="item active bg-img">
+							<Image
+								alt="Card Sailspad"
+								src={Bg}
+								layout="fill"
+								objectFit="cover"
+								quality={100}
+							/>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
 								<h6 className="date custom-font">
@@ -93,8 +93,8 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									</p>
 								</div>
 								<ul>
-									<li className="liNum">Customizable card and logo</li>
-									<li className="liNum">Fully customizable loading page</li>
+									<li className="ulDisc">Customizable card and logo</li>
+									<li className="ulDisc">Fully customizable loading page</li>
 								</ul>
 								<div className="btn-more custom-font">
 									<Link
@@ -110,12 +110,18 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
 						<div
 							className="item bg-img"
-							style={{
-								backgroundImage: `url(${BgS2.src})`,
-								width: "100%",
-								height: "100%",
-							}}
+							// style={{
+							// 	backgroundImage: `url(${BgS2.src})`,
+							// }}
 						>
+							<Image
+								alt="Card Sailspad"
+								src={BgS}
+								layout="fill"
+								objectFit="cover"
+								quality={100}
+							/>
+
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
 								<h6 className="date custom-font">
@@ -136,8 +142,8 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									</Link>
 								</div>
 								<ul>
-									<li className="liNum">Customizable card and logo</li>
-									<li className="liNum">Fully customizable loading page</li>
+									<li className="ulDisc">Customizable card and logo</li>
+									<li className="ulDisc">Fully customizable loading page</li>
 								</ul>
 								<div className="btn-more custom-font">
 									<Link

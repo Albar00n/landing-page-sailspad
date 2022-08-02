@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "next/image";
 import Logo from "../../public/img/Sailspad.svg";
 const ContactWithMap = () => {
 	const messageRef = React.useRef(null);
@@ -185,7 +185,7 @@ const ContactWithMap = () => {
 										</a>
 									</Link>
 									{/* </h5> */}
-									<h5 className="h5Con">
+									<h5 style={{margin:"-1rem auto"}}>
 										by © Beyin Digital Technology Limited.
 									</h5>
 								</div>

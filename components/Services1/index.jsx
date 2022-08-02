@@ -19,7 +19,7 @@ const Services1 = () => {
 				</div>
 				<div className="row">
 					<div
-						
+						style={{ background: "#eff2f3" }}
 						className="col-lg-3 col-md-6 item-box wow fadeInLeft"
 						data-wow-delay=".5s"
 					>

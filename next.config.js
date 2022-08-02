@@ -25,6 +25,6 @@ module.exports = {
 		images: {
 			allowFutureImage: true,
 		},
-		// nextScriptWorkers: true,
+		
 	},
 };

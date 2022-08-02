@@ -3,7 +3,9 @@
 		"id": 1,
 		"title": {
 			"first": "Be ",
-			"second": "The Market Leader"
+			"second": "The ",
+			"third":"Market ",
+			"fore":"Leader"
 		},
 		"content": "Stay ahead of the curve upgrading to Sailspad will boost your business reputation and sales, especially with high-profile clients",
 		"image": "/img/slid/beyinH10.png"
@@ -12,7 +14,9 @@
 		"id": 2,
 		"title": {
 			"first": "Make ",
-			"second": "Every Encounter Count"
+			"second": "Every ",
+			"third":"Encounter ",
+			"fore":"Count"
 		},
 		"content": "With an innovative business card that Allows you the freedom of printed business cards but also the effectiveness of a digital business card.",
 		"image": "/img/slid/Head3.webp"
@@ -21,7 +25,9 @@
 		"id": 3,
 		"title": {
 			"first": "Improve",
-			"second": "Business Networking"
+			"second": " ",
+			"third": "Business ",
+			"fore": "Networking"
 		},
 		"content": "With one QR code",
 		"image": "/img/slid/beyinH3.webp"

@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "../ImageComponent/ImageComponent";
 import BeyinH11 from "../../public/img/slid/beyinH11.webp";
 import Split from "../Split";
 import "react-circular-progressbar/dist/styles.css";
@@ -65,15 +65,15 @@ const SectionAbout = ({ skillsTheme }) => {
 							</Split>
 						</div>
 					</div>
-					<div className="col-lg-6 col-md-12">
+					<div className="col-lg-6">
 						<div className="blc-img">
 							<div className="bimg wow imago" >
 								<Image
 									src={BeyinH11}
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
-									width={500}
-									height={600}
+									width={560}
+									height={500}
 									title="AR Business Card"
 
 								/>
@@ -82,7 +82,7 @@ const SectionAbout = ({ skillsTheme }) => {
 								className="ca wow fadeInUp"
 								data-wow-delay=".8"
 							>
-								<div className="item">
+								<div className="ite">
 									<h1 className="h11">
 										With one Qr code link, you can turn your With one Qr code
 

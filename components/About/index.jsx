@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "../ImageComponent/ImageComponent";
 import BeyinCard from "../../public/img/slid/beyinCard.png";
 import Split from "../Split";
 import { CircularProgressbar } from "react-circular-progressbar";
@@ -71,9 +71,9 @@ const AboutUs2 = ({ skillsTheme }) => {
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
 									width={550}
-									height={500}
+									height={350}
 									title="AR Business Card"
-									
+
 								/>
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">

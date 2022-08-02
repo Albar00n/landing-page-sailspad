@@ -6,9 +6,7 @@ import LoadingScreen from "../components/Loading-Screen/index";
 import "../styles/globals.css";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 
-export const config = {
-	unstable_runtimeJS : false
-}
+
 
 function MyApp({ Component, pageProps }) {
 	return (
@@ -135,7 +133,7 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 			<Cursor />
 			<LoadingScreen />
-			<GoogleAnalytics measurementId="-0CQE8M26C5" />
+			{/* <GoogleAnalytics measurementId="G-0CQE8M26C5" /> */}
 			<Component {...pageProps} />
 
 			<Script id="wow" src="/js/wow.min.js"></Script>
@@ -151,10 +149,10 @@ function MyApp({ Component, pageProps }) {
 				src="/js/isotope.pkgd.min.js"
 			></Script>
 			<Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script>
-			<Script
+			{/* <Script
 				src="https://polyfill.io/v3/polyfill.min.js؟features=Array.prototype.map"
 				Strategy="beforeInteractive" // lazyOnload، afterInteractive
-			/>
+			/> */}
 		</>
 	);
 }

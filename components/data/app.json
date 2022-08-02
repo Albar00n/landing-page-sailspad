@@ -1,6 +1,6 @@
 {
     "lightLogo": "/Sailspad.png",
-    "darkLogo": "/Sailspad.png",
+    "darkLogo": "/img/sailspad.svg",
     "title":"Sailspad",
     "alt":"logo Sailspad",
     "showLoading": true

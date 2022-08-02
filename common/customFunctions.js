@@ -1,34 +1,55 @@
-var opacity = 0,
-	intervalID = 0;
-function show(a) {
-	(opacity = Number(window.getComputedStyle(a).getPropertyValue("opacity"))) < 1
-		? ((opacity += 1), (a.style.opacity = opacity))
-		: clearInterval(intervalID);
-}
-function hide(a) {
-	(opacity = Number(window.getComputedStyle(a).getPropertyValue("opacity"))) > 0
-		? ((opacity = 0), (a.style.opacity = opacity))
-		: clearInterval(intervalID);
-}
-export const delay = (a, b) => {
-	setTimeout(function () {}, a);
-};
-export const fadeIn = (a, b) => {
-	setInterval(show(a), b);
-};
-export const fadeOut = (a, b) => {
-	setInterval(hide(a), b);
-};
-export const getSiblings = (b) => {
-	let c = [];
-	if (!b.parentNode) return c;
-	let a = b.parentNode.firstChild;
-	for (; a; ) 1 === a.nodeType && a !== b && c.push(a), (a = a.nextSibling);
-	return c;
-};
-export const animateEl = (b, c) => {
-	function a() {
-		b.style.left = c;
+var opacity = 0;
+var intervalID = 0;
+function show(el) {
+	opacity = Number(window.getComputedStyle(el).getPropertyValue("opacity"));
+	if (opacity < 1) {
+		opacity = opacity + 1;
+		el.style.opacity = opacity;
+	} else {
+		clearInterval(intervalID);
 	}
-	a();
+}
+function hide(el) {
+	opacity = Number(window.getComputedStyle(el).getPropertyValue("opacity"));
+	if (opacity > 0) {
+		opacity = 0;
+		el.style.opacity = opacity;
+	} else {
+		clearInterval(intervalID);
+	}
+}
+
+export const delay = (time, callback) => {
+	setTimeout(function () {
+		callback;
+	}, time);
+};
+
+export const fadeIn = (el, time) => {
+	setInterval(show(el), time);
+};
+export const fadeOut = (el, time) => {
+	setInterval(hide(el), time);
+};
+
+export const getSiblings = (e) => {
+	let siblings = [];
+	if (!e.parentNode) {
+		return siblings;
+	}
+	let sibling = e.parentNode.firstChild;
+	while (sibling) {
+		if (sibling.nodeType === 1 && sibling !== e) {
+			siblings.push(sibling);
+		}
+		sibling = sibling.nextSibling;
+	}
+	return siblings;
+};
+
+export const animateEl = (el, to) => {
+	function draw() {
+		el.style.left = to;
+	}
+	draw();
 };

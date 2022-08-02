@@ -1,7 +1,7 @@
 import React from "react";
 import Split from "../Split";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/future/image";
 import Logo from "../../public/img/Sailspad.svg";
 
 const AboutIntro = () => {

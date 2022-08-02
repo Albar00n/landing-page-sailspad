@@ -86,7 +86,11 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 							<SwiperSlide key={slide.id} className="swiper-slide">
 								<div
 									className="bg-img valign"
-									style={{ backgroundImage: `url(${slide.image})`, width:'100%',height:'100%' }}
+									style={{
+										backgroundImage: `url(${slide.image})`,
+										width: "100%",
+										height: "100%",
+									}}
 									data-overlay-dark="6"
 								>
 									<div className="container">
@@ -97,9 +101,18 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 														<h1 className="words chars splitting">
 															{typeof slide.title === "object" ? (
 																<div className="line">
-																	<h1>{slide.title.first}</h1>
-																	<i></i>
-																	<h1>{slide.title.second}</h1>
+																	<h1>
+																		{slide.title.first}
+																		<i></i>
+																		{slide.title.second}
+
+																	</h1>
+
+																	<h1>
+																		{slide.title.third}
+																		<b></b>
+																		{slide.title.fore}
+																	</h1>
 																</div>
 															) : (
 																slide.title
