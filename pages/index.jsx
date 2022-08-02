@@ -101,7 +101,7 @@ React.useEffect(() => {
 				/>
 				<meta
 					name="og:image"
-					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
 				/>
 				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 

@@ -31,7 +31,7 @@ class MyDocument extends Document {
 					/>
 
 					<meta
-						name="title"
+						name="og:url"
 						content="Https://landing-page-sailspad.vercel.app/"
 					/>
 

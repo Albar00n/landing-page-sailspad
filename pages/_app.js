@@ -86,13 +86,13 @@ function MyApp({ Component, pageProps }) {
 						__html: JSON.stringify({
 							"@context": "https://schema.org",
 							"@type": "Organization",
-							name: "Ghassan Awad",
+							name: "Ghassan-Awad",
 							url: "https://landing-page-sailspad.vercel.app/",
 							email: "mailto:support@beyin.com",
 							founders: "Ghassan Awad",
 							foundingDate: "2022",
 							brand: "https://landing-page-sailspad.vercel.app/favicon.ico",
-							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+							logo: "https://landing-page-sailspad.vercel.app/Sailspad.png",
 							sameAs: [
 								"https://twitter.com/beyintech",
 								"https://www.linkedin.com/company/beyin-tech/",
