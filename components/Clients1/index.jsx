@@ -16,19 +16,15 @@ const Clients1 = ({ theme, subBG }) => {
 					<div className="col-lg-4 valign">
 						<div className="sec-head custom-font mb-0">
 							<h6>Recognition</h6>
-							<h1 className="gray">
-								Trusted
-								 by
-							</h1>
+							<h1 className="gray">Trusted by</h1>
 						</div>
 					</div>
 					<div className="col-lg-8">
 						<div>
 							<div className="row bord">
 								{first.map((item) => (
-									<a href={item.url} title={item.name}>
+									<Link href={item.url} title={item.name} key={item.id}>
 										<div
-											key={item.id}
 											className="col-md-3 col-6 brands"
 											//
 										>
@@ -53,7 +49,6 @@ const Clients1 = ({ theme, subBG }) => {
 															alt={item.name}
 															title={item.name}
 															// priority
-
 														/>
 													) : (
 														<Image
@@ -63,7 +58,6 @@ const Clients1 = ({ theme, subBG }) => {
 															height={60}
 															width={115}
 															// priority
-
 														/>
 													)}
 													<Split>
@@ -77,7 +71,7 @@ const Clients1 = ({ theme, subBG }) => {
 												</div>
 											</div>
 										</div>
-									</a>
+									</Link>
 								))}
 							</div>
 
@@ -86,9 +80,8 @@ const Clients1 = ({ theme, subBG }) => {
 								style={{ display: "flex", alginItems: "center" }}
 							>
 								{second.map((item) => (
-									<a href={item.url} title={item.name}>
+									<Link href={item.url} title={item.name} key={item.id}>
 										<div
-											key={item.id}
 											className={`${
 												item.id == 5
 													? "col-md-3 col-6 brands sm-mb30"
@@ -122,7 +115,6 @@ const Clients1 = ({ theme, subBG }) => {
 															alt={item.name}
 															title={item.name}
 															// priority
-
 														/>
 													) : (
 														<Image
@@ -132,7 +124,6 @@ const Clients1 = ({ theme, subBG }) => {
 															height={60}
 															width={115}
 															// priority
-
 														/>
 													)}
 													<Split>
@@ -148,7 +139,7 @@ const Clients1 = ({ theme, subBG }) => {
 												</div>
 											</div>
 										</div>
-									</a>
+									</Link>
 								))}
 							</div>
 						</div>

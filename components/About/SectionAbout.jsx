@@ -48,10 +48,6 @@ const SectionAbout = ({ skillsTheme }) => {
 								your networking success to the next level. The Sailspad platform
 								is easy, fast, and reliable.
 							</p>
-							{/* <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
-								Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
-								volutpat velit class aptent taciti sociosqu ad litora.
-							</p> */}
 							<Split>
 								<Link href="https://app.sailspad.com/signup">
 									<a

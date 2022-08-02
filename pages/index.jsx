@@ -13,7 +13,7 @@ import Clients from "../components/Clients1";
 import Blog from "../components/Blogs-two-column-slider/index";
 import CallToAction from "../components/Call-to-action/index";
 import Footer from "../components/Footer/index";
-import Light from "../components/layout/Layout"
+// import Light from "../components/layout/Layout"
 import appData from "../components/data/app.json"
 
 
@@ -142,10 +142,10 @@ React.useEffect(() => {
 				/>
 			</Head>
 
-			<Light>
+			<>
 				<NAvbarF nr={navbarFullMenuRef} />
 				<Navbar nr={navbarRef} lr={logoRef} />
-				{/* <Slider /> */}
+
 				<Slider1 sliderRef={fixedSlider} />
 				<div ref={MainContent} className="main-content">
 					<About />
@@ -159,7 +159,7 @@ React.useEffect(() => {
 				</div>
 
 				<Footer />
-			</Light>
+			</>
 		</>
 	);
 }

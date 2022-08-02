@@ -4,6 +4,7 @@ import Script from "next/script";
 import Cursor from "../components/Cursor";
 import LoadingScreen from "../components/Loading-Screen/index";
 import "../styles/globals.css";
+import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 
 function MyApp({ Component, pageProps }) {
 	return (
@@ -116,7 +117,7 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 			<Cursor />
 			<LoadingScreen />
-
+			<GoogleAnalytics measurementId="-0CQE8M26C5" />
 			<Component {...pageProps} />
 
 			<Script id="wow" src="/js/wow.min.js"></Script>

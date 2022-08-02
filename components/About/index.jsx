@@ -49,10 +49,6 @@ const AboutUs2 = ({ skillsTheme }) => {
 								your networking success to the next level. The Sailspad platform
 								is easy, fast, and reliable.
 							</p>
-							{/* <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
-								Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
-								volutpat velit class aptent taciti sociosqu ad litora.
-							</p> */}
 							<Split>
 								<Link href="https://app.sailspad.com/signup">
 									<a
@@ -75,45 +71,17 @@ const AboutUs2 = ({ skillsTheme }) => {
 										card into an Augmented Reality business card."
 									width={750}
 									height={500}
-									// style={{ height: "430px", width: "100%" }}
 									title="AR Business Card"
 									priority
 								/>
 							</div>
 							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">
 								<div className="it m-1">
-									{/* <div className="skill">
-										<CircularProgressbar
-											value={90}
-											className="custom-font"
-											strokeWidth={2}
-											text={`${90}%`}
-											styles={cpStyle}
-										/>
-									</div> */}
-									{/* <div className="cont"> */}
 									<h1 style={{ fontSize: "17px" }}>
 										With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card.
 									</h1>
-									{/* <h6>Consulting</h6> */}
-									{/* </div> */}
 								</div>
-								{/* <div className="item"> */}
-								{/* <div className="skill">
-										<CircularProgressbar
-											value={75}
-											strokeWidth={2}
-											className="custom-font"
-											text={`${75}%`}
-											styles={cpStyle}
-										/>
-									</div> */}
-								{/* <div className="cont"> */}
-								{/* <span>App</span> */}
-								{/* <h6>Development</h6> */}
-								{/* </div> */}
-								{/* </div> */}
 							</div>
 						</div>
 					</div>

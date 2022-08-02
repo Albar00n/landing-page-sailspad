@@ -11,6 +11,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@bradgarropy/next-google-analytics": "^1.0.2",
 		"@next/bundle-analyzer": "^12.2.3",
 		"formik": "^2.2.9",
 		"next": "12.2.2",

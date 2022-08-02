@@ -42,7 +42,6 @@ const Contact = () => {
 
 				<meta name="title" content="Contact Sailspad Technologies" />
 
-				
 				<meta
 					property="og:url"
 					content="https://landing-page-sailspad.vercel.app/contact"
@@ -63,6 +62,7 @@ const Contact = () => {
 						}),
 					}}
 				></script>
+				<link rel="canonical" href="... the page URL ..." />
 			</Head>
 			<>
 				<AllNavbar />
