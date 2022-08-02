@@ -29,13 +29,13 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						>
 							<div className="cont">
 								<h6 className="date custom-font">
-									<span >
+									<span>
 										<i>50</i> cards
 									</span>
 								</h6>
 
 								<div className="info custom-font ">
-									<h6 className="author" style={{ fontWeight: "600" }}>
+									<h6 className="author h6Blog">
 										SME
 										<br /> Subscription
 									</h6>
@@ -48,7 +48,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 									{/* <li>$1.2 per user monthly</li> */}
 									<li className="liNum">Customizable card and logo</li>
 								</ul>
-								<p style={{ height: "2rem" }}></p>
+								<p className="pBlog"></p>
 								<div className="btn-more custom-font">
 									<Link
 										href="https://app.sailspad.com/signup"
@@ -67,14 +67,14 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
-									<h6 className="date custom-font">
-										<span>
-											<i>100</i> cards
-										</span>
-									</h6>
+								<h6 className="date custom-font">
+									<span>
+										<i>100</i> cards
+									</span>
+								</h6>
 								{/* </Link> */}
 								<div className="info custom-font">
-									<h6  className="author" style={{ fontWeight: "600" }}>
+									<h6 className="author h6Blog">
 										{/* <span> */}
 										SME+
 										<br /> Subscription {/* </span> */}
@@ -106,14 +106,14 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
-									<h6 className="date custom-font">
-										<span>
-											<i>200+</i> cards
-										</span>
-									</h6>
+								<h6 className="date custom-font">
+									<span>
+										<i>200+</i> cards
+									</span>
+								</h6>
 								{/* </Link> */}
 								<div className="info custom-font">
-									<h6 className="author" style={{ fontWeight: "600" }}>
+									<h6 className="author h6Blog">
 										<span>
 											Agency
 											<br /> Subscription

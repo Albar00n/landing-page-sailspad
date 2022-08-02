@@ -122,7 +122,7 @@ const PrivacyDetails = () => {
 													<span>16</span> Welcoming of suggestions
 												</li>
 											</ul>
-											<div className="spacial" style={{ margin: "50px 0px" }}>
+											<div className="spacial divPrivacy">
 												<ol>
 													<li className="ol">
 														<h5>
@@ -375,13 +375,7 @@ const PrivacyDetails = () => {
 															to comply with legal requests. You can request us
 															to delete your information by writing to us at
 															<Link href="mailto:support@beyin.me">
-																<a
-																	style={{
-																		margin: "0px 10px",
-																	}}
-																>
-																	Support@beyin.me
-																</a>
+																<a className="aPrivacy">Support@beyin.me</a>
 															</Link>
 														</p>
 													</li>
@@ -406,7 +400,7 @@ const PrivacyDetails = () => {
 													</li>
 													<li className="ol">
 														<h5> Sharing of Information</h5>
-														<ol style={{ listStyleType: "lower-alpha" }}>
+														<ol>
 															<li className="privacy-p liA">
 																Whenever you post or share the feedback on the
 																Site, such feedback, including your name is
@@ -707,13 +701,7 @@ const PrivacyDetails = () => {
 														<p>
 															To make such requests, please contact us at
 															<Link href="mailto:support@beyin.me">
-																<a
-																	style={{
-																		margin: "0px 5px",
-																	}}
-																>
-																	Support@beyin.me
-																</a>
+																<a className="aPrivacy">Support@beyin.me</a>
 															</Link>
 														</p>
 													</li>
@@ -1019,13 +1007,7 @@ const PrivacyDetails = () => {
 														<p className="underline">
 															To make such requests, please contact us at
 															<Link href="mailto:support@beyin.me">
-																<a
-																	style={{
-																		margin: "0px 5px",
-																	}}
-																>
-																	Support@beyin.me
-																</a>
+																<a className="aPrivacy">Support@beyin.me</a>
 															</Link>
 														</p>
 														<span>
@@ -1085,13 +1067,7 @@ const PrivacyDetails = () => {
 														<span style={{ textDecoration: "underline" }}>
 															Please contact us at{" "}
 															<Link href="mailto:support@beyin.me">
-																<a
-																	style={{
-																		margin: "0px 4px",
-																	}}
-																>
-																	Support@beyin.me
-																</a>
+																<a className="aPrivacy">Support@beyin.me</a>
 															</Link>
 															if you believe we knowingly or unknowingly
 															collected information described in this Section.
@@ -1107,13 +1083,7 @@ const PrivacyDetails = () => {
 														disclosure of your information, at any time, by
 														contacting us at{" "}
 														<Link href="mailto:support@beyin.me">
-															<a
-																style={{
-																	margin: "0px 5px",
-																}}
-															>
-																Support@beyin.me
-															</a>
+															<a className="aPrivacy">Support@beyin.me</a>
 														</Link>
 													</li>
 													<li className="ol">
@@ -1138,13 +1108,7 @@ const PrivacyDetails = () => {
 														Website or our Product, in that case you may freely
 														write your concerns through your registered email to
 														<Link href="mailto:support@beyin.me">
-															<a
-																style={{
-																	margin: "0px 5px",
-																}}
-															>
-																Support@beyin.me
-															</a>
+															<a className="aPrivacy">Support@beyin.me</a>
 														</Link>
 													</li>
 													<li className="ol">
@@ -1152,13 +1116,7 @@ const PrivacyDetails = () => {
 														welcome your comments regarding this Privacy Policy.
 														Please write to us at{" "}
 														<Link href="mailto:support@beyin.me">
-															<a
-																style={{
-																	margin: "0px 5px",
-																}}
-															>
-																Support@beyin.me
-															</a>
+															<a className="aPrivacy">Support@beyin.me</a>
 														</Link>
 													</li>
 												</ol>

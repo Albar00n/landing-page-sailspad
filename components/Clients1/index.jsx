@@ -1,15 +1,15 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image"
+import Image from "next/image";
 import Clients1Data from "../data/sections/clients1.json";
 import Split from "../Split";
 import Link from "next/link";
 
 const Clients1 = ({ theme, subBG }) => {
-  var first = Clients1Data.slice(0, Clients1Data.length / 2);
-  var second = Clients1Data.slice(4, Clients1Data.length);
-  return (
+	var first = Clients1Data.slice(0, Clients1Data.length / 2);
+	var second = Clients1Data.slice(4, Clients1Data.length);
+	return (
 		<section className={`clients section-padding ${subBG ? "sub-bg" : ""}`}>
 			<div className="container">
 				<div className="row">
@@ -77,10 +77,7 @@ const Clients1 = ({ theme, subBG }) => {
 								))}
 							</div>
 
-							<div
-								className="row"
-								style={{ display: "flex", alginItems: "center" }}
-							>
+							<div className="row">
 								{second.map((item) => (
 									<Link href={item.url} title={item.name} key={item.id}>
 										<div

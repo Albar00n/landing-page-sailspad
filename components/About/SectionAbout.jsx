@@ -75,12 +75,9 @@ const SectionAbout = ({ skillsTheme }) => {
 									priority
 								/>
 							</div>
-							<div
-								className=" wow fadeInUp con"
-								data-wow-delay=".8"
-							>
+							<div className=" wow fadeInUp con" data-wow-delay=".8">
 								<div className="ca">
-									<h1 style={{ fontSize: "17px" }}>
+									<h1 className="h11">
 										With one Qr code link, you can turn your
 									</h1>
 								</div>

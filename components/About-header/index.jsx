@@ -1,10 +1,10 @@
 import React from "react";
-import Link from "next/link"
+import Link from "next/link";
 const AboutHeader = () => {
-  return (
+	return (
 		<header
 			className="pages-header bg-img valign parallaxie"
-			style={{ backgroundImage: "url(/img/slid/beyin1.png)" }}
+			style={{ backgroundImage: "url(/img/slid/beyinH1.png)" }}
 			data-overlay-dark="5"
 		>
 			<div className="container">

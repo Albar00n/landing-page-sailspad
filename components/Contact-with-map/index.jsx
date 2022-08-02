@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
-import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '../../public/img/Sailspad.svg'
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "../../public/img/Sailspad.svg";
 const ContactWithMap = () => {
 	const messageRef = React.useRef(null);
 	function validateEmail(value) {
@@ -92,15 +92,9 @@ const ContactWithMap = () => {
 													/>
 												</div>
 												<div className="form-group">
-
 													<div id="checkboxGroup">LOOKING FOR:</div>
 													<div role="group" id="checkboxGroup">
-														<label
-															htmlFor="#checked"
-															style={{
-																display: "inline-flex",
-															}}
-														>
+														<label htmlFor="#checked">
 															<Field
 																type="checkbox"
 																name="checked"
@@ -111,12 +105,7 @@ const ContactWithMap = () => {
 														</label>
 														<br />
 
-														<label
-															htmlFor="#checked"
-															style={{
-																display: "inline-flex",
-															}}
-														>
+														<label htmlFor="#checked">
 															<Field
 																type="checkbox"
 																name="checked"
@@ -126,12 +115,7 @@ const ContactWithMap = () => {
 															Platform usage support
 														</label>
 														<br />
-														<label
-															htmlFor="#checked"
-															style={{
-																display: "inline-flex",
-															}}
-														>
+														<label htmlFor="#checked">
 															<Field
 																type="checkbox"
 																name="checked"
@@ -141,12 +125,7 @@ const ContactWithMap = () => {
 															White-labelling
 														</label>
 														<br />
-														<label
-															htmlFor="#checked"
-															style={{
-																display: "inline-flex",
-															}}
-														>
+														<label htmlFor="#checked">
 															<Field
 																type="checkbox"
 																name="checked"
@@ -156,13 +135,7 @@ const ContactWithMap = () => {
 															Collaboration or partnership
 														</label>
 														<br />
-														<label
-															htmlFor="#checked"
-															style={{
-
-																display: "inline-flex",
-															}}
-														>
+														<label htmlFor="#checked">
 															<Field
 																type="checkbox"
 																name="checked"
@@ -172,7 +145,6 @@ const ContactWithMap = () => {
 															Other
 														</label>
 													</div>
-
 												</div>
 												<div className="form-group">
 													<label htmlFor="#form_message">BRIEF:</label>
@@ -213,7 +185,7 @@ const ContactWithMap = () => {
 										</a>
 									</Link>
 									{/* </h5> */}
-									<h5 style={{ margin: "-1rem 0px" }}>
+									<h5 className="h5Con">
 										by © Beyin Digital Technology Limited.
 									</h5>
 								</div>
@@ -223,14 +195,7 @@ const ContactWithMap = () => {
 								<div className="item mb-40">
 									<h5>
 										<Link href="mailto:support@beyin.me">
-											<a
-												title="Sailspad Email"
-												style={{
-													margin: "0px 5px",
-												}}
-											>
-												Support@beyin.me
-											</a>
+											<a title="Sailspad Email">Support@beyin.me</a>
 										</Link>
 									</h5>
 									<h5>+971 52 588 6620</h5>
@@ -268,29 +233,6 @@ const ContactWithMap = () => {
 					</div>
 				</div>
 			</section>
-			{/* <div className="map" id="ieatmaps">
-				<iframe
-					src="https://earth-gl.vercel.app/"
-					style={{ border: 0 }}
-					allowFullScreen=""
-					loading="lazy"
-				></iframe>
-			</div> */}
-
-			{/* <footer className="footer-half sub-bg">
-				<div className="container">
-					<div className="copyrights text-center">
-						<p>
-							© Beyin Digital Technology Limited - 2022. The trademarks, logos,
-							designs, services and the content appearing herein, is exclusively
-							owned by Beyin Digital Technology Limited, and/or its licensors,
-							and are protected. Any unauthorized use or reproduction or
-							distribution, shall attract suitable action under applicable law.
-							<a href="#0">ThemesCamp</a>.
-						</p>
-					</div>
-				</div>
-			</footer> */}
 		</>
 	);
 };

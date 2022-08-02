@@ -64,7 +64,7 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 							<span className="text" data-splitting>
 								<span
 									className="menu-text"
-									style={{ margin: "0px 5px" }}
+									
 								></span>
 							</span>
 						</Split>

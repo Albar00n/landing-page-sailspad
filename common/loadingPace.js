@@ -1,26 +1,18 @@
-import { delay, animateEl } from "./customFunctions";
-
-const loadingPace = () => {
-  Pace.on("start", function () {
-    //When Pace Start
-    document.querySelector("#preloader").classList.remove("isdone");
-  });
-  Pace.on("done", function () {
-    //When Pace End
-    if (document.querySelector(".hamenu")) {
-      delay(300, animateEl(document.querySelector(".hamenu"), "-100%"));
-      document.querySelector(".topnav .menu-icon").classList.remove("open");
-    }
-    document.querySelector("#preloader").classList.add("isdone");
-  });
-
-  if (document.querySelector("body").classList.contains("pace-done")) {
-    document.querySelector("#preloader").classList.add("isdone");
-  }
-
-  document.addEventListener("load", () => {
-    document.querySelector("#preloader").classList.add("isdone");
-  });
+import { delay as a, animateEl as b } from "./customFunctions";
+let loadingPace = () => {
+	Pace.on("start", function () {
+		document.querySelector("#preloader").classList.remove("isdone");
+	}),
+		Pace.on("done", function () {
+			document.querySelector(".hamenu") &&
+				(a(300, b(document.querySelector(".hamenu"), "-100%")),
+				document.querySelector(".topnav .menu-icon").classList.remove("open")),
+				document.querySelector("#preloader").classList.add("isdone");
+		}),
+		document.querySelector("body").classList.contains("pace-done") &&
+			document.querySelector("#preloader").classList.add("isdone"),
+		document.addEventListener("load", () => {
+			document.querySelector("#preloader").classList.add("isdone");
+		});
 };
-
 export default loadingPace;

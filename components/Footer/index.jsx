@@ -78,27 +78,27 @@ const Footer = () => {
 					</div>
 					<div className="col-lg-5 offset-lg-2 d-flex align-self-center">
 						<div>
-							<ul style={{ listStyle: "none" }}>
-								<li style={{ fontSize: "20px" }}>
+							<ul className="ulFooter">
+								<li className="liFooter">
 									<Link href="/contact">
 										<a title="Sailspad Contact">Contact us</a>
 									</Link>
 								</li>
 
-								<li style={{ fontSize: "20px" }}>
+								<li className="liFooter">
 									<Link href="/privacy">
 										<a title="Privacy policy of Sailspad">Privacy policy</a>
 									</Link>
 								</li>
 
-								<li style={{ fontSize: "20px" }}>
+								<li className="liFooter">
 									<Link href="/terms">
 										<a title="Terms and conditions of Sailspad">
 											Terms and conditions
 										</a>
 									</Link>
 								</li>
-								<li style={{ fontSize: "20px" }}>
+								<li className="liFooter">
 									<Link href="/about">
 										<a title="About Sailspad"> About us</a>
 									</Link>

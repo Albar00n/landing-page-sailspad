@@ -1,6 +1,5 @@
-
 import React from "react";
-import Link from "next/link"
+import Link from "next/link";
 
 const AboutHeader = () => {
 	return (
@@ -39,4 +38,3 @@ const AboutHeader = () => {
 };
 
 export default AboutHeader;
-

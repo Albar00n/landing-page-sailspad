@@ -3,7 +3,7 @@ import Split from "../Split";
 import Link from "next/link";
 
 const CallToAction = ({ img, theme, subBG }) => {
-  return (
+	return (
 		<section
 			className={`call-action section-padding  ${subBG ? "sub-bg" : ""} bg-img`}
 		>
@@ -16,11 +16,9 @@ const CallToAction = ({ img, theme, subBG }) => {
 									START USING SAILSPAD
 								</h6>
 								<div>
-									<h2
-										className="wow words custom-font chars splitting"
-										style={{ fontSize: "50px", margin: "-6px 0px" }}
-									>
-										Be on the leading edge
+									<h2 className="wow words custom-font chars splitting h2Call">
+										Be<span></span> on <span></span>the <span></span>leading{" "}
+										<span></span>edge
 									</h2>
 									<h1 className="gray">OF INNOVATION</h1>
 								</div>

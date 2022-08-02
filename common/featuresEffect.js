@@ -1,5 +1,4 @@
 import { getSiblings } from "./customFunctions";
-
 const featuresEffect = () => {
   var featuresitems = document.querySelectorAll(".feat .items");
   if (featuresitems) {

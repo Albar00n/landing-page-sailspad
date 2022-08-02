@@ -24,9 +24,7 @@ const AboutIntro = () => {
 								</a>
 							</Link>
 							{/* </h5> */}
-							<p style={{ fontSize: "15px", margin: "-12px 0px" }}>
-								by © Beyin Digital Technology Limited.
-							</p>
+							<p>by © Beyin Digital Technology Limited.</p>
 						</div>
 					</div>
 					<div className="col-lg-8 offset-lg-1 col-md-8">

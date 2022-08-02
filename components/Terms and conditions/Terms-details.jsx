@@ -75,7 +75,7 @@ const PrivacyDetails = () => {
 												<b>Shipment Policy,</b>
 												<b>Privacy Policy</b> statement and <b>Cookie Policy</b>
 											</p>
-											<div className="spacial" style={{ margin: "50px 0px" }}>
+											<div className="spacial divPrivacy">
 												<ul>
 													<li className="ol">
 														<h5> Acceptance of the Terms & Conditions</h5>

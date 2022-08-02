@@ -2,7 +2,7 @@ import React from "react";
 import Split from "../Split";
 
 const AboutIntro = () => {
-  return (
+	return (
 		<section className="intro-section section-padding pb-9">
 			<div className="container">
 				<div className="row">
