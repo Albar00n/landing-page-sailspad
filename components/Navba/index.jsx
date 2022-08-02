@@ -2,6 +2,7 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import Link from "next/link";
+import Image from "next/image"
 import appData from "../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
@@ -40,6 +41,8 @@ const Navbar = ({ lr, nr, theme }) => {
 								src={`${appData.lightLogo}`}
 								alt="logo Sailspad"
 								title="logo Sailspad"
+								height="453px"
+								width="1113px"
 							/>
 						)}
 					</a>
