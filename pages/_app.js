@@ -6,7 +6,9 @@ import LoadingScreen from "../components/Loading-Screen/index";
 import "../styles/globals.css";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 
-
+export const config ={
+	unstable_runtimeJS:false
+}
 
 function MyApp({ Component, pageProps }) {
 	return (
