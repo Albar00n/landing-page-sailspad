@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = {
 	reactStrictMode: true,
+
 	sassOptions: {
 		includePaths: [path.join(__dirname, "css")],
 	},
@@ -19,3 +20,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({ })
+module.exports = {
+	experimental: {
+		images: {
+			allowFutureImage: true,
+		},
+	},
+};

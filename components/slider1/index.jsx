@@ -86,7 +86,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 							<SwiperSlide key={slide.id} className="swiper-slide">
 								<div
 									className="bg-img valign"
-									style={{ backgroundImage: `url(${slide.image})` }}
+									style={{ backgroundImage: `url(${slide.image})`, width:'100%',height:'100%' }}
 									data-overlay-dark="6"
 								>
 									<div className="container">

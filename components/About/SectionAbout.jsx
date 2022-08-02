@@ -62,7 +62,7 @@ const SectionAbout = ({ skillsTheme }) => {
 							</Split>
 						</div>
 					</div>
-					<div className="col-lg-6">
+					<div className="col-lg-6 col-md-12">
 						<div className="blc-img">
 							<div className="bimg wow imago">
 								<Image
@@ -70,15 +70,19 @@ const SectionAbout = ({ skillsTheme }) => {
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
 									width={800}
-									height={650}
+									height={600}
 									title="AR Business Card"
 									priority
 								/>
 							</div>
-							<div className=" wow fadeInUp con" data-wow-delay=".8">
-								<div className="ca">
+							<div
+								className="ca wow fadeInUp"
+								data-wow-delay=".8"
+							>
+								<div className="item">
 									<h1 className="h11">
-										With one Qr code link, you can turn your
+										With one Qr code link, you can turn your With one Qr code
+
 									</h1>
 								</div>
 							</div>

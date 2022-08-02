@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
-
+import Bg from "../../public/img/slid/beyinS.png";
+import BgS from "../../public/img/slid/beyinS1.png";
+import BgS2 from "../../public/img/slid/beyinS2.png";
 const BlogsThreeColumn1 = ({ subBG }) => {
 	return (
 		<section
@@ -22,10 +24,9 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						<div
 							className="item bg-img"
 							style={{
-								backgroundImage:
-									"url(https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80)",
-								backgroundPosition: "center",
-								backgroundSize: "cover",
+								backgroundImage: `url(${Bg.src})`,
+								width: "100%",
+								height: "100%",
 							}}
 						>
 							<div className="cont">
@@ -65,8 +66,9 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						<div
 							className="item active bg-img"
 							style={{
-								backgroundImage:
-									"url(https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80)",
+								backgroundImage: `url(${BgS.src})`,
+								width: "100%",
+								height: "100%",
 							}}
 						>
 							<div className="cont">
@@ -107,8 +109,9 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						<div
 							className="item bg-img"
 							style={{
-								backgroundImage:
-									"url(https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80)",
+								backgroundImage: `url(${BgS2.src})`,
+								width: "100%",
+								height: "100%",
 							}}
 						>
 							<div className="cont">
