@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 import Bg from "../../public/img/slid/beyinS.png";
 import BgS from "../../public/img/slid/beyinS1.png";
 import BgS2 from "../../public/img/slid/beyinS2.png";
@@ -21,6 +22,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 				</div>
 				<div className="row">
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+
 						<div
 							className="item bg-img"
 							style={{

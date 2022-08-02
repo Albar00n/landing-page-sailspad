@@ -1,11 +1,15 @@
 import React from "react";
 import Link from "next/link";
-
+import headerRrivacy from "../../public/img/slid/headerPrivacy.png"
 const AboutHeader = () => {
 	return (
 		<header
 			className="pages-header bg-img valign parallaxie"
-			style={{ backgroundImage: "url(/img/slid/headerPrivacy.png)" }}
+			style={{
+				backgroundImage: `url(${headerRrivacy.src})`,
+				width: "100%",
+				height: "100%",
+			}}
 			data-overlay-dark="5"
 		>
 			<div className="container">

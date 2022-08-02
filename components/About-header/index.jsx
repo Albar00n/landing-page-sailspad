@@ -1,10 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import beyinH1 from "../../public/img/slid/beyinH1.png";
 const AboutHeader = () => {
 	return (
 		<header
 			className="pages-header bg-img valign parallaxie"
-			style={{ backgroundImage: "url(/img/slid/beyinH1.png)" }}
+			style={{
+				backgroundImage: `url(${beyinH1.src})`,
+				width: "100%",
+				height: "100%",
+			}}
 			data-overlay-dark="5"
 		>
 			<div className="container">

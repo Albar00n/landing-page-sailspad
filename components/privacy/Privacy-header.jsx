@@ -1,10 +1,15 @@
 import React from "react";
 import Link from 'next/link'
+import header from "../../public/img/slid/headerPrivacy.png"
 const PrivacyHeader = () => {
   return (
 		<header
 			className="pages-header bg-img valign parallaxie"
-			style={{ backgroundImage: "url(/img/slid/headerPrivacy.png)" }}
+			style={{
+				backgroundImage: `url(${header.src})`,
+				width: "100%",
+				height: "100%",
+			}}
 			data-overlay-dark="5"
 		>
 			<div className="container">
@@ -18,9 +23,7 @@ const PrivacyHeader = () => {
 								</Link>
 								<span>/</span>
 								<Link href="/privacy">
-									<a className="active">
-										Privacy
-									</a>
+									<a className="active">Privacy</a>
 								</Link>
 							</div>
 						</div>

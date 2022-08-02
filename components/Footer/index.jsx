@@ -3,7 +3,7 @@ import React from "react";
 import Link from 'next/link'
 import { Formik, Form, Field } from "formik";
 import appData from "../data/app.json";
-import Image from "next/image";
+import Image from "next/future/image";
 
 const Footer = () => {
   function validateEmail(value) {
