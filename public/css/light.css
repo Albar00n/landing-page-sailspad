@@ -6272,7 +6272,7 @@ body{
     font-size: 16px;
   }
   .topnav .container-fluid {
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
   .pages-header .cont .path {
     font-size: 15px;

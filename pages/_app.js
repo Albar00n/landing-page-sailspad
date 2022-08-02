@@ -3,7 +3,6 @@ import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/Cursor";
 import LoadingScreen from "../components/Loading-Screen/index";
-import Layout from "../components/layout/Layout";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -61,7 +60,7 @@ function MyApp({ Component, pageProps }) {
 					content="https://twitter.com/beyintech/photo"
 				/>
 				{/*  */}
-				<meta name="og:type" content="Personal" />
+				<meta name="og:type" content="Organization" />
 				<meta
 					name="og:url"
 					content="https://landing-page-sailspad.vercel.app/"
@@ -117,10 +116,8 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 			<Cursor />
 			<LoadingScreen />
-			{/* <ScrollToTop /> */}
-			{/* <Layout> */}
+
 			<Component {...pageProps} />
-			{/* </Layout> */}
 
 			<Script id="wow" src="/js/wow.min.js"></Script>
 			<Script

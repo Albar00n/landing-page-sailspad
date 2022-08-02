@@ -202,11 +202,26 @@ body .slick-dots li button {
   margin: 0px 9px;
   max-width: 13px;
 }
-.sectionAbout{
-  width: 400px;
-  position: relative;
-  top:-50px;
-  left:120px;
+.con{
+position: relative;
+}
+.ca{
+position: absolute;
+bottom: -6px;
+ display: -ms-flexbox;
+  display: flex;
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 15px;
+left: 150px;
+  /* margin-top: -27px; */
+  /* right: -50px; */
+  -webkit-box-shadow: 0px 10px 20px -5px rgba(52, 60, 70, 0.1);
+  box-shadow: 0px 10px 20px -5px rgba(52, 60, 70, 0.1);
+}
+.abo{
+  font-size: 27px;
+   width: 450px;
 }
 @media screen and (max-width: 991px) {
   .conno {
@@ -265,6 +280,16 @@ section.team.section-padding {
     width: 100%;
     text-align: left;
   }
+  .ca{
+      position: absolute;
+    bottom: -54px;
+    left: 11px;
+    box-shadow: 0px 10px 20px -5px rgb(52 60 70 / 10%);
+  }
+  .abo{
+  font-size: 22px;
+   width: 100%;
+}
 
 }
 

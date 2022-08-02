@@ -152,10 +152,7 @@ React.useEffect(() => {
 					<Services />
 					<Services2 />
 					<SectionAbout />
-					{/* <Number /> */}
-					{/* <WorksSlider /> */}
-					{/* <Video /> */}
-					{/* <SkillsCircle theme="light" subBG /> */}
+
 					<Clients theme="light" />
 					<Blog />
 					<CallToAction theme="light" />

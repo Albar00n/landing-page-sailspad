@@ -22,7 +22,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						<div
 							className="item bg-img"
 							style={{
-								backgroundImage: "url(/img/slid/beyinH10.png)",
+								backgroundImage: "url(/img/slid/beyinS.png)",
 								backgroundPosition: "center",
 								backgroundSize: "cover",
 							}}
@@ -63,7 +63,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
 						<div
 							className="item active bg-img"
-							style={{ backgroundImage: "url(/img/slid/beyinH9.png)" }}
+							style={{ backgroundImage: "url(/img/slid/beyinS1.png)" }}
 						>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
@@ -102,7 +102,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
 						<div
 							className="item bg-img"
-							style={{ backgroundImage: "url(/img/slid/beyinH6.png)" }}
+							style={{ backgroundImage: "url(/img/slid/beyinS2.png)" }}
 						>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}

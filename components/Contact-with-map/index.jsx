@@ -92,7 +92,7 @@ const ContactWithMap = () => {
 													/>
 												</div>
 												<div className="form-group">
-													{/*  */}
+
 													<div id="checkboxGroup">LOOKING FOR:</div>
 													<div role="group" id="checkboxGroup">
 														<label
@@ -172,7 +172,7 @@ const ContactWithMap = () => {
 															Other
 														</label>
 													</div>
-													{/*  */}
+
 												</div>
 												<div className="form-group">
 													<label htmlFor="#form_message">BRIEF:</label>

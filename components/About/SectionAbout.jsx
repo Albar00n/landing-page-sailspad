@@ -79,12 +79,12 @@ const SectionAbout = ({ skillsTheme }) => {
 								/>
 							</div>
 							<div
-								className="skills-circle wow fadeInUp sectionAbout"
+								className=" wow fadeInUp con"
 								data-wow-delay=".8"
 							>
-								<div className=" m-1 ">
+								<div className="ca">
 									<h1 style={{ fontSize: "17px" }}>
-										With one Qr code link, you can turn your 
+										With one Qr code link, you can turn your
 									</h1>
 								</div>
 							</div>

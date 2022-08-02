@@ -8,7 +8,7 @@ const AboutIntro = () => {
 				<div className="row">
 					<div className="col-lg-4 col-md-6">
 						<div className="htit sm-mb30 md-mb30">
-							<h1 style={{ fontSize: "27px", width: "450px" }}>
+							<h1 className="abo">
 								We are transforming business networking/communication into a
 								metaverse accessible by all.
 							</h1>

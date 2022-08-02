@@ -26,7 +26,7 @@ const Clients1 = ({ theme, subBG }) => {
 						<div>
 							<div className="row bord">
 								{first.map((item) => (
-									<Link href={item.url} title={item.name}>
+									<a href={item.url} title={item.name}>
 										<div
 											key={item.id}
 											className="col-md-3 col-6 brands"
@@ -52,8 +52,8 @@ const Clients1 = ({ theme, subBG }) => {
 															src={item.lightImage}
 															alt={item.name}
 															title={item.name}
-															priority
-															quality={100}
+															// priority
+
 														/>
 													) : (
 														<Image
@@ -62,8 +62,8 @@ const Clients1 = ({ theme, subBG }) => {
 															title={item.name}
 															height={60}
 															width={115}
-															priority
-															quality={100}
+															// priority
+
 														/>
 													)}
 													<Split>
@@ -77,7 +77,7 @@ const Clients1 = ({ theme, subBG }) => {
 												</div>
 											</div>
 										</div>
-									</Link>
+									</a>
 								))}
 							</div>
 
@@ -86,7 +86,7 @@ const Clients1 = ({ theme, subBG }) => {
 								style={{ display: "flex", alginItems: "center" }}
 							>
 								{second.map((item) => (
-									<Link href={item.url} title={item.name}>
+									<a href={item.url} title={item.name}>
 										<div
 											key={item.id}
 											className={`${
@@ -121,8 +121,8 @@ const Clients1 = ({ theme, subBG }) => {
 															src={item.lightImage}
 															alt={item.name}
 															title={item.name}
-															priority
-															quality={100}
+															// priority
+
 														/>
 													) : (
 														<Image
@@ -131,8 +131,8 @@ const Clients1 = ({ theme, subBG }) => {
 															title={item.name}
 															height={60}
 															width={115}
-															priority
-															quality={100}
+															// priority
+
 														/>
 													)}
 													<Split>
@@ -148,7 +148,7 @@ const Clients1 = ({ theme, subBG }) => {
 												</div>
 											</div>
 										</div>
-									</Link>
+									</a>
 								))}
 							</div>
 						</div>
