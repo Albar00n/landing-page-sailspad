@@ -8,6 +8,8 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const AboutUs2 = ({ skillsTheme }) => {
+	const lazyRoot = React.useRef(null);
+	
 	const cpStyle = {
 		path: {
 			stroke: "#0DA6F5",
@@ -65,8 +67,13 @@ const AboutUs2 = ({ skillsTheme }) => {
 					</div>
 					<div className="col-lg-6">
 						<div className="blc-img">
-							<div className="bimg wow imago">
+							<div
+								className="bimg wow imago"
+								ref={lazyRoot}
+								style={{ overflowX: "scroll", width: "500px" }}
+							>
 								<Image
+									lazyRoot={lazyRoot}
 									src={BeyinCard}
 									alt="With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card."
