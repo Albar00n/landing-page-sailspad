@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/future/image";
-import BeyinH11 from "../../public/img/slid/beyinH11.png";
+import BeyinH11 from "../../public/img/slid/beyinH11.webp";
 import Split from "../Split";
 import "react-circular-progressbar/dist/styles.css";
 

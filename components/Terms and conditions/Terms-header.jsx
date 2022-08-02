@@ -4,7 +4,7 @@ const TermsHeader = () => {
   return (
 		<header
 			className="pages-header bg-img valign parallaxie"
-			style={{ backgroundImage: "url(/img/slid/headerPrivacy.png)" }}
+			style={{ backgroundImage: "url(/img/slid/headerPrivacy.webp)" }}
 			data-overlay-dark="5"
 		>
 			<div className="container">

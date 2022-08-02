@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
-import Bg from "../../public/img/slid/beyinS.png";
-import BgS from "../../public/img/slid/beyinS1.png";
-import BgS2 from "../../public/img/slid/beyinS2.png";
+import Bg from "../../public/img/slid/beyinS.webp";
+import BgS from "../../public/img/slid/beyinS1.webp";
+import BgS2 from "../../public/img/slid/beyinS2.webp";
 const BlogsThreeColumn1 = ({ subBG }) => {
 	return (
 		<section

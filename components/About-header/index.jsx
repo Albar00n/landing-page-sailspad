@@ -1,14 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import beyinH1 from "../../public/img/slid/beyinH1.png";
+import headerPrivacy from "../../public/img/slid/headerPrivacy.webp";
 const AboutHeader = () => {
 	return (
 		<header
 			className="pages-header bg-img valign parallaxie"
 			style={{
-				backgroundImage: `url(${beyinH1.src})`,
-				width: "100%",
-				height: "100%",
+				backgroundImage: `url(${headerPrivacy.src})`,
+			
 			}}
 			data-overlay-dark="5"
 		>
