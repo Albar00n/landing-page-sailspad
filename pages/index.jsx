@@ -80,19 +80,16 @@ React.useEffect(() => {
 				/>
 				<meta
 					name="description"
-					content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
+					content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, works on all types of Smartphones"
 				/>
-				<meta
-					name="og:description"
-					content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
-				/>
+
 				<meta
 					name="title"
 					content="Sailspad Metaverse AR business card platform"
 				/>
 				<meta
-					property="og:title"
-					content="Sailspad Metaverse AR business card platform"
+					name="og:description"
+					content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
 				/>
 				<meta name="og:type" content="Organization" />
 				<meta
@@ -103,18 +100,28 @@ React.useEffect(() => {
 					name="og:image"
 					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
 				/>
-				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
-
-				<meta property="twitter:card" content="beyin Tech" />
-				<meta property="twitter:url" content="https://twitter.com/beyintech" />
-				<meta property="twitter:title" content="Beyin Digital Technology" />
-				{/* <meta
-					property="description"
-					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
-				/> */}
 				<meta
-					property="twitter:image"
-					content="https://twitter.com/beyintech/photo"
+					name="og:title"
+					content="Sailspad Metaverse AR business card platform"
+				/>
+				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
+				<meta name="twitter:card" content="summary_large_image"></meta>
+				<meta name="twitter:url" content="https://twitter.com/beyintech" />
+				<meta name="twitter:title" content="Beyin Digital Technology" />
+				<meta name="twitter:site" content="@beyintech" />
+				<meta name="twitter:creator" content="@SarahMaslinNir"></meta>
+				<meta
+					name="twitter:description"
+					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
+				/>
+
+				<meta
+					name="twitter:image"
+					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
+				></meta>
+				<meta
+					property="og:site_name"
+					content="Mobile App Development, Web Design, Digital Marketing company in Abu Dhabi"
 				/>
 				<meta
 					name="keywords"
@@ -128,10 +135,7 @@ React.useEffect(() => {
 					name="keywords"
 					content="card business , business card design,cheap business cards,name card,business card printing,business cards online,order business cards,best business cards,business card design free,luxury business cards"
 				/>
-				<meta
-					property="og:site_name"
-					content="Mobile App Development, Web Design, Digital Marketing company in Abu Dhabi"
-				/>
+
 				<meta
 					name="keywords"
 					content="شركة تطوير تطبيقات الويب ،خدمات تطوير تطبيقات الويب ،شركة برمجة تطبيقات الويب "

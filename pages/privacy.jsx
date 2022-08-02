@@ -45,7 +45,7 @@ const Privacy = () => {
 							"@type": "Organization",
 							name: "Sailspad - Privacy Policy",
 							url: "https://landing-page-sailspad.vercel.app/privact",
-							logo: "https://landing-page-sailspad.vercel.app/img/Sailspad.svg",
+							logo: "https://landing-page-sailspad.vercel.app/Sailspad.png",
 						}),
 					}}
 				></script>

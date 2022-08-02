@@ -16,15 +16,18 @@ function MyApp({ Component, pageProps }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta name="author" content="Ghassan Awad" />
 				<meta data-rh="true" name="google" content="translate" />
+				<meta name="language" content="en" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="theme-color" content="#000000" />
 				{/*  */}
 				<meta
 					property="description"
 					content="Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones."
 				/>
-				<meta
+				{/* <meta
 					name="title"
 					content="Https://landing-page-sailspad.vercel.app/"
-				/>
+				/> */}
 				{/*  */}
 				<meta
 					name="keywords"
@@ -49,18 +52,14 @@ function MyApp({ Component, pageProps }) {
 				{/*  */}
 				<meta data-rh="true" name="robots" content="index, follow" />
 				{/*  */}
-				<meta property="twitter:card" content="beyin Tech" />
-				<meta property="twitter:url" content="https://twitter.com/beyintech" />
-				<meta property="twitter:title" content="Beyin Digital Technology" />
 				<meta
-					property="description"
-					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
+					name="title"
+					content="Sailspad Metaverse AR business card platform"
 				/>
 				<meta
-					property="twitter:image"
-					content="https://twitter.com/beyintech/photo"
+					name="og:description"
+					content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
 				/>
-				{/*  */}
 				<meta name="og:type" content="Organization" />
 				<meta
 					name="og:url"
@@ -68,17 +67,32 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					name="og:image"
-					content="https://landing-page-sailspad.vercel.app/img/Sailspad.svg"
+					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
 				/>
 				<meta
-					property="og:description"
-					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
-				/>
-				<meta
-					property="og:title"
+					name="og:title"
 					content="Sailspad Metaverse AR business card platform"
 				/>
+
 				{/*  */}
+				<meta name="twitter:card" content="summary_large_image"></meta>
+				<meta name="twitter:url" content="https://twitter.com/beyintech" />
+				<meta name="twitter:title" content="Beyin Digital Technology" />
+				<meta name="twitter:site" content="@beyintech" />
+				<meta name="twitter:creator" content="@SarahMaslinNir"></meta>
+				<meta
+					name="twitter:description"
+					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
+				/>
+
+				<meta
+					name="twitter:image"
+					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
+				></meta>
+				<meta
+					property="og:site_name"
+					content="Mobile App Development, Web Design, Digital Marketing company in Abu Dhabi"
+				/>
 
 				<script
 					type="application/ld+json"
