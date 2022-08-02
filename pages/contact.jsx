@@ -62,7 +62,10 @@ const Contact = () => {
 						}),
 					}}
 				></script>
-				<link rel="canonical" href="... the page URL ..." />
+				<link
+					rel="canonical"
+					href="https://landing-page-sailspad.vercel.app/contact"
+				/>
 			</Head>
 			<>
 				<AllNavbar />
