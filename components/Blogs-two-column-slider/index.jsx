@@ -22,7 +22,8 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 						<div
 							className="item bg-img"
 							style={{
-								backgroundImage: "url(/img/slid/beyinS.png)",
+								backgroundImage:
+									"url(https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80)",
 								backgroundPosition: "center",
 								backgroundSize: "cover",
 							}}
@@ -63,7 +64,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
 						<div
 							className="item active bg-img"
-							style={{ backgroundImage: "url(/img/slid/beyinS1.png)" }}
+							style={{
+								backgroundImage:
+									"url(https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80)",
+							}}
 						>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
@@ -102,7 +106,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 					<div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
 						<div
 							className="item bg-img"
-							style={{ backgroundImage: "url(/img/slid/beyinS2.png)" }}
+							style={{
+								backgroundImage:
+									"url(https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80)",
+							}}
 						>
 							<div className="cont">
 								{/* <Link href="/blog/blog-dark"> */}
