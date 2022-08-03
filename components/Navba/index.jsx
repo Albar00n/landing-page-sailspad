@@ -25,6 +25,8 @@ const Navbar = ({ lr, nr, theme }) => {
 									src={`${appData.darkLogo}`}
 									alt={appData.alt}
 									title={appData.title}
+									height="200"
+									width="200"
 								/>
 							) : (
 								<img
@@ -32,6 +34,8 @@ const Navbar = ({ lr, nr, theme }) => {
 									src={`${appData.lightLogo}`}
 									alt={appData.alt}
 									title={appData.title}
+									height="200"
+									width="200"
 								/>
 							)
 						) : (
@@ -40,6 +44,8 @@ const Navbar = ({ lr, nr, theme }) => {
 								src={`${appData.lightLogo}`}
 								alt={appData.alt}
 								title={appData.title}
+								height="200"
+								width="200"
 							/>
 						)}
 					</a>

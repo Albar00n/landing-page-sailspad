@@ -30,6 +30,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											src={`${appData.darkLogo}`}
 											alt={appData.alt}
 											title={appData.title}
+											height="200"
+											width="200"
 										/>
 									) : (
 										<img
@@ -37,6 +39,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 											src={`${appData.lightLogo}`}
 											alt={appData.alt}
 											title={appData.title}
+											height="200"
+											width="200"
 										/>
 									)
 								) : (
@@ -45,6 +49,8 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 										src={`${appData.lightLogo}`}
 										alt={appData.alt}
 										title={appData.title}
+										height="200"
+										width="200"
 									/>
 								)}
 							</a>

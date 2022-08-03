@@ -73,11 +73,21 @@ const AboutUs2 = ({ skillsTheme }) => {
 									width={550}
 									height={350}
 									title="AR Business Card"
-
 								/>
 							</div>
-							<div className="skills-circle wow fadeInUp" data-wow-delay=".8">
-								<div className="it m-1">
+							<div
+								className="skills-circle wow fadeInUp"
+								data-wow-delay=".8"
+								style={{
+									display: "flex",
+									alignItems: "center",
+									justifyContent: "center",
+								}}
+							>
+								<div
+									className="it m-1"
+									
+								>
 									<h1 className="h11">
 										With one Qr code link, you can turn your printed business
 										card into an Augmented Reality business card.

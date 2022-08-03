@@ -7,7 +7,7 @@ const AboutHeader = () => {
 			className="pages-header bg-img valign parallaxie"
 			style={{
 				backgroundImage: `url(${headerPrivacy.src})`,
-			
+
 			}}
 			data-overlay-dark="5"
 		>
@@ -17,7 +17,7 @@ const AboutHeader = () => {
 						<div className="cont text-center">
 							{/* <h1>About Us</h1> */}
 							<h2 className="custom-font">
-								<span>Let&apos;s</span>Contact Us
+								Contact Us
 							</h2>
 							<p>
 								Feel free to reach out to us if you have any concerns or

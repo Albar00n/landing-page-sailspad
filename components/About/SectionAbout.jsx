@@ -33,7 +33,7 @@ const SectionAbout = ({ skillsTheme }) => {
 					<div className="col-lg-6 valign">
 						<div className="content">
 							<div className="sub-title">
-								<h6>About</h6>
+								<h6>Customization</h6>
 								<span></span>
 								<span></span>
 								<span></span>
@@ -43,14 +43,15 @@ const SectionAbout = ({ skillsTheme }) => {
 									className="co-tit custom-font wow words chars splitting"
 									data-splitting
 								>
-									Get the most effective business card ever.
+									Customise your digital businesses card landing page the to
+									match your branding.
 								</h3>
 							</Split>
 							<p className="wow fadeInUp" data-wow-delay=".4s">
-								Get ahead of the curve with Sailspad. create Augmented Reality
-								business cards for you and your team with our platform and take
-								your networking success to the next level. The Sailspad platform
-								is easy, fast, and reliable.
+								Sailspad platform allows you to customise your digital landing
+								page for your Sailspad business card, you can upload your own
+								background and company logo before accessing your AR business
+								card or profile.
 							</p>
 							<Split>
 								<Link href="https://app.sailspad.com/signup">
@@ -67,7 +68,7 @@ const SectionAbout = ({ skillsTheme }) => {
 					</div>
 					<div className="col-lg-6">
 						<div className="blc-img">
-							<div className="bimg wow imago" >
+							<div className="bimg wow imago">
 								<Image
 									src={BeyinH11}
 									alt="With one Qr code link, you can turn your printed business
@@ -75,17 +76,30 @@ const SectionAbout = ({ skillsTheme }) => {
 									width={560}
 									height={500}
 									title="AR Business Card"
-
 								/>
 							</div>
 							<div
-								className="ca wow fadeInUp"
+								className=" wow fadeInUp"
 								data-wow-delay=".8"
+								style={{ position: "relative" }}
 							>
-								<div className="ite">
-									<h1 className="h11">
-										With one Qr code link, you can turn your With one Qr code
-
+								<div
+									className=""
+									style={{
+										position: "absolute",
+										bottom: "1px",
+										left: "90px",
+										display: "flex",
+										alignItems: "center",
+										justifyContent: "center",
+										height: "9vh",
+										background: "#f7f7f7",
+										borderRadius: "10px",
+									}}
+								>
+									<h1 className="h11 p-2">
+										Create a professional online pressence to your digital
+										business card.
 									</h1>
 								</div>
 							</div>

@@ -22,7 +22,7 @@ const ContactWithMap = () => {
 					<div className="row">
 						<div className="col-lg-6">
 							<div className="form md-mb50">
-								<h4 className="extra-title mb-50">Get In Touch.</h4>
+								<h1 className="extra-title mb-50" style={{fontSize:'35px'}}>Get In Touch With us</h1>
 
 								<Formik
 									initialValues={{
@@ -93,6 +93,7 @@ const ContactWithMap = () => {
 												</div>
 												<div className="form-group">
 													<div id="checkboxGroup">LOOKING FOR:</div>
+													<span></span>
 													<div role="group" id="checkboxGroup">
 														<label htmlFor="#checked">
 															<Field
@@ -185,7 +186,7 @@ const ContactWithMap = () => {
 										</a>
 									</Link>
 									{/* </h5> */}
-									<h5 style={{margin:"-1rem auto"}}>
+									<h5 style={{ margin: "-1rem auto" }}>
 										by © Beyin Digital Technology Limited.
 									</h5>
 								</div>
@@ -210,21 +211,21 @@ const ContactWithMap = () => {
 										Abu Dhabi - United Arab Emirates
 									</h6>
 								</div>
-								<div className="social mt-50">
-									<Link
-										href="https://www.instagram.com/beyin.me"
-										title="instagram beyin"
-									>
-										<a className="icon">
-											<i className="fab fa-instagram"></i>
+								<div className="mt-50">
+									<Link href="https://www.instagram.com/beyin.me">
+										<a className="icon" title="instagram beyin">
+											<i
+												className="fab fa-instagram me-3"
+												style={{ fontSize: "25px" }}
+											></i>
 										</a>
 									</Link>
-									<Link
-										href="https://www.linkedin.com/company/beyin-tech"
-										title="linkedin beyin"
-									>
-										<a className="icon">
-											<i className="fab fa-linkedin-in"></i>
+									<Link href="https://www.linkedin.com/company/beyin-tech">
+										<a className="icon" title="linkedin beyin">
+											<i
+												className="fab fa-linkedin-in m-3"
+												style={{ fontSize: "28px" }}
+											></i>
 										</a>
 									</Link>
 								</div>

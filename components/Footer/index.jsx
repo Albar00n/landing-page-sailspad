@@ -56,20 +56,34 @@ const Footer = () => {
 							<div className="social-icon">
 								<h6 className="custom-font stit simple-btn">Follow Us</h6>
 								<div className="social">
-									{/* <a href="#0" className="icon">
-										<i className="fab fa-facebook-f"></i>
-									</a> */}
-									{/* <a href="#0" className="icon">
-										<i className="fab fa-twitter"></i>
-									</a> */}
-									<Link href="https://www.instagram.com/beyin.me">
-										<a className="icon" title="instagram beyin">
-											<i className="fab fa-instagram"></i>
+
+									<Link
+										href="https://www.instagram.com/beyin.me"
+										title="instagram beyin"
+									>
+										<a style={{ background: "none" }} title="instagram beyin">
+											<i
+												className="fab fa-instagram m-2"
+												title="instagram beyin"
+											></i>
 										</a>
 									</Link>
-									<Link href="https://www.linkedin.com/company/beyin-tech">
-										<a className="icon" title="linkedin beyin">
-											<i className="fab fa-linkedin-in"></i>
+
+									<Link
+										href="https://www.linkedin.com/company/beyin-tech"
+										title="linkedin beyin"
+
+									>
+										<a
+											style={{ background: "none" }}
+											title="linkedin beyin"
+										
+										>
+											<i
+												className="fab fa-linkedin-in ml-3"
+												title="linkedin beyin"
+
+											></i>
 										</a>
 									</Link>
 								</div>

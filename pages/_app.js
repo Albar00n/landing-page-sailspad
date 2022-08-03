@@ -133,6 +133,14 @@ function MyApp({ Component, pageProps }) {
 						gtag('config','GTM-PJSGRXW')
 					`}
 				</Script>
+				{/* <noscript>
+					<iframe
+						src="https://www.googletagmanager.com/ns.html?id=GTM-PJSGRXW"
+						height="0"
+						width="0"
+						style="display:none;visibility:hidden"
+					></iframe>
+				</noscript> */}
 				<Script id="wow" src="/js/wow.min.js"></Script>
 				<Script
 					strategy="beforeInteractive"

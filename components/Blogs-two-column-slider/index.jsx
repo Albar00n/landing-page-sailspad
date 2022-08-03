@@ -34,25 +34,25 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 							<div className="cont">
 								<h6 className="date custom-font">
 									<span>
-										<i>50</i> cards
+										<i>1-9</i> USERS
 									</span>
 								</h6>
 
 								<div className="info custom-font ">
 									<h6 className="author h6Blog">
-										SME
-										<br /> Subscription
+										PERSONAL
+										<br /> SUBSCRIPTION
 									</h6>
 
-									<span className="tag">
-										<span>$1.2 per user monthly</span>
-									</span>
+									<p className="tag">
+										<span> $2 per user monthly</span>
+									</p>
 								</div>
 								<ul>
 									{/* <li>$1.2 per user monthly</li> */}
 									<li className="ulDisc">Customizable card and logo</li>
 								</ul>
-								<p className="pBlog"></p>
+								<span className=""></span>
 								<div className="btn-more custom-font">
 									<Link
 										href="https://app.sailspad.com/signup"
@@ -77,7 +77,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 								{/* <Link href="/blog/blog-dark"> */}
 								<h6 className="date custom-font">
 									<span>
-										<i>100</i> cards
+										<i>100</i> USERS
 									</span>
 								</h6>
 								{/* </Link> */}
@@ -126,7 +126,7 @@ const BlogsThreeColumn1 = ({ subBG }) => {
 								{/* <Link href="/blog/blog-dark"> */}
 								<h6 className="date custom-font">
 									<span>
-										<i>200+</i> cards
+										<i>200+</i> USERS
 									</span>
 								</h6>
 								{/* </Link> */}
