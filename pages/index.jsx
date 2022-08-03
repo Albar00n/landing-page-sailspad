@@ -86,7 +86,7 @@ React.useEffect(() => {
 					name="og:description"
 					content="SailsPad is an AR Platform that allows entrepreneurs to create AR business cards in a short period of time for multiple users, which improves business networking performance and results. Sailspad gives a lasting impression on everyone who uses your printed business card, Sailspad is affordable, reliable, and able to manage a huge number of cards on one Dashboard."
 				/>
-				<meta name="og:type" content="Personal" />
+				<meta name="og:type" content="Organization" />
 				<meta
 					name="og:url"
 					content="https://landing-page-sailspad.vercel.app/"
