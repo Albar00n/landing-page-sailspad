@@ -14,15 +14,17 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Sailspad Metaverse AR business card platform</title>
+				<meta charSet="utf-8" />
+				<title dir="ltr">Sailspad Metaverse AR business card platform</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta data-rh="true" name="robots" content="index, follow" />
+
 				<meta name="author" content="Ghassan Awad" />
 				<meta data-rh="true" name="google" content="translate" />
 				<meta name="language" content="en" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta name="theme-color" content="#000000" />
+				<meta name="theme-color" content="#FFFFFF" />
 				{/*  */}
 				<meta
 					property="description"
@@ -54,7 +56,6 @@ function MyApp({ Component, pageProps }) {
 					content="تصميم تطبيقات أبو ظبي, تطوير تطبيق أبو ظبي, تطوير تطبيق جوال أبو ظبي, شركة تطوير تطبيق أبو ظبي, تطوير تطبيقات الجوال في أبو ظبي, شركة تصميم تطبيقات الامارات, تصميم ابلكيشن في أبو ظبي برنامج صنع تطبيقات الاندرويد, شركة تطوير تطبيقات الهاتف المحمول في أبو ظبي ، تطوير تطبيقات الهاتف المحمول في أبو ظبي ، شركة تطوير تطبيقات الهاتف المحمول في أبو ظبي ، مطورو التطبيقات في أبو ظبي ، شركة تطوير التطبيقات في أبو ظبي ، شركة مطوري تطبيقات الجوال في أبو ظبي ، تطوير تطبيقات الاندرويد أبو ظبي ، تطوير تطبيقات ايفون في أبو ظبي، تطوير تطبيقات الآيفون في أبو ظبي ، شركات تطوير تطبيقات الهاتف المحمول في أبو ظبي ، مطور أندرويد أبو ظبي ، خدمات تطوير تطبيقات الهاتف المحمول في أبو ظبي "
 				/>
 				{/*  */}
-				<meta data-rh="true" name="robots" content="index, follow" />
 				{/*  */}
 				<meta
 					name="title"
@@ -71,7 +72,7 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					name="og:image"
-					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
+					content="https://landing-page-sailspad.vercel.app/_next/static/media/Sailspad.4e3842b2.svg"
 				/>
 				<meta
 					name="og:title"
@@ -110,7 +111,7 @@ function MyApp({ Component, pageProps }) {
 							founders: "Ghassan Awad",
 							foundingDate: "2022",
 							brand: "https://landing-page-sailspad.vercel.app/favicon.ico",
-							logo: "https://landing-page-sailspad.vercel.app/Sailspad.png",
+							logo: "https://landing-page-sailspad.vercel.app/_next/static/media/Sailspad.4e3842b2.svg",
 							sameAs: [
 								"https://twitter.com/beyintech",
 								"https://www.linkedin.com/company/beyin-tech/",
