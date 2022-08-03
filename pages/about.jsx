@@ -15,7 +15,7 @@ const AboutDark = () => {
 	return (
 		<>
 			<Head>
-				<title> About Sailspad </title>
+				<title>Sailspad - About us </title>
 
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />

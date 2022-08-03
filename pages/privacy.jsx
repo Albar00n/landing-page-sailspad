@@ -26,7 +26,6 @@ const Privacy = () => {
 				/>
 				<meta name="title" content="Sailspad - Privacy Policy" />
 				<meta property="og:title" content="Privacy Policy" />
-				{/* <link rel="alternate" type="application/atom+xml" href="" /> */}
 				<meta property="og:type" content="article" />
 
 				<meta
@@ -35,7 +34,7 @@ const Privacy = () => {
 				/>
 				<meta
 					name="og:image"
-					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
+					content="https://landing-page-sailspad.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbeyinCard.fb6fe724.png&w=1200&q=75"
 				/>
 				<script
 					type="application/ld+json"
