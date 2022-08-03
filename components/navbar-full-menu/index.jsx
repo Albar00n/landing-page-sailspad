@@ -28,29 +28,23 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 										<img
 											ref={lr}
 											src={`${appData.darkLogo}`}
-											alt={`${appData.alt}`}
-											title={`${appData.title}`}
-											height="453px"
-											width="1113px"
+											alt={appData.alt}
+											title={appData.title}
 										/>
 									) : (
 										<img
 											ref={lr}
 											src={`${appData.lightLogo}`}
-											alt={`${appData.alt}`}
-											title={`${appData.title}`}
-											height="453px"
-											width="1113px"
+											alt={appData.alt}
+											title={appData.title}
 										/>
 									)
 								) : (
 									<img
 										ref={lr}
 										src={`${appData.lightLogo}`}
-										alt={`${appData.alt}`}
-										title={`${appData.title}`}
-										height="453px"
-										width="1113px"
+										alt={appData.alt}
+										title={appData.title}
 									/>
 								)}
 							</a>
@@ -62,10 +56,7 @@ const NavbarFullMenu = ({ theme, lr,nr }) => {
 						</span>
 						<Split>
 							<span className="text" data-splitting>
-								<span
-									className="menu-text"
-									
-								></span>
+								<span className="menu-text"></span>
 							</span>
 						</Split>
 					</div>

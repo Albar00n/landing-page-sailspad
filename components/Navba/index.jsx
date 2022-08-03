@@ -23,29 +23,23 @@ const Navbar = ({ lr, nr, theme }) => {
 								<img
 									ref={lr}
 									src={`${appData.darkLogo}`}
-									alt="logo Sailspad"
-									title="logo Sailspad"
-									height="453px"
-									width="1113px"
+									alt={appData.alt}
+									title={appData.title}
 								/>
 							) : (
 								<img
 									ref={lr}
 									src={`${appData.lightLogo}`}
-									alt="logo Sailspad"
-									title="logo Sailspad"
-									height="453px"
-									width="1113px"
+									alt={appData.alt}
+									title={appData.title}
 								/>
 							)
 						) : (
 							<img
 								ref={lr}
 								src={`${appData.lightLogo}`}
-								alt="logo Sailspad"
-								title="logo Sailspad"
-								height="453px"
-								width="1113px"
+								alt={appData.alt}
+								title={appData.title}
 							/>
 						)}
 					</a>
