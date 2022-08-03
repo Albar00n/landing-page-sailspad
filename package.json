@@ -25,6 +25,7 @@
 		"react-switch": "^7.0.0",
 		"react-visibility-sensor": "^5.1.1",
 		"redux": "^4.2.0",
+		"sharp": "^0.30.7",
 		"slick-carousel": "^1.8.1",
 		"swiper": "^8.2.4",
 		"video-react": "^0.15.0"

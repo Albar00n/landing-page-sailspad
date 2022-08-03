@@ -13,7 +13,7 @@ class MyDocument extends Document {
 		return (
 			<Html lang="en">
 				<Head>
-					<meta charset="utf-8" />
+					<meta charSet="utf-8" />
 					<meta data-rh="true" name="robots" content="index, follow" />
 					<link rel="shortcut icon" href="/favicon.ico" />
 					<meta content="origin" name="referrer" />
@@ -51,6 +51,10 @@ class MyDocument extends Document {
 						name="og:url"
 						content="Https://landing-page-sailspad.vercel.app/"
 					/>
+					<meta
+						name="og:image"
+						content="https://landing-page-sailspad.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbeyinCard.fb6fe724.png&w=1200&q=75"
+					/>
 					<link
 						rel="canonical"
 						href="https://landing-page-sailspad.vercel.app/"
@@ -62,6 +66,7 @@ class MyDocument extends Document {
 						rel="stylesheet"
 					/>
 					<link rel="stylesheet" href="/css/light.css" />
+				
 				</Head>
 
 				<body>

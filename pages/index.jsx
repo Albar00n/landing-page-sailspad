@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "../components/Navba/index";
 import NAvbarF from "../components/navbar-full-menu/index"
+import AllNavbar from "../components/allNavbar/AllNav";
 import Slider1 from "../components/slider1/index";
 import About from "../components/About/index";
 import SectionAbout from "../components/About/SectionAbout"
@@ -20,25 +21,6 @@ import appData from "../components/data/app.json"
 export default function Home() {
  const fixedSlider = React.useRef(null);
  const MainContent = React.useRef(null);
- const navbarRef = React.useRef(null);
-     const navbarFullMenuRef = React.useRef(null);
- const logoRef = React.useRef(null);
-  React.useEffect(() => {
-		var navbarFullMenu = navbarFullMenuRef.current;
-		if (window.pageYOffset > 300) {
-			navbarFullMenu.classList.add("nav-scroll");
-		} else {
-			navbarFullMenu.classList.remove("nav-scroll");
-		}
-		window.addEventListener("scroll", () => {
-			if (window.pageYOffset > 300) {
-				navbarFullMenu.classList.add("nav-scroll");
-			} else {
-				navbarFullMenu.classList.remove("nav-scroll");
-			}
-		});
-	}, [navbarFullMenuRef]);
-
 React.useEffect(() => {
 	setInterval(() => {
 		if (fixedSlider.current) {
@@ -48,23 +30,7 @@ React.useEffect(() => {
 			MainContent.current.style.marginTop = slidHeight + "px";
 		}
 	}, 1000);
-	var navbar = navbarRef.current,
-		logo = logoRef.current;
-	if (window.pageYOffset > 300) {
-		navbar.classList.add("nav-scroll");
-	} else {
-		navbar.classList.remove("nav-scroll");
-	}
-	window.addEventListener("scroll", () => {
-		if (window.pageYOffset > 300) {
-			navbar.classList.add("nav-scroll");
-			logo.setAttribute("src", appData.darkLogo);
-		} else {
-			navbar.classList.remove("nav-scroll");
-			logo.setAttribute("src", appData.lightLogo);
-		}
-	});
-}, [fixedSlider, MainContent, navbarRef]);
+}, [fixedSlider, MainContent]);
 
 	return (
 		<>
@@ -141,8 +107,9 @@ React.useEffect(() => {
 			</Head>
 
 			<Light>
-				<NAvbarF nr={navbarFullMenuRef} />
-				<Navbar nr={navbarRef} lr={logoRef} />
+				<AllNavbar  />
+				{/* <NAvbarF nr={navbarFullMenuRef} />
+				<Navbar nr={navbarRef} lr={logoRef} /> */}
 				<Slider1 sliderRef={fixedSlider} />
 				<div ref={MainContent} className="main-content">
 					<About />

@@ -42,7 +42,6 @@ function MyApp({ Component, pageProps }) {
 					name="og:url"
 					content="https://landing-page-sailspad.vercel.app/"
 				/>
-				
 
 				{/* <!-- keywords --> */}
 				<meta
@@ -117,28 +116,44 @@ function MyApp({ Component, pageProps }) {
 					}}
 				></script>
 			</Head>
-			<Cursor />
-			<LoadingScreen />
-			<GoogleAnalytics measurementId="G-0CQE8M26C5" />
-			<Component {...pageProps} />
-
-			<Script id="wow" src="/js/wow.min.js"></Script>
-			<Script
-				strategy="beforeInteractive"
-				id="splitting"
-				src="/js/splitting.min.js"
-			></Script>
-			<Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
-			<Script
-				id="isotope"
-				strategy="beforeInteractive"
-				src="/js/isotope.pkgd.min.js"
-			></Script>
-			<Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script>
-			{/* <Script
+			<>
+				<Cursor />
+				<LoadingScreen />
+				<Component {...pageProps} />
+				{/* <GoogleAnalytics measurementId="G-0CQE8M26C5" /> */}
+				<Script
+					strategy="afterInteractive"
+					src="https://www.googletagmanager.com/gtm.js?id=GTM-PJSGRXW"
+				/>
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config','GTM-PJSGRXW')
+					`}
+				</Script>
+				<Script id="wow" src="/js/wow.min.js"></Script>
+				<Script
+					strategy="beforeInteractive"
+					id="splitting"
+					src="/js/splitting.min.js"
+				></Script>
+				<Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
+				<Script
+					id="isotope"
+					strategy="beforeInteractive"
+					src="/js/isotope.pkgd.min.js"
+				></Script>
+				<Script
+					id="initWow"
+					strategy="lazyOnload"
+				>{`new WOW().init();`}</Script>
+				{/* <Script
 				src="https://polyfill.io/v3/polyfill.min.js؟features=Array.prototype.map"
 				Strategy="beforeInteractive" // lazyOnload، afterInteractive
 			/> */}
+			</>
 		</>
 	);
 }

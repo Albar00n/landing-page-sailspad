@@ -35,7 +35,7 @@ const AboutDark = () => {
 				/>
 				<meta
 					name="og:image"
-					content="https://landing-page-sailspad.vercel.app/Sailspad.png"
+					content="https://landing-page-sailspad.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbeyinCard.fb6fe724.png&w=1200&q=75"
 				/>
 
 				<meta
