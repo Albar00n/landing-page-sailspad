@@ -83,7 +83,7 @@ function MyApp({ Component, pageProps }) {
 				<meta name="twitter:url" content="https://twitter.com/beyintech" />
 				<meta name="twitter:title" content="Beyin Digital Technology" />
 				<meta name="twitter:site" content="@beyintech" />
-				<meta name="twitter:creator" content="@SarahMaslinNir"></meta>
+				<meta name="twitter:creator" content="@beyintech"></meta>
 				<meta
 					name="twitter:description"
 					content="Digital Startup specializes in developing digital platforms and augmented reality , Get the most innovative business card using Augmented reality with the power of Sailspad platform. Unlimited copies, unlimited views, works on all types of Smartphones"
