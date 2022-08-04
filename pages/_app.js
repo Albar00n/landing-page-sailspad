@@ -121,7 +121,7 @@ function MyApp({ Component, pageProps }) {
 				<LoadingScreen />
 				<Component {...pageProps} />
 				{/* <GoogleAnalytics measurementId="G-0CQE8M26C5" /> */}
-				<Script
+				{/* <Script
 					strategy="afterInteractive"
 					src="https://www.googletagmanager.com/gtm.js?id=GTM-PJSGRXW"
 				/>
@@ -132,7 +132,7 @@ function MyApp({ Component, pageProps }) {
 						gtag('js', new Date());
 						gtag('config','GTM-PJSGRXW')
 					`}
-				</Script>
+				</Script> */}
 				{/* <noscript>
 					<iframe
 						src="https://www.googletagmanager.com/ns.html?id=GTM-PJSGRXW"
